@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photography on EasyFAAS - Easy to use, fast and secure FaaS</title>
+    <link>https://easyfaas.de/de/tags/photography/</link>
+    <description>Recent content in Photography on EasyFAAS - Easy to use, fast and secure FaaS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <copyright>Copyright By [DataFortress.cloud](https://datafortress.cloud/)</copyright>
+    <lastBuildDate>Sun, 24 Jan 2021 18:19:25 +0600</lastBuildDate><atom:link href="https://easyfaas.de/de/tags/photography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What you need to know about Photography</title>
+      <link>https://easyfaas.de/de/blog/blog-1/</link>
+      <pubDate>Sun, 24 Jan 2021 18:19:25 +0600</pubDate>
+      
+      <guid>https://easyfaas.de/de/blog/blog-1/</guid>
+      <description>Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem.</description>
+    </item>
+    
+  </channel>
+</rss>

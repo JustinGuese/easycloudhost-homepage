@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on EasyFAAS - Easy to use, fast and secure FaaS</title>
+    <link>https://easyfaas.de/categories/</link>
+    <description>Recent content in Categories on EasyFAAS - Easy to use, fast and secure FaaS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright By [DataFortress.cloud](https://datafortress.cloud/)</copyright>
+    <lastBuildDate>Wed, 03 Feb 2021 16:56:47 +0600</lastBuildDate><atom:link href="https://easyfaas.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LifeStyle</title>
+      <link>https://easyfaas.de/categories/lifestyle/</link>
+      <pubDate>Wed, 03 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://easyfaas.de/categories/lifestyle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accessories</title>
+      <link>https://easyfaas.de/categories/accessories/</link>
+      <pubDate>Tue, 02 Feb 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://easyfaas.de/categories/accessories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food</title>
+      <link>https://easyfaas.de/categories/food/</link>
+      <pubDate>Mon, 25 Jan 2021 16:56:47 +0600</pubDate>
+      
+      <guid>https://easyfaas.de/categories/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://easyfaas.de/categories/photography/</link>
+      <pubDate>Sun, 24 Jan 2021 18:19:25 +0600</pubDate>
+      
+      <guid>https://easyfaas.de/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
