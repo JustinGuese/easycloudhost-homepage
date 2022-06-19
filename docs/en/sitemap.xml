@@ -351,6 +351,8 @@
                 href="https://easyfaas.de/contact/"
                 />
   </url><url>
+    <loc>https://easyfaas.de/documentation/</loc>
+  </url><url>
     <loc>https://easyfaas.de/elements/</loc>
     <xhtml:link
                 rel="alternate"
