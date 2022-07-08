@@ -99,6 +99,15 @@
     </item>
     
     <item>
+      <title>Consultation and Coding Hours</title>
+      <link>https://easyfaas.de/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easyfaas.de/pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://easyfaas.de/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -114,6 +123,33 @@
       
       <guid>https://easyfaas.de/documentation/</guid>
       <description>0. Inroduction EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things.</description>
+    </item>
+    
+    <item>
+      <title>Easyfaas</title>
+      <link>https://easyfaas.de/easyservices/easyfaas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easyfaas.de/easyservices/easyfaas/</guid>
+      <description>0. Inroduction EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things.</description>
+    </item>
+    
+    <item>
+      <title>Easykube</title>
+      <link>https://easyfaas.de/easyservices/easykube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easyfaas.de/easyservices/easykube/</guid>
+      <description>0. Inroduction EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things.</description>
+    </item>
+    
+    <item>
+      <title>EasyServices</title>
+      <link>https://easyfaas.de/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easyfaas.de/features/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -135,15 +171,6 @@
     </item>
     
     <item>
-      <title>Features</title>
-      <link>https://easyfaas.de/features/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easyfaas.de/features/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Feedback</title>
       <link>https://easyfaas.de/testimonials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -158,15 +185,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://easyfaas.de/how-it-works/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Palns &amp; Pricing</title>
-      <link>https://easyfaas.de/pricing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easyfaas.de/pricing/</guid>
       <description></description>
     </item>
     

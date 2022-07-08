@@ -339,6 +339,18 @@
                 href="https://easyfaas.de/about/"
                 />
   </url><url>
+    <loc>https://easyfaas.de/pricing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easyfaas.de/de/pricing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easyfaas.de/pricing/"
+                />
+  </url><url>
     <loc>https://easyfaas.de/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -353,17 +365,11 @@
   </url><url>
     <loc>https://easyfaas.de/documentation/</loc>
   </url><url>
-    <loc>https://easyfaas.de/elements/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://easyfaas.de/de/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://easyfaas.de/elements/"
-                />
+    <loc>https://easyfaas.de/easyservices/easyfaas/</loc>
+  </url><url>
+    <loc>https://easyfaas.de/easyservices/easykube/</loc>
+  </url><url>
+    <loc>https://easyfaas.de/easyservices/</loc>
   </url><url>
     <loc>https://easyfaas.de/features/</loc>
     <xhtml:link
@@ -375,6 +381,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://easyfaas.de/features/"
+                />
+  </url><url>
+    <loc>https://easyfaas.de/elements/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easyfaas.de/de/elements/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easyfaas.de/elements/"
                 />
   </url><url>
     <loc>https://easyfaas.de/testimonials/</loc>
@@ -399,18 +417,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://easyfaas.de/how-it-works/"
-                />
-  </url><url>
-    <loc>https://easyfaas.de/pricing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://easyfaas.de/de/pricing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://easyfaas.de/pricing/"
                 />
   </url>
 </urlset>
