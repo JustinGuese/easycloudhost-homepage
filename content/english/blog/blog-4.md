@@ -1,5 +1,6 @@
 ---
 title: "Banana is the best meal packages in the UK spark outrage online"
+abstract: test ti jashksjh
 description: "meta description"
 images:
   - "images/blogs/05.webp"

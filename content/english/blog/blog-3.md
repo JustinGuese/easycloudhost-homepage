@@ -1,5 +1,6 @@
 ---
 title: "DIY Paper Diamond Tutorial with HUNGRY HEART"
+abstract: test ti jashksjh
 description: "meta description"
 images:
   - "images/blogs/06.webp"
