@@ -1,7 +1,7 @@
 #################### default parameters ################################
 favicon = "images/favicon.png"
 logo_text = "Boilerplate"
-logo = "images/logo.svg"
+logo = "images/logo_EasyServices.png"
 logo_width = "101px"
 # Meta data
 description = "Easy and simple Function as a service"

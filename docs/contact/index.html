@@ -63,6 +63,10 @@
 
 
 
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/26039146.js"></script>
+
+
 	
 	
 	
@@ -128,7 +132,7 @@
       <a class="navbar-brand" href="/">
         
         
-        <img loading="lazy" decoding="async" src="/images/logo.svg" alt="Boilerplate" width="101px" height="27">
+        <img loading="lazy" decoding="async" src="/images/logo_EasyServices.png" alt="Boilerplate" width="101px" height="27">
         
       </a>
       <button aria-label="navbar toggler" class="navbar-toggler border-0 p-0 h3" type="button" data-bs-toggle="collapse" data-bs-target="#navigation">
@@ -381,7 +385,7 @@
         
         <div class="d-block d-xl-inline-block mt-2 mt-lg-0">
           <a href="/contact/"
-          class="btn btn-primary ms-xl-4">Try For Free</a>
+          class="btn btn-primary ms-xl-4">Free Demo</a>
         </div>
         
       </div>
@@ -412,6 +416,31 @@
 
 <section class="section">
   <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6" data-aos="fade">
+        <div class="bg-white-blur border-sm rounded-md text-center p-4 mt-5">
+          <h3>Schedule a free 15-minute demo!</h3>
+          
+<div class="meetings-iframe-container" data-src="https://meetings-eu1.hubspot.com/justin-guse?embed=true"></div>
+<script async type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade">
+        <div class="bg-white-blur border-sm rounded-md text-center p-4 mt-5">
+          <h3>Contact us for any questions</h3>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+<script async charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "26039146",
+    formId: "7eb3908a-55f2-45aa-83eb-510bd4317559"
+  });
+</script>
+        </div>
+      </div>
+    </div>
     <div class="row g-4">
       
       <div class="col-lg-4" data-aos="fade">
@@ -483,35 +512,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-8" data-aos="fade">
-        <div class="bg-white-blur border-sm rounded-md p-4 p-lg-5">
-          <form class="row g-4" action="#">
-            <div class="col-sm-6">
-              <label class="mb-2" for="name">Name</label>
-              <input id="name" type="text" class="form-control border p-3 rounded-sm shadow-none rounded-sm bg-transparent border-0 text-dark" placeholder="Enter your Name">
-            </div>
-            <div class="col-sm-6">
-              <label class="mb-2" for="email">Email Address</label>
-              <input id="email" type="email" class="form-control border p-3 rounded-sm shadow-none rounded-sm bg-transparent border-0 text-dark" placeholder="Enter your Email">
-            </div>
-            <div class="col-sm-6">
-              <label class="mb-2" for="name">Phone</label>
-              <input id="name" type="text" class="form-control border p-3 rounded-sm shadow-none rounded-sm bg-transparent border-0 text-dark" placeholder="&#43;88018566666">
-            </div>
-            <div class="col-sm-6">
-              <label class="mb-2" for="name">Company</label>
-              <input id="name" type="text" class="form-control border p-3 rounded-sm shadow-none rounded-sm bg-transparent border-0 text-dark" placeholder="Your Company Name">
-            </div>
-            <div class="col-sm-12">
-              <label class="mb-2" for="message">Message</label>
-              <textarea id="message" rows="5" class="form-control border p-3 rounded-sm shadow-none rounded-sm bg-transparent border-0 text-dark" placeholder="Hey! I Would Like To Get In Touch Because......."></textarea>
-            </div>
-            <div class="col-sm-12">
-              <button type="submit" class="btn btn-primary">Send Message</button>
-            </div>
-          </form>
-        </div>
-      </div>
+      
     </div>
   </div>
 </section>
@@ -534,7 +535,7 @@
         <a class="navbar-brand" href="/">
           
           
-          <img loading="lazy" decoding="async" src="/images/logo.svg" alt="Boilerplate" width="101px" height="27">
+          <img loading="lazy" decoding="async" src="/images/logo_EasyServices.png" alt="Boilerplate" width="101px" height="27">
           
         </a>
         <p class="mt-4">footer text</p>
@@ -670,6 +671,46 @@
 
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use.<span id="js-cookie-button" class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
 
 
 
