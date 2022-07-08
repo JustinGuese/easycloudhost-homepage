@@ -4,9 +4,9 @@ banner:
   title : "Simple way to structure all of your business"
   subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seaa  diam nonumy eirmod tempor invidunt ut labore et saldfore"
   character_image: "images/banner/character.webp"
-  lamp_image: "images/banner/lamp.webp"
-  cube_image: "images/banner/cube.webp"
-  chess_image: "images/banner/chess.webp"
+  lamp_image: "images/banner/server.webp"
+  cube_image: "images/banner/shield.webp"
+  chess_image: "images/banner/coding.webp"
   form_action: "#"
 
 ############################ About Info ##################################

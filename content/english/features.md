@@ -1,6 +1,6 @@
 ---
-title: "Features"
-heading: "Utilize Your Marketing <br> Data Anywhere"
+title: "EasyServices"
+heading: "Serverless, Scalable and Simple"
 layout: "features"
 draft: false
 
