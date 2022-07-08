@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Easyservices on EasyFAAS - Easy to use, fast and secure FaaS</title>
-    <link>https://easyfaas.de/easyservices/</link>
-    <description>Recent content in Easyservices on EasyFAAS - Easy to use, fast and secure FaaS</description>
+    <title>Easyservices on EasyCloudHost - Easy to use, fast and secure FaaS</title>
+    <link>https://easycloudhost.de/easyservices/</link>
+    <description>Recent content in Easyservices on EasyCloudHost - Easy to use, fast and secure FaaS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright By [DataFortress.cloud](https://datafortress.cloud/)</copyright><atom:link href="https://easyfaas.de/easyservices/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright By [DataFortress.cloud](https://datafortress.cloud/)</copyright><atom:link href="https://easycloudhost.de/easyservices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Easyfaas</title>
-      <link>https://easyfaas.de/easyservices/easyfaas/</link>
+      <link>https://easycloudhost.de/easyservices/easyfaas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easyfaas.de/easyservices/easyfaas/</guid>
+      <guid>https://easycloudhost.de/easyservices/easyfaas/</guid>
       <description>0. Inroduction EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things.</description>
     </item>
     
     <item>
       <title>Easykube</title>
-      <link>https://easyfaas.de/easyservices/easykube/</link>
+      <link>https://easycloudhost.de/easyservices/easykube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easyfaas.de/easyservices/easykube/</guid>
+      <guid>https://easycloudhost.de/easyservices/easykube/</guid>
       <description>0. Inroduction EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things.</description>
     </item>
     

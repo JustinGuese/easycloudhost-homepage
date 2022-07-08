@@ -1,6 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://easyfaas.de/"
-title = "EasyFAAS - Easy to use, fast and secure FaaS"
+baseURL = "https://easycloudhost.de"
+title = "EasyCloudHost - Easy to use, fast and secure FaaS"
 theme = "saasis"
 # post pagination
 paginate = "6"
