@@ -4,6 +4,20 @@
 <section class="section">
   <div class="container">
     <div class="row g-4">
+      <div class="col-lg-6" data-aos="fade">
+        <div class="bg-white-blur border-sm rounded-md text-center p-4 mt-5">
+          <h3>Schedule a free 15-minute demo!</h3>
+          {{partial "schedulemeetingform.html"}}
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade">
+        <div class="bg-white-blur border-sm rounded-md text-center p-4 mt-5">
+          <h3>Contact us for any questions</h3>
+          {{partial "contactform.html"}}
+        </div>
+      </div>
+    </div>
+    <div class="row g-4">
       {{ range .blocks }}
       <div class="col-lg-4" data-aos="fade">
         <div class="bg-white-blur border-sm rounded-md text-center p-4 mt-5">
@@ -36,7 +50,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-8" data-aos="fade">
+      <!-- <div class="col-lg-8" data-aos="fade">
         <div class="bg-white-blur border-sm rounded-md p-4 p-lg-5">
           <form class="row g-4" action="{{site.Params.contact_form_action}}">
             <div class="col-sm-6">
@@ -64,7 +78,7 @@
             </div>
           </form>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

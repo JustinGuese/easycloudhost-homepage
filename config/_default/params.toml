@@ -27,12 +27,12 @@ enable = true
 # Navigation button
 [navigation_button]
 enable = true
-label = "Try For Free"
+label = "Free Demo"
 link = "contact/"
 
 # cookies
 [cookies]
-enable = false
+enable = true
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
