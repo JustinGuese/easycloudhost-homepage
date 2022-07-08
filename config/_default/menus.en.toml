@@ -12,9 +12,58 @@ url = "how-it-works/"
 weight = 3
 
 [[main]]
-name = "Features"
+name = "EasyServices"
 url = "features/"
 weight = 4
+hasChildren = true
+
+  [[main]]
+  weight = 1
+  parent = "EasyServices"
+  name = "EasyFAAS"
+  url = "easyservices/easyfaas/"
+
+  [[main]]
+  weight = 2
+  parent = "EasyServices"
+  name = "EasyKube"
+  url = "easyservices/easykube/"
+
+  [[main]]
+  weight = 3
+  parent = "EasyServices"
+  name = "EasyDB"
+  url = "easyservices/easydb/"
+
+  [[main]]
+  weight = 4
+  parent = "EasyServices"
+  name = "EasyStore"
+  url = "easyservices/easystore/"
+
+  [[main]]
+  weight = 5
+  parent = "EasyServices"
+  name = "EasyHost"
+  url = "easyservices/easyhost/"
+
+  [[main]]
+  weight = 7
+  parent = "EasyServices"
+  name = "EasyHealth"
+  url = "easyservices/easyhealth/"
+
+  [[main]]
+  weight = 8
+  parent = "EasyServices"
+  name = "EasyScale"
+  url = "easyservices/easyscale/"
+
+  [[main]]
+  weight = 9
+  parent = "EasyServices"
+  name = "Websites"
+  url = "easyservices/easyhost/"
 
 [[main]]
 weight = 6

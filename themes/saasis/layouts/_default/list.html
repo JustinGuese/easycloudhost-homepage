@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <!-- checking blog -->
-{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "services") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
 
 <section class="page-header section-bordered text-center mt-5" style="background-image:url('{{`images/page-header.webp` | absURL}}')" data-aos="fade">
   <div class="container my-4">
@@ -20,7 +20,6 @@
 
 <section class="section">
   <div class="container">
-    <p>intro text</p>
     <div class="row justify-content-center gy-5">
       <!-- start range -->
       {{ $paginator := .Paginate (where site.RegularPages "Section" "blog") }}
@@ -42,7 +41,7 @@
           <!-- $max_links = ($adjacent_links * 2) + 1 -->
           {{ $max_links := (add (mul $adjacent_links 2) 1) }}
           <!-- $lower_limit = $adjacent_links + 1 -->
-          {{ $lower_limit := (add $adjacent_links 1) }}
+          {{ $lower_limit := (add $adjacent_links 2) }}
           <!-- $upper_limit = $paginator.TotalPages - $adjacent_links -->
           {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
           <!-- If there's more than one page. -->
