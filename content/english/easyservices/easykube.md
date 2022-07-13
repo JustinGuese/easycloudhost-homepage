@@ -1,5 +1,5 @@
 ---
-title: "Easykube"
+title: "EasyKube"
 description: "this is meta description"
 draft: false
 ---

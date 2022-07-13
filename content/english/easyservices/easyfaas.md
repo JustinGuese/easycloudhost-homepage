@@ -1,8 +1,11 @@
 ---
-title: "Easyfaas"
+title: "EasyFAAS"
 description: "this is meta description"
 draft: false
+img: "images/logos/EasyFAAS.png"
 ---
+
+<!-- ![EasyFAAS Logo](images/logos/EasyFAAS.png) -->
 
 # 0. Inroduction
 
