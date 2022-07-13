@@ -18,11 +18,13 @@
         <div class="col-lg-6" data-aos="fade">
           <div class="rounded-sm border-sm bg-white-blur p-4 d-flex align-items-start">
             <div class="block pe-3">
+              <a href="easyservices/{{ .title | lower }}">
               <h3 class="h5 mb-3">{{ .title | markdownify }}</h3>
               <p class="mb-0">{{ .description | markdownify }}</p>
+              </a>
             </div>
             {{$img:= resources.Get (.image) }}
-            {{$img:= $img.Resize "50x webp"}}
+            {{$img:= $img.Resize "100x webp"}}
             <img loading="lazy" decoding="async" class="img-fluid" src="{{$img.RelPermalink}}" alt="features image" width="{{$img.Width}}" height="{{$img.Height}}" data-aos="cool">
           </div>
         </div>
