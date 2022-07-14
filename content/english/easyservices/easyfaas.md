@@ -354,13 +354,13 @@ Let us take a look at some examples
 
 <center>
     <video controls width="60%" poster="/videos/easyfaas/DemoThumb.png">
-        <!-- <source src="/videos/easyfaas/EasyFAASIntro.webm"
-                type="video/webm"> -->
-        <source src="/videos/easyfaas/EasyFAASIntro.mp4"
+        <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.webm"
+                type="video/webm">
+        <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
     </video>
-    <p><a href="/easyservices/easyfaas#introduction">Previous Video: EasyFAAS Intro</a></p>
+    <p><a href="/easyservices/easyfaas">Previous Video: EasyFAAS Intro</a></p>
 </center>
 
 Let us say you want to create a small route that just returns the current price of Bitcoin. We are using the free coingecko route for it.

@@ -382,10 +382,18 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <div class="content">
-          <center>
-            <img style="width:250px" loading="lazy" decoding="async" class="img-fluid" src="images/logos/EasyFAAS.png" alt="EasyFAAS">
-          </center>
+          
           <!-- ![EasyFAAS Logo](images/logos/EasyFAAS.png) -->
+<center>
+    <video controls width="60%" poster="/videos/easyfaas/IntroThumb.png">
+        <source src="/videos/easyfaas/EasyFAASIntro.webm"
+                type="video/webm">
+        <source src="/videos/easyfaas/EasyFAASIntro.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    <p><a href="/easyservices/easyfaas#code-example-bitcoin-price-getter">Next Video: Tech-Demo</a></p>
+</center>
 
 
 <div class="notices tip" ><p>Did you know, that over 60% of development time is spent on DevOp tasks instead of working on the actual product [1]?</p></div>
@@ -684,6 +692,16 @@ For most of the use-cases GET and POST should be enough though.</p>
 <p>If you want to adapt your code you can easily just add your calculations and functions inside the &ldquo;root&rdquo; function.</p>
 <p>Let us take a look at some examples</p>
 <h3 id="code-example-bitcoin-price-getter">Code example: Bitcoin Price getter</h3>
+<center>
+    <video controls width="60%" poster="/videos/easyfaas/DemoThumb.png">
+        <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.webm"
+                type="video/webm">
+        <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    <p><a href="/easyservices/easyfaas">Previous Video: EasyFAAS Intro</a></p>
+</center>
 <p>Let us say you want to create a small route that just returns the current price of Bitcoin. We are using the free coingecko route for it.</p>
 <p>We will adapt the code to look like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> fastapi <span style="color:#f92672">import</span> FastAPI
