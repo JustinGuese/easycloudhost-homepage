@@ -392,10 +392,17 @@
 
 <p>What if there could be a way to <strong>&ldquo;just run code&rdquo; instead of worrying about servers and clusters</strong>?</p>
 <p><strong>EasyFAAS (Easy-Function-as-a-service) lets you run your code in an easy environment, without hidden costs.</strong></p>
+<hr>
+<center>
+    <a href="https://app.easyfaas.de/" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Get Started for free!</button></a>
+</center>
+<hr>
 <h2 id="why-should-i-choose-easyfaas-over-other-providers">Why should I choose EasyFAAS over other providers?</h2>
-<p>Whilst we were working with FAAS services of other providers, we usually ended up having problems with two specific things:
-(EU) Data Security
-Complexness</p>
+<p>Whilst we were working with FAAS services of other providers, we usually ended up having problems with two specific things:</p>
+<ol>
+<li>(EU) Data Security</li>
+<li>Complexness</li>
+</ol>
 <h3 id="1-our-problems-with-eu-data-security">1. Our problems with (EU) Data Security</h3>
 <p>Even though FAAS services of other cloud providers are technically secure, they still have the problem of being hosted by an american company. This can be a problem for EU-based companies, as the american <a href="https://www.congress.gov/107/plaws/publ56/PLAW-107publ56.pdf">&ldquo;patriot act&rdquo;</a> states, that the US government can basically request your data from american companies to &ldquo;intercept and obstruct terrorism&rdquo;.
 There have been unconfirmed reports of misuse as well, where industry and intellectual secrets were requested.</p>
@@ -414,11 +421,26 @@ In other FAAS solutions, this requires you to create the networking, the databas
 <p><img src="/images/easyservices/easyfaas/create-a-new-function.png" alt="EasyFAAS - Create a new function dashboard"></p>
 <h1 id="contents">Contents</h1>
 <ol>
-<li><a href="/easyservices/easyfaas#0-inroduction">Overview</a></li>
-<li><a href="/easyservices/easyfaas#1-serverless-functions-overview">Serverless Functions Overview</a></li>
+<li><a href="/easyservices/easyfaas#introduction">Overview</a></li>
+<li><a href="/easyservices/easyfaas#1-serverless-functions-overview">Serverless Function Types</a></li>
+<li><a href="/easyservices/easyfaas#2-managed-mongodb-overview">Managed MongoDB</a></li>
+<li><a href="/easyservices/easyfaas#1-getting-started">Getting started</a>
+<ul>
+<li><a href="/easyservices/easyfaas#11-the-main-dashboard">EasyFAAS Main Dashboard</a></li>
+<li><a href="/easyservices/easyfaas#12-create-a-new-function">Creating a new function</a></li>
+<li><a href="/easyservices/easyfaas#code-example-bitcoin-price-getter">Code Example: Bitcoin price getter</a></li>
+<li><a href="/easyservices/easyfaas#function-detail-page">The function Detail page</a></li>
+</ul>
+</li>
+<li><a href="/easyservices/easyfaas#easyfaas-billing">Billing</a></li>
 </ol>
-<h2 id="0-inroduction">0. Inroduction</h2>
+<h2 id="introduction">Introduction</h2>
 <p>EasyFAAS reduces time to market, and let&rsquo;s your programmers focus on what it important: your code!</p>
+
+
+<div class="notices tip" ><p>Did you know that you can run one function per month for free?
+<a href="https://app.easyfaas.de/">Claim your free function</a></p></div>
+
 <p>To achieve this EasyFAAS currently supports two functions:</p>
 <h4 id="1-serverless-functions">1. Serverless functions</h4>
 <ul>
@@ -488,6 +510,10 @@ In other FAAS solutions, this requires you to create the networking, the databas
 <li>You are building an ETL pipeline, where the first function collects data and saves it into the database, the second applies calculations to it and writes it again into the database, and the third one serves the result as an API</li>
 </ul>
 <h2 id="1-getting-started">1. Getting started</h2>
+
+
+<div class="notices note" ><p>EasyFAAS currently only supports <strong>Python</strong>, but we have Node, React and others already implemented. <a href="/contact">Tell us about your code preferences</a> and we might be able to get it working.</p></div>
+
 <h3 id="11-the-main-dashboard">1.1 The main dashboard</h3>
 <p>Head over to <a href="https://app.easyfaas.de/">https://app.easyfaas.de/</a> and register or login.</p>
 <center>
@@ -558,6 +584,7 @@ In other FAAS solutions, this requires you to create the networking, the databas
 <p>For this tutorial I went with a continuous function</p>
 <p><img src="/images/tutorial/easyfaas/createfunctioncontinuous.png" alt="Create a new continuous function"></p>
 <p>Let us take a look at the differnet elements</p>
+<h4 id="131-setup-elements">1.3.1 Setup elements</h4>
 <p><strong>Function name</strong></p>
 <p>This can be whatever you want. The function name will later be converted to a lower-case, &ldquo;-&rdquo; seperated form.
 Like &ldquo;My awesome FuNcTiOn&rdquo; will become &ldquo;my-awesome-function&rdquo;.</p>
@@ -571,7 +598,182 @@ Like &ldquo;My awesome FuNcTiOn&rdquo; will become &ldquo;my-awesome-function&rd
 <p>Your EasyFAAS function comes with security enabled by default. If your function is public, it will be accessible for everyone. If it is private, you will need to send an auth token to the endpoint.
 Does that mean you need to create new users and everything? No, you can just get an auth token using our RestAPI using your <strong>normal user and password</strong>, and then use that token to fire towards your function.
 Easy as that.</p>
+<p><strong>Function type</strong></p>
+<p>There are different functions to choose from.
+The selection are <strong>simple function</strong> and <strong>storage function</strong>.</p>
+<p>They are distinguishable in the way, that a storage function has <strong>persistence</strong>, whilst a normal function has not.</p>
+<p>Persistence means that if your function writes data to the disk, it will be safe.</p>
 
+
+<div class="notices info" ><p>Do you write or read from a local file? Like a .csv, or .txt file? Then you will need persistence. If your function just calculates and does not write or read anything, you can choose a simple function</p></div>
+
+<p>Persistence is enabled at the directory <strong>/mnt/persistence/</strong>, and not in other directories.</p>
+<p>This means you can still read and write temporary files in both versions, but only persist them if they are written to the /mnt/persistence path.</p>
+
+
+<div class="code-tabs">
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content">
+
+  
+
+<div class="tab-pane" title="Simple Function">
+  
+  No persistence
+
+<pre>
+<code>
+with open("./tmp.txt", "w") as file:
+    file.write("my temporary data")
+
+with open("./tmp.txt", "r") as file:
+    data = file.read() # <--- not guaranteed to succeed, if the function restarts 
+</code>
+</pre>
+
+  
+</div>
+
+  
+
+<div class="tab-pane" title="Storage Function">
+  
+  Persistence at /mnt/persistence/
+<pre>
+<code>
+with open("./tmp.txt", "w") as file:
+    file.write("my temporary data")
+
+with open("./tmp.txt", "r") as file:
+    data = file.read() # <--- not guaranteed to succeed, if the function restarts 
+
+# correct way with persistence
+with open("/mnt/persistence/longterm.txt", "w") as file:
+    file.write("my temporary data")
+
+with open("/mnt/persistence/longterm.txt", "r") as file:
+    data = file.read() # <--- guaranteed to succeed
+print(data) 
+</code>
+</pre>
+  
+</div>
+
+</div>
+</div>
+<h4 id="131-code">1.3.1 Code</h4>
+<p>This is the core part of your function.</p>
+<p>Your function is using <a href="https://fastapi.tiangolo.com/">FastAPI</a> in the background, but you do not have to worry about much if you use the already inserted starter code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> fastapi <span style="color:#f92672">import</span> FastAPI, Request
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> FastAPI()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># basic usage</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">root</span>():   
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;message&#34;</span>: <span style="color:#e6db74">&#34;Hello World&#34;</span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># post requests</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>post(<span style="color:#e6db74">&#34;/&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">rootPost</span>(request: Request): 
+</span></span><span style="display:flex;"><span>    data <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> request<span style="color:#f92672">.</span>json()
+</span></span><span style="display:flex;"><span>    print(data)  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {<span style="color:#e6db74">&#34;message&#34;</span>: <span style="color:#e6db74">&#34;I got the post: &#34;</span> <span style="color:#f92672">+</span> str(data)}
+</span></span></code></pre></div><p>The EasyFAAS function only supports routing to the root domain &ldquo;/&rdquo;. Meaning if you create different routes they will not be used.</p>
+<p>What you can change though, is the <strong>request type</strong>. It can be GET or POST, as well as the others.
+For most of the use-cases GET and POST should be enough though.</p>
+<p>If you want to adapt your code you can easily just add your calculations and functions inside the &ldquo;root&rdquo; function.</p>
+<p>Let us take a look at some examples</p>
+<h3 id="code-example-bitcoin-price-getter">Code example: Bitcoin Price getter</h3>
+<p>Let us say you want to create a small route that just returns the current price of Bitcoin. We are using the free coingecko route for it.</p>
+<p>We will adapt the code to look like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> fastapi <span style="color:#f92672">import</span> FastAPI
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>base_url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://api.binance.com/api/v3&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>app <span style="color:#f92672">=</span> FastAPI()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">getCoingeckoPrice</span>(symbol):
+</span></span><span style="display:flex;"><span>    url <span style="color:#f92672">=</span> base_url <span style="color:#f92672">+</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;/avgPrice?symbol=</span><span style="color:#e6db74">{</span>symbol<span style="color:#e6db74">}</span><span style="color:#e6db74">USDT&#34;</span>
+</span></span><span style="display:flex;"><span>    r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> r<span style="color:#f92672">.</span>json()
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># basic usage</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;/&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">root</span>():   
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> getCoingeckoPrice(<span style="color:#e6db74">&#34;BTC&#34;</span>)
+</span></span></code></pre></div><p>As we want to run this function continuously, and it does not need to save data anywhere, we will choose a <strong>continuous</strong> and <strong>simple</strong> function.</p>
+<p>After clicking on &ldquo;Deploy&rdquo;, you will be taken back to the mainscreen, where you will see your function.</p>
+<p><img src="/images/tutorial/easyfaas/deployedfunction.png" alt="Deployed Easyfaas function"></p>
+<p>Then, click on &ldquo;edit&rdquo; next to you function which will take you to the function detail screen.</p>
+<h4 id="function-detail-page">Function Detail Page</h4>
+<p><img src="/images/tutorial/easyfaas/function-detail-page.png" alt="Function Detail Page"></p>
+<p>We can see a lot of information in here, but let us first just click on the link provided at &ldquo;Link&rdquo;.
+In this case, it is: <a href="https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name">https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name</a></p>
+<p>When I am clicking on it, it returns:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&#34;status_code&#34;</span>: <span style="color:#ae81ff">200</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&#34;status&#34;</span>: <span style="color:#e6db74">&#34;ok&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&#34;message&#34;</span>: <span style="color:#e6db74">&#34;{\&#34;mins\&#34;: 5, \&#34;price\&#34;: \&#34;19756.28232097\&#34;}&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The &ldquo;real&rdquo; response of our function is located at the <code>message</code> key in the dictionary. Why is that? We want some kind of check if the request was really successful, or if not, some kind of error message.</p>
+<p>So if your application is querying your EasyFAAS route, it should always check for the &ldquo;status_code&rdquo; part. If the function is failing, it will return for example code 500 together with an error message in the &ldquo;status&rdquo; part.</p>
+<p>An example on how your application would query the EasyFAAS route is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> response<span style="color:#f92672">.</span>status_code <span style="color:#f92672">!=</span> <span style="color:#ae81ff">200</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">Exception</span>(<span style="color:#e6db74">&#34;error in EasyFAAS function: &#34;</span> <span style="color:#f92672">+</span> str(response<span style="color:#f92672">.</span>text))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    response <span style="color:#f92672">=</span> response<span style="color:#f92672">.</span>json()
+</span></span><span style="display:flex;"><span>    message <span style="color:#f92672">=</span> json<span style="color:#f92672">.</span>loads(response[<span style="color:#e6db74">&#34;message&#34;</span>])
+</span></span><span style="display:flex;"><span>    print(message)
+</span></span><span style="display:flex;"><span>    price <span style="color:#f92672">=</span> float(message[<span style="color:#e6db74">&#34;price&#34;</span>])
+</span></span></code></pre></div><h5 id="function-detail-page-logs">Function Detail Page: Logs</h5>
+<p>If you take a closer look at the function detail page you will see a &ldquo;logs&rdquo; section.</p>
+<p><img src="/images/tutorial/easyfaas/function-logs.png" alt="EasyFAAS Logs"></p>
+<p>In here, everything that your function code returns will be shown. If you refresh the page it will refresh the current logs.
+If you function is not responsive you will see the reason why in here.</p>
+<h5 id="function-detail-page-metrics">Function Detail Page: Metrics</h5>
+<p>Metrics show you how much of the resources your function is using. If you require more &ldquo;power&rdquo;, maybe <a href="/easyservices/easyhost">EasyHost</a> or <a href="/easyservices/easyscale">EasyScale</a> is something for you. Otherwise just <a href="/contact">contact us</a>.</p>
+<p><img src="/images/tutorial/easyfaas/function-metrics.png" alt="EasyFAAS Metrics"></p>
+<h1 id="easyfaas-billing">EasyFAAS billing</h1>
+<p>You might have read the word &ldquo;credits&rdquo; quite often by now. What does it mean?</p>
+<p>EasyFAAS simplifies billing, in that it charges &ldquo;credits&rdquo; instead of usage-based fees.
+With other cloud providers, you often do not have the full transparency on what will be charged at the end of the month. There are hidden traffic fees, hidden load balancer fees and way more that you can not foresee unless you run the numbers.</p>
+<p>EasyFAAS solves that, in that it simplifies billing to:</p>
+<table>
+<thead>
+<tr>
+<th>Function Type</th>
+<th style="text-align:center">Credit cost per Month</th>
+<th style="text-align:right">Euro value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Simple function</td>
+<td style="text-align:center">1</td>
+<td style="text-align:right">2€</td>
+</tr>
+<tr>
+<td>Storage function</td>
+<td style="text-align:center">2</td>
+<td style="text-align:right">4€</td>
+</tr>
+<tr>
+<td>Managed MongoDB</td>
+<td style="text-align:center">5</td>
+<td style="text-align:right">5€</td>
+</tr>
+</tbody>
+</table>
+<p>No hidden fees, no nothing. In future updates we will even include <strong>autoscaling</strong> based on the remaining credits in your account, meaning that if you have more credits than functions, and a function is close to it&rsquo;s limit, it will scale up to e.g. 2 functions instead of one.</p>
+<p>Billing is done via Stripe, a secure and reliable payment provider.</p>
+<center>
+    <a href="https://app.easyfaas.de/" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Get Started for free!</button></a>
+</center>
         </div>
       </div>
     </div>

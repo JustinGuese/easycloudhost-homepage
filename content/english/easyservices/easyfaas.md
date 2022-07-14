@@ -16,11 +16,18 @@ What if there could be a way to **"just run code" instead of worrying about serv
 
 **EasyFAAS (Easy-Function-as-a-service) lets you run your code in an easy environment, without hidden costs.**
 
+
+<hr>
+<center>
+    <a href="https://app.easyfaas.de/" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Get Started for free!</button></a>
+</center>
+<hr>
+
 ## Why should I choose EasyFAAS over other providers?
 
 Whilst we were working with FAAS services of other providers, we usually ended up having problems with two specific things:
-(EU) Data Security
-Complexness
+1. (EU) Data Security
+2. Complexness
 
 ### 1. Our problems with (EU) Data Security
 
@@ -50,13 +57,26 @@ In our EasyFAAS solution this becomes as simple as this:
 
 # Contents
 
-1. [Overview](/easyservices/easyfaas#0-inroduction)
-2. [Serverless Functions Overview](/easyservices/easyfaas#1-serverless-functions-overview)
+1. [Overview](/easyservices/easyfaas#introduction)
+2. [Serverless Function Types](/easyservices/easyfaas#1-serverless-functions-overview)
+3. [Managed MongoDB](/easyservices/easyfaas#2-managed-mongodb-overview)
+4. [Getting started](/easyservices/easyfaas#1-getting-started)
+    - [EasyFAAS Main Dashboard](/easyservices/easyfaas#11-the-main-dashboard)
+    - [Creating a new function](/easyservices/easyfaas#12-create-a-new-function)
+    - [Code Example: Bitcoin price getter](/easyservices/easyfaas#code-example-bitcoin-price-getter)
+    - [The function Detail page](/easyservices/easyfaas#function-detail-page)
+5. [Billing](/easyservices/easyfaas#easyfaas-billing)
 
 
-## 0. Inroduction
+## Introduction
 
 EasyFAAS reduces time to market, and let's your programmers focus on what it important: your code!
+
+
+{{< notice "tip" >}}
+Did you know that you can run one function per month for free? 
+[Claim your free function](https://app.easyfaas.de/)
+{{< /notice >}}
 
 To achieve this EasyFAAS currently supports two functions:
 
@@ -131,7 +151,9 @@ Example applications for the managed MongoDB are:
 
 ## 1. Getting started
 
-
+{{< notice "note" >}}
+  EasyFAAS currently only supports **Python**, but we have Node, React and others already implemented. [Tell us about your code preferences](/contact) and we might be able to get it working.
+{{< /notice >}}
 
 ### 1.1 The main dashboard
 
@@ -389,3 +411,40 @@ else:
     price = float(message["price"])
 ```
 
+##### Function Detail Page: Logs
+
+If you take a closer look at the function detail page you will see a "logs" section.
+
+![EasyFAAS Logs](/images/tutorial/easyfaas/function-logs.png)
+
+In here, everything that your function code returns will be shown. If you refresh the page it will refresh the current logs.
+If you function is not responsive you will see the reason why in here.
+
+##### Function Detail Page: Metrics
+
+Metrics show you how much of the resources your function is using. If you require more "power", maybe [EasyHost](/easyservices/easyhost) or [EasyScale](/easyservices/easyscale) is something for you. Otherwise just [contact us](/contact).
+
+![EasyFAAS Metrics](/images/tutorial/easyfaas/function-metrics.png)
+
+# EasyFAAS billing
+
+You might have read the word "credits" quite often by now. What does it mean?
+
+EasyFAAS simplifies billing, in that it charges "credits" instead of usage-based fees.
+With other cloud providers, you often do not have the full transparency on what will be charged at the end of the month. There are hidden traffic fees, hidden load balancer fees and way more that you can not foresee unless you run the numbers.
+
+EasyFAAS solves that, in that it simplifies billing to:
+
+| Function Type        | Credit cost per Month           | Euro value  |
+| ------------- |:-------------:| -----:|
+| Simple function     | 1 | 2€ |
+| Storage function     | 2      |   4€ |
+| Managed MongoDB | 5      |    5€ |
+
+No hidden fees, no nothing. In future updates we will even include **autoscaling** based on the remaining credits in your account, meaning that if you have more credits than functions, and a function is close to it's limit, it will scale up to e.g. 2 functions instead of one.
+
+Billing is done via Stripe, a secure and reliable payment provider. 
+
+<center>
+    <a href="https://app.easyfaas.de/" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Get Started for free!</button></a>
+</center>
