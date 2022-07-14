@@ -353,7 +353,7 @@ Let us take a look at some examples
 ### Code example: Bitcoin Price getter
 
 <center>
-    <video controls width="60%" poster="/videos/easyfaas/DemoThumb.png">
+    <video controls width="60%" poster="/videos/easyfaas/DemoThumb.png" loading="lazy">
         <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.webm"
                 type="video/webm">
         <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.mp4"
@@ -391,14 +391,14 @@ As we want to run this function continuously, and it does not need to save data 
 
 After clicking on "Deploy", you will be taken back to the mainscreen, where you will see your function.
 
-![Deployed Easyfaas function](/images/tutorial/easyfaas/deployedfunction.png)
+<img loading="lazy" src="/images/tutorial/easyfaas/deployedfunction.png" alt="Deployed Easyfaas function">
 
 Then, click on "edit" next to you function which will take you to the function detail screen.
 
 
 #### Function Detail Page
 
-![Function Detail Page](/images/tutorial/easyfaas/function-detail-page.png)
+<img loading="lazy" src="/images/tutorial/easyfaas/function-detail-page.png" alt="Function Detail Page">
 
 We can see a lot of information in here, but let us first just click on the link provided at "Link".
 In this case, it is: [https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name](https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name)
@@ -436,7 +436,7 @@ else:
 
 If you take a closer look at the function detail page you will see a "logs" section.
 
-![EasyFAAS Logs](/images/tutorial/easyfaas/function-logs.png)
+<img loading="lazy" src="/images/tutorial/easyfaas/function-logs.png" alt="EasyFAAS Logs">
 
 In here, everything that your function code returns will be shown. If you refresh the page it will refresh the current logs.
 If you function is not responsive you will see the reason why in here.
@@ -445,7 +445,7 @@ If you function is not responsive you will see the reason why in here.
 
 Metrics show you how much of the resources your function is using. If you require more "power", maybe [EasyHost](/easyservices/easyhost) or [EasyScale](/easyservices/easyscale) is something for you. Otherwise just [contact us](/contact).
 
-![EasyFAAS Metrics](/images/tutorial/easyfaas/function-metrics.png)
+<img loading="lazy" src="/images/tutorial/easyfaas/function-metrics.png" alt="EasyFAAS Metrics">
 
 # EasyFAAS billing
 

@@ -693,7 +693,7 @@ For most of the use-cases GET and POST should be enough though.</p>
 <p>Let us take a look at some examples</p>
 <h3 id="code-example-bitcoin-price-getter">Code example: Bitcoin Price getter</h3>
 <center>
-    <video controls width="60%" poster="/videos/easyfaas/DemoThumb.png">
+    <video controls width="60%" poster="/videos/easyfaas/DemoThumb.png" loading="lazy">
         <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.webm"
                 type="video/webm">
         <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.mp4"
@@ -723,10 +723,10 @@ For most of the use-cases GET and POST should be enough though.</p>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> getCoingeckoPrice(<span style="color:#e6db74">&#34;BTC&#34;</span>)
 </span></span></code></pre></div><p>As we want to run this function continuously, and it does not need to save data anywhere, we will choose a <strong>continuous</strong> and <strong>simple</strong> function.</p>
 <p>After clicking on &ldquo;Deploy&rdquo;, you will be taken back to the mainscreen, where you will see your function.</p>
-<p><img src="/images/tutorial/easyfaas/deployedfunction.png" alt="Deployed Easyfaas function"></p>
+<img loading="lazy" src="/images/tutorial/easyfaas/deployedfunction.png" alt="Deployed Easyfaas function">
 <p>Then, click on &ldquo;edit&rdquo; next to you function which will take you to the function detail screen.</p>
 <h4 id="function-detail-page">Function Detail Page</h4>
-<p><img src="/images/tutorial/easyfaas/function-detail-page.png" alt="Function Detail Page"></p>
+<img loading="lazy" src="/images/tutorial/easyfaas/function-detail-page.png" alt="Function Detail Page">
 <p>We can see a lot of information in here, but let us first just click on the link provided at &ldquo;Link&rdquo;.
 In this case, it is: <a href="https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name">https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name</a></p>
 <p>When I am clicking on it, it returns:</p>
@@ -750,12 +750,12 @@ In this case, it is: <a href="https://api.easyfaas.de/functions/route/public/de9
 </span></span><span style="display:flex;"><span>    price <span style="color:#f92672">=</span> float(message[<span style="color:#e6db74">&#34;price&#34;</span>])
 </span></span></code></pre></div><h5 id="function-detail-page-logs">Function Detail Page: Logs</h5>
 <p>If you take a closer look at the function detail page you will see a &ldquo;logs&rdquo; section.</p>
-<p><img src="/images/tutorial/easyfaas/function-logs.png" alt="EasyFAAS Logs"></p>
+<img loading="lazy" src="/images/tutorial/easyfaas/function-logs.png" alt="EasyFAAS Logs">
 <p>In here, everything that your function code returns will be shown. If you refresh the page it will refresh the current logs.
 If you function is not responsive you will see the reason why in here.</p>
 <h5 id="function-detail-page-metrics">Function Detail Page: Metrics</h5>
 <p>Metrics show you how much of the resources your function is using. If you require more &ldquo;power&rdquo;, maybe <a href="/easyservices/easyhost">EasyHost</a> or <a href="/easyservices/easyscale">EasyScale</a> is something for you. Otherwise just <a href="/contact">contact us</a>.</p>
-<p><img src="/images/tutorial/easyfaas/function-metrics.png" alt="EasyFAAS Metrics"></p>
+<img loading="lazy" src="/images/tutorial/easyfaas/function-metrics.png" alt="EasyFAAS Metrics">
 <h1 id="easyfaas-billing">EasyFAAS billing</h1>
 <p>You might have read the word &ldquo;credits&rdquo; quite often by now. What does it mean?</p>
 <p>EasyFAAS simplifies billing, in that it charges &ldquo;credits&rdquo; instead of usage-based fees.
