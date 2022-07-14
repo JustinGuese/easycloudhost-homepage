@@ -1,13 +1,13 @@
 ######################## default configuration ####################
 baseURL = "https://easycloudhost.de"
-title = "EasyCloudHost - Easy to use, fast and secure FaaS"
+title = "EasyCloudHost - Simple, Secure and Scalable cloud services"
 theme = "saasis"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "10"
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "UA-56269619-23" # example : UA-123-45
 # disqus short name
 disqusShortname = "datafortress.cloud" # get your shortname form here : https://disqus.com
 # disable language
