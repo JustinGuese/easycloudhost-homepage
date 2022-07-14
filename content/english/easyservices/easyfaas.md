@@ -135,6 +135,94 @@ Example applications for the managed MongoDB are:
 
 ### 1.1 The main dashboard
 
-![main dashboard](/assets/images/tutorial/main-dashboard.png)
+Head over to [https://app.easyfaas.de/](https://app.easyfaas.de/) and register or login.
+
+<center>
+    <img src="/images/tutorial/easyfaas/maindashboard.png" style="width:50%" alt="Easyfaas main dashboard">
+</center>
 
 The main dashboard is the central control system for EasyFAAS. In here, you will se an overview over the different services that are available.
+
+### 1.2 Create a new function
+
+Next click on **New function**, which takes you to the function type selection screen.
+
+![easyfaas function type selection](/images/tutorial/easyfaas/newfunction.png)
+
+**What is a timed, and what is a continuous function?**
+
+
+{{< tabs >}}
+
+  {{< tab "Timed Function" >}}
+   A timed function is best suited for jobs that do not need to run all the time, but rather run at specific intervals. If you have used Cron in the past, this is pretty much it. 
+
+   You can define Cron schedules as you are used to, like for example
+
+
+    <table>
+        <tr>
+            <th>
+                Cron expression
+            </th>
+            <th>
+                Meaning
+            </th>
+        </tr>
+        <tr>
+            <td>30 2 * * *</td>
+            <td>Every day at 2:30</td>
+        </tr>
+        <tr>
+            <td>30 * * * *</td>
+            <td>Every day, every hour at :30 (2:30, 3:30, 4:30 ...)</td>
+        </tr>
+        <tr>
+            <td>01 2 1 * *</td>
+            <td>2:01 on the first of every month</td>
+        </tr>
+    </table>
+
+
+{{< notice "info" >}}
+I like to use the website [https://crontab.guru/](https://crontab.guru/) to check my expressions
+{{< /notice >}}
+  {{< /tab >}}
+
+  {{< tab "Continuous Function" >}}
+  A continuous function runs all the time, and is best used if you want a webservice or API to run.
+  {{< /tab >}}
+
+{{</ tabs >}}
+
+### 1.3 The create function screen
+
+For this tutorial I went with a continuous function
+
+![Create a new continuous function](/images/tutorial/easyfaas/createfunctioncontinuous.png)
+
+Let us take a look at the differnet elements
+
+**Function name**
+
+This can be whatever you want. The function name will later be converted to a lower-case, "-" seperated form.
+Like "My awesome FuNcTiOn" will become "my-awesome-function".
+
+**Function count**
+
+This is where **scalability** comes into play. For now leave function count at 1, but if you later on experience that you need more power, you can easily up-scale your function here.
+
+**PIP requirements**
+
+Now instead of creating a layer for your FAAS function, you can **just enter your pip packages here**, and it will automatically install them. Easy as that.
+
+**Debian requirements**
+
+All functions are build in Debian. Meaning you can easily install any Debian package if you need it. If you have installed it on your local system with "apt install ..." you can list it here. This is useful if you might need some system based tools like imagemagic, wkhtml and others. **This is actually not supported yet in other FAAS services**.
+
+**Visibility**
+
+Your EasyFAAS function comes with security enabled by default. If your function is public, it will be accessible for everyone. If it is private, you will need to send an auth token to the endpoint. 
+Does that mean you need to create new users and everything? No, you can just get an auth token using our RestAPI using your **normal user and password**, and then use that token to fire towards your function. 
+Easy as that.
+

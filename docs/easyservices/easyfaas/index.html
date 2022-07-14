@@ -386,25 +386,54 @@
             <img style="width:250px" loading="lazy" decoding="async" class="img-fluid" src="images/logos/EasyFAAS.png" alt="EasyFAAS">
           </center>
           <!-- ![EasyFAAS Logo](images/logos/EasyFAAS.png) -->
-<h1 id="0-inroduction">0. Inroduction</h1>
-<p>EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things. Did you know, that around 60% of development time is spent on DevOp operations instead of actually working on the product?</p>
+
+
+<div class="notices tip" ><p>Did you know, that over 60% of development time is spent on DevOp tasks instead of working on the actual product [1]?</p></div>
+
+<p>What if there could be a way to <strong>&ldquo;just run code&rdquo; instead of worrying about servers and clusters</strong>?</p>
+<p><strong>EasyFAAS (Easy-Function-as-a-service) lets you run your code in an easy environment, without hidden costs.</strong></p>
+<h2 id="why-should-i-choose-easyfaas-over-other-providers">Why should I choose EasyFAAS over other providers?</h2>
+<p>Whilst we were working with FAAS services of other providers, we usually ended up having problems with two specific things:
+(EU) Data Security
+Complexness</p>
+<h3 id="1-our-problems-with-eu-data-security">1. Our problems with (EU) Data Security</h3>
+<p>Even though FAAS services of other cloud providers are technically secure, they still have the problem of being hosted by an american company. This can be a problem for EU-based companies, as the american <a href="https://www.congress.gov/107/plaws/publ56/PLAW-107publ56.pdf">&ldquo;patriot act&rdquo;</a> states, that the US government can basically request your data from american companies to &ldquo;intercept and obstruct terrorism&rdquo;.
+There have been unconfirmed reports of misuse as well, where industry and intellectual secrets were requested.</p>
+
+
+<div class="notices tip" ><p>This proves to be especially dangerours for companies in the <strong>finance</strong> industry, or in general where <strong>companies have an intellectual competitive advantage</strong>.</p></div>
+
+<p>Of course no one can surely say (yet) that this is really happening, and that it is not only used for the defeat of terrorism, but our company and many others agree that your data should only belong to you.</p>
+<h3 id="2-our-problems-with-complexness">2. Our problems with complexness</h3>
+<p>Now back to a happier topic: The FAAS services of other cloud providers are amazing. They are versatile, well integrated in their system, and were a technological novelty. Our problem has just been, that if you want to &ldquo;just get going&rdquo;, meaning just pasting your code, you will often experience that it is not that easy.</p>
+<p>The technical interconnections with other services come with a price: You will find yourself setting up API Gateways if you want the service to connect to the outside, where you will need to know about ports, firewalls, security groups and even networking.</p>
+<p>Also, if you are using custom packages like Python&rsquo;s numpy and pandas, you will have to create an extra layer, which proves to be quite complex, instead of just listing the packages that are used.</p>
+<p>One of our main applications in the past has been to create little APIs that write and read from a database.
+In other FAAS solutions, this requires you to create the networking, the database connection and the custom layer to get started, which involved a lot of repetitive tasks.</p>
+<p>In our EasyFAAS solution this becomes as simple as this:</p>
+<p><img src="/images/easyservices/easyfaas/create-a-new-function.png" alt="EasyFAAS - Create a new function dashboard"></p>
+<h1 id="contents">Contents</h1>
+<ol>
+<li><a href="/easyservices/easyfaas#0-inroduction">Overview</a></li>
+<li><a href="/easyservices/easyfaas#1-serverless-functions-overview">Serverless Functions Overview</a></li>
+</ol>
+<h2 id="0-inroduction">0. Inroduction</h2>
 <p>EasyFAAS reduces time to market, and let&rsquo;s your programmers focus on what it important: your code!</p>
 <p>To achieve this EasyFAAS currently supports two functions:</p>
-<ol>
-<li>Serverless functions
+<h4 id="1-serverless-functions">1. Serverless functions</h4>
 <ul>
-<li>Distinguished into &ldquo;simple&rdquo; and &ldquo;storage&rdquo; functions</li>
-<li>Distinguished into &ldquo;timed&rdquo; and &ldquo;continuous&rdquo; functions</li>
+<li>Distinguished into <strong>&ldquo;simple&rdquo;</strong> and <strong>&ldquo;storage&rdquo;</strong> functions</li>
+<li>Distinguished into <strong>&ldquo;timed&rdquo;</strong> and <strong>&ldquo;continuous&rdquo;</strong> functions</li>
 </ul>
-</li>
-<li>A managed MongoDB NoSQL database</li>
-</ol>
-<h2 id="serverless-functions-overview">Serverless functions overview</h2>
+<h4 id="2-a-managed-mongodb-nosql-database">2. A managed MongoDB NoSQL database</h4>
+<ul>
+<li>Easy integration without much setup into your EasyFAAS functions</li>
+</ul>
+<h3 id="1-serverless-functions-overview">1. Serverless functions overview</h3>
 <p>A &ldquo;<strong>storage</strong>&rdquo; function distinguishes itself from a &ldquo;simple&rdquo; function, in that it offers <strong>persistence</strong>, meaning that if a function crashes, or restarts, that objects saved in the path <strong>&quot;/mnt/persistent/&quot;</strong> will be saved.</p>
 <p>A &ldquo;<strong>timed</strong>&rdquo; function distinguishes itself from the &ldquo;continuous&rdquo; function, in that the timed one is running at a specific <strong>schedule</strong>, whilst the continuous is running constantly.</p>
 <p>These two settings can be combined, resulting in a total of four combinable possibilities for serverless functions:</p>
-<ol>
-<li>Simple-Continuous function
+<h4 id="11-simple-continuous-function">1.1 Simple-Continuous function</h4>
 <ul>
 <li>Good for web applications that do not require storage.</li>
 <li>Examples:
@@ -414,8 +443,7 @@
 </ul>
 </li>
 </ul>
-</li>
-<li>Simple-Timed function
+<h4 id="12-simple-timed-function">1.2. Simple-Timed function</h4>
 <ul>
 <li>Good for jobs that you want to have executed, that do not require storage</li>
 <li>Examples:
@@ -426,8 +454,7 @@
 </ul>
 </li>
 </ul>
-</li>
-<li>Storage-Continuous function
+<h4 id="13-storage-continuous-function">1.3. Storage-Continuous function</h4>
 <ul>
 <li>Good for web applications that require storage.</li>
 <li>Examples:
@@ -437,8 +464,7 @@
 </ul>
 </li>
 </ul>
-</li>
-<li>Storage-Timed function
+<h4 id="14-storage-timed-function">1.4. Storage-Timed function</h4>
 <ul>
 <li>Good for jobs that require storage</li>
 <li>Examples:
@@ -448,9 +474,7 @@
 </ul>
 </li>
 </ul>
-</li>
-</ol>
-<h2 id="managed-mongodb-overview">Managed MongoDB overview</h2>
+<h3 id="2-managed-mongodb-overview">2. Managed MongoDB overview</h3>
 <p>In case storage on disk is not enough, you can easily spin up a managed mongodb instance, which you can easily access from your serverless functions.</p>
 <p>A managed MongoDB makes sense, if you want to run multiple functions that are all accessing the same information, like if you distributed your workloads into several functions, or you are running functions in parallel.</p>
 <p>The big benefits of the managed MongoDB service are, that contrary to other hosting providers it will remain in a custom network, meaning it is not exposed to the internet, but you can still easily access it in your functions.</p>
@@ -463,10 +487,90 @@
 <li>You are saving items as json into MongoDB using custom EasyFAAS functions. If one function is not enough, you can simply scale your function up, and the load will be distributed to two functions automatically.</li>
 <li>You are building an ETL pipeline, where the first function collects data and saves it into the database, the second applies calculations to it and writes it again into the database, and the third one serves the result as an API</li>
 </ul>
-<h1 id="1-getting-started">1. Getting started</h1>
-<h2 id="11-the-main-dashboard">1.1 The main dashboard</h2>
-<p><img src="/assets/images/tutorial/main-dashboard.png" alt="main dashboard"></p>
+<h2 id="1-getting-started">1. Getting started</h2>
+<h3 id="11-the-main-dashboard">1.1 The main dashboard</h3>
+<p>Head over to <a href="https://app.easyfaas.de/">https://app.easyfaas.de/</a> and register or login.</p>
+<center>
+    <img src="/images/tutorial/easyfaas/maindashboard.png" style="width:50%" alt="Easyfaas main dashboard">
+</center>
 <p>The main dashboard is the central control system for EasyFAAS. In here, you will se an overview over the different services that are available.</p>
+<h3 id="12-create-a-new-function">1.2 Create a new function</h3>
+<p>Next click on <strong>New function</strong>, which takes you to the function type selection screen.</p>
+<p><img src="/images/tutorial/easyfaas/newfunction.png" alt="easyfaas function type selection"></p>
+<p><strong>What is a timed, and what is a continuous function?</strong></p>
+
+
+<div class="code-tabs">
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content">
+
+  
+
+<div class="tab-pane" title="Timed Function">
+  
+   A timed function is best suited for jobs that do not need to run all the time, but rather run at specific intervals. If you have used Cron in the past, this is pretty much it. 
+
+   You can define Cron schedules as you are used to, like for example
+
+
+    <table>
+        <tr>
+            <th>
+                Cron expression
+            </th>
+            <th>
+                Meaning
+            </th>
+        </tr>
+        <tr>
+            <td>30 2 * * *</td>
+            <td>Every day at 2:30</td>
+        </tr>
+        <tr>
+            <td>30 * * * *</td>
+            <td>Every day, every hour at :30 (2:30, 3:30, 4:30 ...)</td>
+        </tr>
+        <tr>
+            <td>01 2 1 * *</td>
+            <td>2:01 on the first of every month</td>
+        </tr>
+    </table>
+
+
+
+
+<div class="notices info" ><p>I like to use the website <a href="https://crontab.guru/">https://crontab.guru/</a> to check my expressions</p></div>
+
+  
+</div>
+
+  
+
+<div class="tab-pane" title="Continuous Function">
+  
+  A continuous function runs all the time, and is best used if you want a webservice or API to run.
+  
+</div>
+
+</div>
+</div>
+<h3 id="13-the-create-function-screen">1.3 The create function screen</h3>
+<p>For this tutorial I went with a continuous function</p>
+<p><img src="/images/tutorial/easyfaas/createfunctioncontinuous.png" alt="Create a new continuous function"></p>
+<p>Let us take a look at the differnet elements</p>
+<p><strong>Function name</strong></p>
+<p>This can be whatever you want. The function name will later be converted to a lower-case, &ldquo;-&rdquo; seperated form.
+Like &ldquo;My awesome FuNcTiOn&rdquo; will become &ldquo;my-awesome-function&rdquo;.</p>
+<p><strong>Function count</strong></p>
+<p>This is where <strong>scalability</strong> comes into play. For now leave function count at 1, but if you later on experience that you need more power, you can easily up-scale your function here.</p>
+<p><strong>PIP requirements</strong></p>
+<p>Now instead of creating a layer for your FAAS function, you can <strong>just enter your pip packages here</strong>, and it will automatically install them. Easy as that.</p>
+<p><strong>Debian requirements</strong></p>
+<p>All functions are build in Debian. Meaning you can easily install any Debian package if you need it. If you have installed it on your local system with &ldquo;apt install &hellip;&rdquo; you can list it here. This is useful if you might need some system based tools like imagemagic, wkhtml and others. <strong>This is actually not supported yet in other FAAS services</strong>.</p>
+<p><strong>Visibility</strong></p>
+<p>Your EasyFAAS function comes with security enabled by default. If your function is public, it will be accessible for everyone. If it is private, you will need to send an auth token to the endpoint.
+Does that mean you need to create new users and everything? No, you can just get an auth token using our RestAPI using your <strong>normal user and password</strong>, and then use that token to fire towards your function.
+Easy as that.</p>
 
         </div>
       </div>
