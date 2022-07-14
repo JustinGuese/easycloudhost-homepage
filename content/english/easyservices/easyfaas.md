@@ -6,6 +6,16 @@ img: "images/logos/EasyFAAS.png"
 ---
 
 <!-- ![EasyFAAS Logo](images/logos/EasyFAAS.png) -->
+<center>
+    <video controls width="60%" poster="/videos/easyfaas/IntroThumb.png">
+        <source src="/videos/easyfaas/EasyFAASIntro.webm"
+                type="video/webm">
+        <source src="/videos/easyfaas/EasyFAASIntro.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    <p><a href="/easyservices/easyfaas#code-example-bitcoin-price-getter">Next Video: Tech-Demo</a></p>
+</center>
 
 
 {{< notice "tip" >}}
@@ -341,6 +351,17 @@ If you want to adapt your code you can easily just add your calculations and fun
 Let us take a look at some examples
 
 ### Code example: Bitcoin Price getter
+
+<center>
+    <video controls width="60%" poster="/videos/easyfaas/DemoThumb.png">
+        <!-- <source src="/videos/easyfaas/EasyFAASIntro.webm"
+                type="video/webm"> -->
+        <source src="/videos/easyfaas/EasyFAASIntro.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    <p><a href="/easyservices/easyfaas#introduction">Previous Video: EasyFAAS Intro</a></p>
+</center>
 
 Let us say you want to create a small route that just returns the current price of Bitcoin. We are using the free coingecko route for it.
 
