@@ -203,6 +203,8 @@ For this tutorial I went with a continuous function
 
 Let us take a look at the differnet elements
 
+#### 1.3.1 Setup elements
+
 **Function name**
 
 This can be whatever you want. The function name will later be converted to a lower-case, "-" seperated form.
@@ -225,4 +227,165 @@ All functions are build in Debian. Meaning you can easily install any Debian pac
 Your EasyFAAS function comes with security enabled by default. If your function is public, it will be accessible for everyone. If it is private, you will need to send an auth token to the endpoint. 
 Does that mean you need to create new users and everything? No, you can just get an auth token using our RestAPI using your **normal user and password**, and then use that token to fire towards your function. 
 Easy as that.
+
+**Function type**
+
+There are different functions to choose from.
+The selection are **simple function** and **storage function**.
+
+They are distinguishable in the way, that a storage function has **persistence**, whilst a normal function has not.
+
+Persistence means that if your function writes data to the disk, it will be safe. 
+
+{{< notice "info" >}}
+Do you write or read from a local file? Like a .csv, or .txt file? Then you will need persistence. If your function just calculates and does not write or read anything, you can choose a simple function
+{{< /notice >}}
+
+Persistence is enabled at the directory **/mnt/persistence/**, and not in other directories.
+
+This means you can still read and write temporary files in both versions, but only persist them if they are written to the /mnt/persistence path.
+
+
+{{< tabs >}}
+
+  {{< tab "Simple Function" >}}
+  No persistence
+
+<pre>
+<code>
+with open("./tmp.txt", "w") as file:
+    file.write("my temporary data")
+
+with open("./tmp.txt", "r") as file:
+    data = file.read() # <--- not guaranteed to succeed, if the function restarts 
+</code>
+</pre>
+
+  {{< /tab >}}
+
+  {{< tab "Storage Function" >}}
+  Persistence at /mnt/persistence/
+<pre>
+<code>
+with open("./tmp.txt", "w") as file:
+    file.write("my temporary data")
+
+with open("./tmp.txt", "r") as file:
+    data = file.read() # <--- not guaranteed to succeed, if the function restarts 
+
+# correct way with persistence
+with open("/mnt/persistence/longterm.txt", "w") as file:
+    file.write("my temporary data")
+
+with open("/mnt/persistence/longterm.txt", "r") as file:
+    data = file.read() # <--- guaranteed to succeed
+print(data) 
+</code>
+</pre>
+  {{< /tab >}}
+
+{{</ tabs >}}
+
+#### 1.3.1 Code
+
+This is the core part of your function.
+
+Your function is using [FastAPI](https://fastapi.tiangolo.com/) in the background, but you do not have to worry about much if you use the already inserted starter code:
+
+```python
+from fastapi import FastAPI, Request
+app = FastAPI()
+
+# basic usage
+@app.get("/")
+async def root():   
+    return {"message": "Hello World"}
+
+# post requests
+@app.post("/")
+async def rootPost(request: Request): 
+    data = await request.json()
+    print(data)  
+    return {"message": "I got the post: " + str(data)}
+```
+
+The EasyFAAS function only supports routing to the root domain "/". Meaning if you create different routes they will not be used.
+
+What you can change though, is the **request type**. It can be GET or POST, as well as the others.
+For most of the use-cases GET and POST should be enough though.
+
+If you want to adapt your code you can easily just add your calculations and functions inside the "root" function. 
+
+Let us take a look at some examples
+
+### Code example: Bitcoin Price getter
+
+Let us say you want to create a small route that just returns the current price of Bitcoin. We are using the free coingecko route for it.
+
+We will adapt the code to look like this:
+
+```python
+from fastapi import FastAPI
+import requests
+
+base_url = "https://api.binance.com/api/v3"
+
+app = FastAPI()
+
+def getCoingeckoPrice(symbol):
+    url = base_url + f"/avgPrice?symbol={symbol}USDT"
+    r = requests.get(url)
+    return r.json()
+    
+
+# basic usage
+@app.get("/")
+async def root():   
+    return getCoingeckoPrice("BTC")
+```
+
+As we want to run this function continuously, and it does not need to save data anywhere, we will choose a **continuous** and **simple** function.
+
+After clicking on "Deploy", you will be taken back to the mainscreen, where you will see your function.
+
+![Deployed Easyfaas function](/images/tutorial/easyfaas/deployedfunction.png)
+
+Then, click on "edit" next to you function which will take you to the function detail screen.
+
+
+#### Function Detail Page
+
+![Function Detail Page](/images/tutorial/easyfaas/function-detail-page.png)
+
+We can see a lot of information in here, but let us first just click on the link provided at "Link".
+In this case, it is: [https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name](https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name)
+
+When I am clicking on it, it returns:
+
+```json
+{
+"status_code": 200,
+"status": "ok",
+"message": "{\"mins\": 5, \"price\": \"19756.28232097\"}"
+}
+```
+
+The "real" response of our function is located at the `message` key in the dictionary. Why is that? We want some kind of check if the request was really successful, or if not, some kind of error message.
+
+So if your application is querying your EasyFAAS route, it should always check for the "status_code" part. If the function is failing, it will return for example code 500 together with an error message in the "status" part.
+
+An example on how your application would query the EasyFAAS route is:
+
+```python
+import requests
+
+response = requests.get("https://api.easyfaas.de/functions/route/public/de96cbb3-aead-4485-9889-a76a92a8a719/function-name")
+if response.status_code != 200:
+    raise Exception("error in EasyFAAS function: " + str(response.text))
+else:
+    response = response.json()
+    message = json.loads(response["message"])
+    print(message)
+    price = float(message["price"])
+```
 
