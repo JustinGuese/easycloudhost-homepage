@@ -39,6 +39,10 @@ Our secret is simple: **Simplicity**
 
 Simplicity both in terms of **user experience**, as well as in hosting.
 
+{{< notice "tip" >}}
+  Looking for Website Programming? Head over to [Websites](/easyservices/websites/)
+{{< /notice >}}
+
 ### The fall and rise of static sites
 
 Remember the beginning of the web, with their horrible layouts, extreme colors and just pure craziness?

@@ -5,6 +5,15 @@ draft: false
 
 ---
 
+<center>
+    <video controls width="60%" poster="videos/easyhost/thumbnail-websites.png">
+        <source src="videos/easyhost/websites.webm"
+                type="video/webm">
+        <source src="videos/easyhost/websites.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+</center>
 
 {{< notice "tip" >}}
   The probability of bounce increases 32% as page load time goes from 1 second to 3 seconds
@@ -145,7 +154,7 @@ If you want to create a website with us, you can choose one of the following tem
 | Content Writing (words) | 1.000 | 10.000 | 30.000 | unlimited | 
 | SEO |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
 | Google/FB/Ad-Setup |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
-| **One-time Price** | <a href="https://buy.stripe.com/3csdTjcNe28M9gc7sx" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">249,-€</button></a> | <a href="https://buy.stripe.com/28obLbaF66p2bokdQT" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">1.299,-€</button></a> | <a href="https://buy.stripe.com/6oE6qR6oQ7t69gceUV" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">4.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
+| **One-time Price** | <a href="https://buy.stripe.com/bIYaH7fZq4gU6409AG" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">249,-€</button></a> | <a href="https://buy.stripe.com/dR602t5kMeVy2RO14b" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">1.299,-€</button></a> | <a href="https://buy.stripe.com/8wMeXn00s5kY2ROaEN" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">4.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
 </div>
 
 {{< notice "info" >}}
@@ -182,7 +191,7 @@ If you want to create a website with us, you can choose one of the following tem
 | Content Writing (words) | 1.000 | 10.000 | 30.000 | unlimited | 
 | SEO |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
 | Google/FB/Ad-Setup |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
-| **One-time Price** | <a href="https://buy.stripe.com/3csdTjcNe28M9gc7sx" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">499,-€</button></a> | <a href="https://buy.stripe.com/28obLbaF66p2bokdQT" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">2.999,-€</button></a> | <a href="https://buy.stripe.com/6oE6qR6oQ7t69gceUV" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">9.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
+| **One-time Price** | <a href="https://buy.stripe.com/5kAbLbbJa3cQcso3cm" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">499,-€</button></a> | <a href="https://buy.stripe.com/5kA9D3dRi14Ibok4gr" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">2.999,-€</button></a> | <a href="https://buy.stripe.com/9AQ3eF6oQaFi4ZW28g" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">9.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
 | + Monthly Price | 19.99€ | 49.99€ | 99.99€ | |
 
 {{< notice "info" >}}
