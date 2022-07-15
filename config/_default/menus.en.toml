@@ -64,7 +64,7 @@ hasChildren = true
   weight = 8
   parent = "EasyServices"
   name = "Websites"
-  url = "easyservices/easyhost/"
+  url = "easyservices/websites/"
 
 [[main]]
 weight = 6
