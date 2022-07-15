@@ -6,16 +6,15 @@ draft: false
 ---
 
 <!-- ![EasyFAAS Logo](images/logos/EasyFAAS.png) -->
-<!-- <center>
-    <video controls width="60%" poster="/videos/easyfaas/IntroThumb.png">
-        <source src="/videos/easyfaas/EasyFAASIntro.webm"
+<center>
+    <video controls width="60%" poster="/videos/easyhost/thumbnail-easyhost.png">
+        <source src="/videos/easyhost/EasyHost-full.webm"
                 type="video/webm">
-        <source src="/videos/easyfaas/EasyFAASIntro.mp4"
+        <source src="/videos/easyhost/EasyHost-full.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
     </video>
-    <p><a href="/easyservices/easyfaas#code-example-bitcoin-price-getter">Next Video: Tech-Demo</a></p>
-</center> -->
+</center>
 
 
 {{< notice "tip" >}}
@@ -173,3 +172,9 @@ No. As EasyHost is up to a 1000x lighter on the server you will save a lot of mo
 {{< notice "info" >}}
   [4] Comparable speed with an AWS Lightsail WordPress instance, excluding traffic. Can not really be compared as the technologies are totally different, but to get an estimation.
 {{< /notice >}}
+
+<hr>
+<center>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasyHost can work for you</button></a>
+</center>
+<hr>
