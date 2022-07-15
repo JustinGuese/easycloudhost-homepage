@@ -5,12 +5,12 @@ draft: false
 
 ---
 
-<!-- ![EasyFAAS Logo](images/logos/EasyFAAS.png) -->
+<!-- ![EasyFAAS Logo](images/logos/EasyFAAS-min.png) -->
 <center>
-    <video controls width="60%" poster="/videos/easyhost/thumbnail-easyhost.png">
-        <source src="/videos/easyhost/EasyHost-full.webm"
+    <video controls width="60%" poster="videos/easyhost/thumbnail-easyhost.png">
+        <source src="videos/easyhost/EasyHost-full.webm"
                 type="video/webm">
-        <source src="/videos/easyhost/EasyHost-full.mp4"
+        <source src="videos/easyhost/EasyHost-full.mp4"
                 type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
     </video>
@@ -109,7 +109,7 @@ The answer is yes. With EasyHost your websites are basically "pre-rendered", lik
 Of course not. You can still use a CMS (content management system) like WordPress, or write text directly in Markdown like I do now, and EasyHost "converts" this to a nice website and pushes it to the server.
 
 <center>
-    <img loading="lazy" src="images/easyservices/easyhost/easyhost-markdown.png" alt="Writing Markdown">
+    <img loading="lazy" src="images/easyservices/easyhost/easyhost-markdown-min.png" alt="Writing Markdown">
     <p>Writing this text in Markdown</p>
 </center>
 
@@ -120,7 +120,7 @@ Of course not. You can still use a CMS (content management system) like WordPres
 <hr>
 
 <center>
-    <img loading="lazy" src="images/easyservices/easyhost/cms-example.png" alt="Editing in the CMS">
+    <img loading="lazy" src="images/easyservices/easyhost/cms-example-min.png" alt="Editing in the CMS">
     <p>Using the CMS</p>
 </center>
 
@@ -128,10 +128,10 @@ Of course not. You can still use a CMS (content management system) like WordPres
 
 | Website name        | Type           | Example  | URL |
 | ------------- |:-------------:| -----:| -----:|
-| EasyCloudHost.de     | Company site, Blog, Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/easyhost-website.png" alt="EasyHost Website"> | https://easycloudhost.de/ |
-| DataFortress.cloud     | Company site, Blog | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/datafortress-website.png" alt="DataFortress Website"> | https://datafortress.cloud/ |
-| BildBlatt.de    | WordPress Shop turned static | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/bildblatt-website.png" alt="Bildblatt wordpress Website"> | https://bildblatt.de/ |
-| GoodThings4U    | Complete Static Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/goodthings4u-website.png" alt="GoodThings4U static Shop Website"> | https://goodthings4u.com/ |
+| EasyCloudHost.de     | Company site, Blog, Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/easyhost-website-min.png" alt="EasyHost Website"> | https://easycloudhost.de/ |
+| DataFortress.cloud     | Company site, Blog | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/datafortress-website-min.png" alt="DataFortress Website"> | https://datafortress.cloud/ |
+| BildBlatt.de    | WordPress Shop turned static | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/bildblatt-website-min.png" alt="Bildblatt wordpress Website"> | https://bildblatt.de/ |
+| GoodThings4U    | Complete Static Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/goodthings4u-website-min.png" alt="GoodThings4U static Shop Website"> | https://goodthings4u.com/ |
 
 ## The advantages of EasyHost / Pricing
 
@@ -139,7 +139,9 @@ Now that we know that our websites will load super quick, and our revenues will 
 
 No. As EasyHost is up to a 1000x lighter on the server you will save a lot of money on hosting. 
 
-| Feature       | EasyHost Static           | EasyHost CMS  | EasyHost Shop | EasyHost Custom Conversion |
+<div style="overflow-x:auto;">
+
+| <div style="width:150px">Feature</div>     | EasyHost Static           | EasyHost CMS  | EasyHost Shop | Custom |
 | ------------- |:-------------:| -----:| -----:| -----:|
 | Hosting | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | Lightning Speed | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
@@ -156,6 +158,7 @@ No. As EasyHost is up to a 1000x lighter on the server you will save a lot of mo
 | DE hosted Pricing | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">2.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-secondary     rounded">9.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">39.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |
 | Comparable price [4] | 20$/m + traffic | 40$/m + traffic | 80$/m + traffic | |
 
+</div>
 
 {{< notice "info" >}}
   [1] A CMS allows you to edit the content yourself in an easy web-interface (content-management-system)
