@@ -32,35 +32,36 @@ hasChildren = true
   [[main]]
   weight = 3
   parent = "EasyServices"
-  name = "EasyDB"
-  url = "easyservices/easydb/"
-
-  [[main]]
-  weight = 4
-  parent = "EasyServices"
-  name = "EasyStore"
-  url = "easyservices/easystore/"
-
-  [[main]]
-  weight = 5
-  parent = "EasyServices"
   name = "EasyHost"
   url = "easyservices/easyhost/"
 
   [[main]]
-  weight = 7
+  weight = 4
+  parent = "EasyServices"
+  name = "EasyDB"
+  url = "easyservices/easydb/"
+
+  [[main]]
+  weight = 5
+  parent = "EasyServices"
+  name = "EasyStore"
+  url = "easyservices/easystore/"
+
+
+  [[main]]
+  weight = 6
   parent = "EasyServices"
   name = "EasyHealth"
   url = "easyservices/easyhealth/"
 
   [[main]]
-  weight = 8
+  weight = 7
   parent = "EasyServices"
   name = "EasyScale"
   url = "easyservices/easyscale/"
 
   [[main]]
-  weight = 9
+  weight = 8
   parent = "EasyServices"
   name = "Websites"
   url = "easyservices/easyhost/"
