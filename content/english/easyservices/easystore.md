@@ -49,6 +49,9 @@ As you can see, it would be way easier to just use a storage service, and let so
 
 ## The two EasyStore solutions compared
 
+<div style="overflow-x:auto;">
+
+
 | <div style="width:150px">EasyDB Version</div>   | EasyStore Drive   | EasyStore S3    |
 | ------------- |:-------------:| -----:|
 | UI |  <img loading="lazy" style="width:350px" src="images/easyservices/easystore/easystore-drive.png" alt="EasyStore Drive"> |  <img loading="lazy" style="width:350px" src="images/easyservices/easystore/easystore-minio.png" alt="EasyStore S3"> |
@@ -59,6 +62,7 @@ As you can see, it would be way easier to just use a storage service, and let so
 | Open Source base [2] | NextCloud | MinIO |
 | Closest Public Cloud product | Google Drive, MS OneDrive, Dropbox | AWS S3, Google Cloud Storage |
 
+</div>
 
 {{< notice "info" >}}
   [1] Use it like you would use S3, e.g. boto3 (Python), s3-node, etc
