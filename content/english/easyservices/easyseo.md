@@ -5,16 +5,15 @@ draft: false
 
 ---
 
-<!-- ![EasyFAAS Logo](images/logos/EasyFAAS-min.png)
-<!-- <center>
-    <video controls width="60%" poster="videos/easyhost/thumbnail-easyhost.png">
-        <source src="videos/easyhost/EasyHost-full.webm"
-                type="video/webm">
-        <source src="videos/easyhost/EasyHost-full.mp4"
-                type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
-    </video>
-</center>  -->
+<center>
+  <video controls width="60%" poster="videos/easyseo/easyseo-thumbnail.png">
+      <source src="videos/easyseo/easyseo.webm"
+              type="video/webm">
+      <source src="videos/easyseo/easyseo.mp4"
+              type="video/mp4">
+      Use a newer browser to see this video.
+  </video>
+</center> 
 
 
 
@@ -43,6 +42,11 @@ This is where SEO comes into play.
     <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasySEO can work for you</button></a>
 </center>
 <hr>
+
+1. [What makes EasySEO different](/easyservices/easyseo/#what-makes-easyseo-different)
+2. [What is the Google SEO ranking bot looking for?](/easyservices/easyseo/#what-is-the-google-seo-ranking-bot-looking-for)
+3. [Our Portfolio](/easyservices/easyseo/#our-portfolio)
+4. [Pricing](/easyservices/easyseo/#our-offers)
 
 ## What makes EasySEO different?
 
@@ -79,13 +83,17 @@ We can provide you with all that.
 We are both running onlineshops, as well as blogs and websites where we generated content to collect a lot of SEO traffic.
 Page speed is equally important, which is why you will see that our content loads super fast. [Check out EasyHost to see how this works](/easyservices/easyhost/).
 
-| Website name        | Type           | Example  | URL |
+<div style="overflow-x:auto;">
+
+| <div style="width:150px">Website</div>  | Type           | Example  | URL |
 | ------------- |:-------------:| -----:| -----:|
 | EasyCloudHost.de     | Company site, Blog, Shop | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/easyhost-website-min.png" alt="EasyHost Website"> | https://easycloudhost.de/ |
 | DataFortress.cloud     | Company site, Blog | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/datafortress-website-min.png" alt="DataFortress Website"> | https://datafortress.cloud/ |
 | BildBlatt.de    | WordPress Shop turned static | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/bildblatt-website-min.png" alt="Bildblatt wordpress Website"> | https://bildblatt.de/ |
 | GoodThings4U    | Complete Static Shop | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/goodthings4u-website-min.png" alt="GoodThings4U static Shop Website"> | https://goodthings4u.com/ |
 | DeFiGamez    | Blog, highly content driven | <img loading="lazy" style="width:250px" src="images/easyservices/websites/portfolio-defigamez.png" alt="GoodThings4U static Shop Website"> | https://defigamez.com/ |
+
+</div>
 
 ## Our offers
 

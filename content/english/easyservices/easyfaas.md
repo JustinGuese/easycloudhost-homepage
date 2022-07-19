@@ -12,7 +12,7 @@ img: "images/logos/EasyFAAS.png"
                 type="video/webm">
         <source src="/videos/easyfaas/EasyFAASIntro.mp4"
                 type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
+        Use a newer browser to see this video.
     </video>
     <p><a href="/easyservices/easyfaas#code-example-bitcoin-price-getter">Next Video: Tech-Demo</a></p>
 </center>
@@ -358,7 +358,7 @@ Let us take a look at some examples
                 type="video/webm">
         <source src="/videos/easyfaas/EasyFAAS-Tech-Demo.mp4"
                 type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
+        Use a newer browser to see this video.
     </video>
     <p><a href="/easyservices/easyfaas">Previous Video: EasyFAAS Intro</a></p>
 </center>

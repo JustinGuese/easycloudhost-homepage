@@ -1,21 +1,22 @@
 ---
 title: "EasyKube"
-description: "this is meta description"
+description: "Managed Kubernetes in AWS and a custom Cloud"
 draft: false
 ---
 
-# 0. Inroduction
+# Your custom private cloud 
 
-EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things. Did you know, that around 60% of development time is spent on DevOp operations instead of actually working on the product?
+Are you looking for a way to host your data and applications in a secure, private cloud, out of the hands of big corporations?
 
-EasyFAAS reduces time to market, and let's your programmers focus on what it important: your code!
+**EasyKube is your solution**
 
-To achieve this EasyFAAS currently supports two functions:
+## The advantages of a custom private cloud
 
-1. Serverless functions
-    - Distinguished into "simple" and "storage" functions
-    - Distinguished into "timed" and "continuous" functions
-2. A managed MongoDB NoSQL database
+So, why should you care to create your own cloud, instead of using public cloud providers?
+
+There are several advantages and disadvantages depending on your background.
+Let us say you store sensitive, intellectual data, like patents or data that gives you a competitive advantage.
+
 
 ## Serverless functions overview
 

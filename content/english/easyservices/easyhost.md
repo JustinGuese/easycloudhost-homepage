@@ -12,7 +12,7 @@ draft: false
                 type="video/webm">
         <source src="videos/easyhost/EasyHost-full.mp4"
                 type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
+        Use a newer browser to see this video.
     </video>
 </center>
 
@@ -32,6 +32,13 @@ Are your websites and apps giving you a headache? Crashing constantly, being slo
     <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasyHost can work for you</button></a>
 </center>
 <hr>
+
+1. [What makes EasyHost different?](/easyservices/easyhost/#what-makes-easyhost-different)
+2. [The fall and rise of static sites](/easyservices/easyhost/#the-fall-and-rise-of-static-sites)
+3. [Why website speed is important](/easyservices/easyhost/#why-website-speed-is-important)
+4. [EasyHost: Uniting both worlds](/easyservices/easyhost/#uniting-both-worlds-easyhost)
+5. [Portfolio](/easyservices/easyhost/#some-examples-of-easyhost-in-action)
+4. [Pricing](/easyservices/easyhost/#the-advantages-of-easyhost--pricing)
 
 ## What makes EasyHost different?
 

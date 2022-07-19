@@ -11,7 +11,7 @@ draft: false
                 type="video/webm">
         <source src="videos/easyhost/websites.mp4"
                 type="video/mp4">
-        Sorry, your browser doesn't support embedded videos.
+        Use a newer browser to see this video.
     </video>
 </center>
 
