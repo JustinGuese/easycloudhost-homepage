@@ -48,6 +48,12 @@ hasChildren = true
   url = "easyservices/easyhost/"
 
   [[main]]
+  weight = 6
+  parent = "EasyServices"
+  name = "EasySEO"
+  url = "easyservices/easyseo/"
+
+  [[main]]
   weight = 7
   parent = "EasyServices"
   name = "EasyHealth"
@@ -63,7 +69,7 @@ hasChildren = true
   weight = 9
   parent = "EasyServices"
   name = "Websites"
-  url = "easyservices/easyhost/"
+  url = "easyservices/websites/"
 
 [[main]]
 weight = 6
