@@ -60,13 +60,16 @@ Head over to [EasyHost](/easyservices/easyhost.md) to read about this in more de
 
 No matter if you plan on creating a **shop**, a normal **company website**, or a dynamic **CMS-driven blog** or website - we've got you covered!
 
+<div style="overflow-x:auto;">
 
-| Website name        | Type           | Example  | URL |
+| <div style="width:150px">Website name</div>        | Type           | Example  | URL |
 | ------------- |:-------------:| -----:| -----:|
 | EasyCloudHost.de     | Company site, Blog, Shop | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/easyhost-website-min.png" alt="EasyHost Website"> | https://easycloudhost.de/ |
 | DataFortress.cloud     | Company site, Blog | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/datafortress-website-min.png" alt="DataFortress Website"> | https://datafortress.cloud/ |
 | BildBlatt.de    | WordPress Shop turned static | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/bildblatt-website-min.png" alt="Bildblatt wordpress Website"> | https://bildblatt.de/ |
 | GoodThings4U    | Complete Static Shop | <img loading="lazy" style="width:250px" src="images/easyservices/easyhost/goodthings4u-website-min.png" alt="GoodThings4U static Shop Website"> | https://goodthings4u.com/ |
+
+</div>
 
 ### All the posibilities...
 
@@ -78,17 +81,25 @@ If you want to create a website with us, you can choose one of the following tem
 
 ##### Portfolio Websites
 
-| Website name        | Type           | Example  | Demo |
+<div style="overflow-x:auto;">
+
+|  <div style="width:150px">Website name</div>     | Type           | Example  | Demo |
 | ------------- |:-------------:| -----:| -----:|
 | Kross | Portfolio (Creative) | <img loading="lazy" style="width:250px" src="images/easyservices/websites/portfolio-kross.png" alt="Kross portfolio webiste"> | <a href="https://demo.gethugothemes.com/kross" target="_blank">Demo</a> |
 | Northend Lab | Portfolio (Webdesign) | <img loading="lazy" style="width:250px" src="images/easyservices/websites/portfolio-northendlab.png" alt="Northendlab portfolio webiste"> | <a href="https://demo.gethugothemes.com/northendlab" target="_blank">Demo</a> |
 
+</div>
+
 ##### CV / Personal website
 
-| Website name        | Type           | Example  | Demo |
+<div style="overflow-x:auto;">
+
+|  <div style="width:150px">Website name</div>       | Type           | Example  | Demo |
 | ------------- |:-------------:| -----:| -----:|
 | Bilberry | CV | <img loading="lazy" style="width:250px" src="images/easyservices/websites/cv-bilberry.png" alt="CV Bilberry portfolio webiste"> | <a href="https://lednerb.github.io/bilberry-hugo-theme" target="_blank">Demo</a> |
 | GoFolium | Portfolio/CV (Tech) | <img loading="lazy" style="width:250px" src="images/easyservices/websites/portfolio-gofolio.png" alt="GoFolio portfolio webiste"> | <a href="https://demo.gethugothemes.com/gofolium" target="_blank">Demo</a> |
+
+</div>
 
 ##### Company / Agency Website
 
@@ -96,11 +107,15 @@ If you want to create a website with us, you can choose one of the following tem
   Remember to **not buy the theme** over there - this will just be the pure template, and not the setup, hosting and everything. Only use our "buy" link below.
 {{< /notice >}}
 
-| Website name        | Type           | Example  | Demo |
+<div style="overflow-x:auto;">
+
+|  <div style="width:150px">Website name</div>  | Type           | Example  | Demo |
 | ------------- |:-------------:| -----:| -----:|
 | Biztrox | Company | <img loading="lazy" style="width:250px" src="images/easyservices/websites/agency-company-biztrox.webp" alt="Biztrox company webiste"> | <a href="https://demo.gethugothemes.com/biztrox" target="_blank">Demo</a> |
 | Agen | Agency (Creative) | <img loading="lazy" style="width:250px" src="images/easyservices/websites/agency-company-agen.webp" alt="Agen agency webiste"> | <a href="https://demo.gethugothemes.com/agen" target="_blank">Demo</a> |
 | Bexer | Company | <img loading="lazy" style="width:250px" src="images/easyservices/websites/agency-company-bexer.webp" alt="bexer agency webiste"> | <a href="https://demo.gethugothemes.com/bexer" target="_blank">Demo</a> |
+
+</div>
 
 ##### Shop
 
@@ -108,7 +123,9 @@ If you want to create a website with us, you can choose one of the following tem
   Remember to **not buy the theme** over there - this will just be the pure template, and not the setup, hosting and everything. Only use our "buy" link below.
 {{< /notice >}}
 
-| Website name        | Type           | Example  | Demo |
+<div style="overflow-x:auto;">
+
+|  <div style="width:150px">Website name</div>  | Type           | Example  | Demo |
 | ------------- |:-------------:| -----:| -----:|
 | Single product | Single Product | <img loading="lazy" style="width:250px" src="images/easyservices/websites/product-single.webp" alt="single product webiste"> | <a href="https://demo.gethugothemes.com/influencer" target="_blank">Demo</a> |
 | Hargo | Few Products | <img loading="lazy" style="width:250px" src="images/easyservices/websites/hargo.webp" alt="Agen agency webiste"> | <a href="https://gethugothemes.com/products/hargo" target="_blank">Demo</a> |
@@ -116,17 +133,21 @@ If you want to create a website with us, you can choose one of the following tem
 | Agico | SAAS | <img loading="lazy" style="width:250px" src="images/easyservices/websites/agico.webp" alt="agico agency webiste"> | <a href="https://demo.gethugothemes.com/agico" target="_blank">Demo</a> |
 | Adrian | Multi-Shop | <img loading="lazy" style="width:250px" src="images/easyservices/websites/adrian.webp" alt="adrian agency webiste"> | <a href="https://demo.gethugothemes.com/adrian" target="_blank">Demo</a> |
 
+</div>
+
 ##### Events
 
 {{< notice "note" >}}
   Remember to **not buy the theme** over there - this will just be the pure template, and not the setup, hosting and everything. Only use our "buy" link below.
 {{< /notice >}}
 
-| Website name        | Type           | Example  | Demo |
+<div style="overflow-x:auto;">
+
+|  <div style="width:150px">Website name</div>  | Type           | Example  | Demo |
 | ------------- |:-------------:| -----:| -----:|
 | X-con | Event | <img loading="lazy" style="width:250px" src="images/easyservices/websites/vixcon.webp" alt="vixcon product webiste"> | <a href="https://demo.gethugothemes.com/vixcon/" target="_blank">Demo</a> |
 
-
+</div>
 
 # Pricing
 
@@ -155,6 +176,9 @@ If you want to create a website with us, you can choose one of the following tem
 | SEO |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
 | Google/FB/Ad-Setup |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
 | **One-time Price** | <a href="https://buy.stripe.com/bIYaH7fZq4gU6409AG" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">249,-€</button></a> | <a href="https://buy.stripe.com/dR602t5kMeVy2RO14b" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">1.299,-€</button></a> | <a href="https://buy.stripe.com/8wMeXn00s5kY2ROaEN" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">4.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
+
+**Prices are automatically converted to your local currency on checkout**
+
 </div>
 
 {{< notice "info" >}}
@@ -193,6 +217,10 @@ If you want to create a website with us, you can choose one of the following tem
 | Google/FB/Ad-Setup |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
 | **One-time Price** | <a href="https://buy.stripe.com/5kAbLbbJa3cQcso3cm" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">499,-€</button></a> | <a href="https://buy.stripe.com/5kA9D3dRi14Ibok4gr" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">2.999,-€</button></a> | <a href="https://buy.stripe.com/9AQ3eF6oQaFi4ZW28g" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">9.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
 | + Monthly Price | 19.99€ | 49.99€ | 99.99€ | |
+
+**Prices are automatically converted to your local currency on checkout**
+
+</div>
 
 {{< notice "info" >}}
   [1] A CMS allows you to edit the content yourself in an easy web-interface (content-management-system)

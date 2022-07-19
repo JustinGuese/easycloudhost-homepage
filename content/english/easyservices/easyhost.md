@@ -130,12 +130,17 @@ Of course not. You can still use a CMS (content management system) like WordPres
 
 #### Some examples of EasyHost in action
 
-| Website name        | Type           | Example  | URL |
+<div style="overflow-x:auto;">
+
+
+| <div style="width:150px">Website name</div>       | Type           | Example  | URL |
 | ------------- |:-------------:| -----:| -----:|
 | EasyCloudHost.de     | Company site, Blog, Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/easyhost-website-min.png" alt="EasyHost Website"> | https://easycloudhost.de/ |
 | DataFortress.cloud     | Company site, Blog | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/datafortress-website-min.png" alt="DataFortress Website"> | https://datafortress.cloud/ |
 | BildBlatt.de    | WordPress Shop turned static | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/bildblatt-website-min.png" alt="Bildblatt wordpress Website"> | https://bildblatt.de/ |
 | GoodThings4U    | Complete Static Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/goodthings4u-website-min.png" alt="GoodThings4U static Shop Website"> | https://goodthings4u.com/ |
+
+</div>
 
 ## The advantages of EasyHost / Pricing
 
@@ -162,6 +167,8 @@ No. As EasyHost is up to a 1000x lighter on the server you will save a lot of mo
 | DE hosted Pricing | <a href="https://buy.stripe.com/cN29D3aF63cQbok7sw" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">2.99€/m</button></a> | <a href="https://buy.stripe.com/aEU2aB00s7t6bok4gi" target="_blank"><button type="submit" class="input-group-text btn btn-secondary     rounded">9.99€/m</button></a> | <a href="https://buy.stripe.com/7sI3eF14w14I2ROfYY" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">39.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |
 | Comparable price [4] | 20$/m + traffic | 40$/m + traffic | 80$/m + traffic | |
 
+
+**Prices are automatically converted to your local currency on checkout**
 </div>
 
 {{< notice "info" >}}

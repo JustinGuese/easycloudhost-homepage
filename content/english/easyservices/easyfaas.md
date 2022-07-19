@@ -460,7 +460,7 @@ EasyFAAS solves that, in that it simplifies billing to:
 | ------------- |:-------------:| -----:|
 | Simple function     | 1 | 2€ |
 | Storage function     | 2      |   4€ |
-| Managed MongoDB | 5      |    5€ |
+| Managed MongoDB | 5      |    10€ |
 
 No hidden fees, no nothing. In future updates we will even include **autoscaling** based on the remaining credits in your account, meaning that if you have more credits than functions, and a function is close to it's limit, it will scale up to e.g. 2 functions instead of one.
 
