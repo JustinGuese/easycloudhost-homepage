@@ -404,79 +404,394 @@ if (!doNotTrack) {
           <h1 id="your-custom-private-cloud">Your custom private cloud</h1>
 <p>Are you looking for a way to host your data and applications in a secure, private cloud, out of the hands of big corporations?</p>
 <p><strong>EasyKube is your solution</strong></p>
+<hr>
+<center>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free Demo to see EasyKube in action!</button></a>
+</center>
+<hr>
 <h2 id="the-advantages-of-a-custom-private-cloud">The advantages of a custom private cloud</h2>
 <p>So, why should you care to create your own cloud, instead of using public cloud providers?</p>
 <p>There are several advantages and disadvantages depending on your background.
-Let us say you store sensitive, intellectual data, like patents or data that gives you a competitive advantage.</p>
-<h2 id="serverless-functions-overview">Serverless functions overview</h2>
-<p>A &ldquo;<strong>storage</strong>&rdquo; function distinguishes itself from a &ldquo;simple&rdquo; function, in that it offers <strong>persistence</strong>, meaning that if a function crashes, or restarts, that objects saved in the path <strong>&quot;/mnt/persistent/&quot;</strong> will be saved.</p>
-<p>A &ldquo;<strong>timed</strong>&rdquo; function distinguishes itself from the &ldquo;continuous&rdquo; function, in that the timed one is running at a specific <strong>schedule</strong>, whilst the continuous is running constantly.</p>
-<p>These two settings can be combined, resulting in a total of four combinable possibilities for serverless functions:</p>
-<ol>
-<li>Simple-Continuous function
-<ul>
-<li>Good for web applications that do not require storage.</li>
-<li>Examples:
-<ul>
-<li>you want an API or website displayed where data does not have to be stored</li>
-<li>you want to download current crypto prices and calculate the exchange rate between two pairs</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Simple-Timed function
-<ul>
-<li>Good for jobs that you want to have executed, that do not require storage</li>
-<li>Examples:
-<ul>
-<li>triggering other endpoints with post requests</li>
-<li>starting external backups</li>
-<li>downloading data and writing it into the managed MongoDB</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Storage-Continuous function
-<ul>
-<li>Good for web applications that require storage.</li>
-<li>Examples:
-<ul>
-<li>An API that receives current users as json and saves them to disk</li>
-<li>An API or website that needs to save pictures to disk</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Storage-Timed function
-<ul>
-<li>Good for jobs that require storage</li>
-<li>Examples:
-<ul>
-<li>You want to download price data every hour and save it into a CSV file</li>
-<li>You want to create backups of a database</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<h2 id="managed-mongodb-overview">Managed MongoDB overview</h2>
-<p>In case storage on disk is not enough, you can easily spin up a managed mongodb instance, which you can easily access from your serverless functions.</p>
-<p>A managed MongoDB makes sense, if you want to run multiple functions that are all accessing the same information, like if you distributed your workloads into several functions, or you are running functions in parallel.</p>
-<p>The big benefits of the managed MongoDB service are, that contrary to other hosting providers it will remain in a custom network, meaning it is not exposed to the internet, but you can still easily access it in your functions.</p>
-<p>This means you do not have to worry about SSL connections, strong passwords or other things, and can easily get it up and running in seconds. An example to connect with python is as follows:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pymongo <span style="color:#f92672">import</span> MongoClient
-</span></span><span style="display:flex;"><span>client <span style="color:#f92672">=</span> MongoClient(<span style="color:#e6db74">&#39;mongodb://mongodb:27017/&#39;</span>)
-</span></span></code></pre></div><p>This saves you from a lot of steps compared to other hosting providers, where you need to set up SSL certificates, ports, firewalls and user password combinations.</p>
-<p>Example applications for the managed MongoDB are:</p>
-<ul>
-<li>You are saving items as json into MongoDB using custom EasyFAAS functions. If one function is not enough, you can simply scale your function up, and the load will be distributed to two functions automatically.</li>
-<li>You are building an ETL pipeline, where the first function collects data and saves it into the database, the second applies calculations to it and writes it again into the database, and the third one serves the result as an API</li>
-</ul>
-<h1 id="1-getting-started">1. Getting started</h1>
-<h2 id="11-the-main-dashboard">1.1 The main dashboard</h2>
-<p><img src="/assets/images/tutorial/main-dashboard.png" alt="main dashboard"></p>
-<p>The main dashboard is the central control system for EasyFAAS. In here, you will se an overview over the different services that are available.</p>
+Let us say you store sensitive, intellectual data, like patents or data that gives you a competitive advantage. As you might know, the <a href="/easyservices/easyhost/">Patriot Act</a> comes with the problem, that US cloud providers have to give your data to the US government if it is supposed to be linked to terrorism.</p>
+<p>But even if that is not the case, there are laws for clinics or healthcare providers that force you to host your data in Germany, or at least the EU.</p>
+<p>Does this mean I have to use a &ldquo;lesser&rdquo; cloud to comply and protect data? &ldquo;lesser&rdquo; is not the case, as Kubernetes is actually offering you a lot of technical advantages over public clouds. Let&rsquo;s find out!</p>
+<h3 id="top-5-reasons-to-use-a-private-cloud-over-the-public-cloud">Top 5 reasons to use a private cloud over the public cloud</h3>
+<h5 id="1-no-vendor-lock">1. No vendor lock</h5>
+<p>Public clouds offer you fully integrated products, like serverless functions, that are incompatible with other clouds. Even though it&rsquo;s easy, as they are ready to use in seconds, it comes as a surprise if the cloud provider increases the prices. Should you re-build your whole architecture to fit into another cloud? Or would you rather &ldquo;suck it up&rdquo;, and pay the increased price?</p>
+<p>To avoid this situation, you should <strong>always be able to &ldquo;plug and play&rdquo; your applications</strong>, switching providers like your fuel station. This is possible if you are using frameworks like Kubernetes and EasyKube.</p>
+<p>You are writing your applications as code, called IAAS (infrastructure as code), using barebones Kubernetes yaml files, or more complex Terraform scripts.</p>
+<p>If the cloud provider increases their rates, you can just move to antother one in seconds.</p>
+<h5 id="2-you-data-in-your-hands">2. You data in your hands</h5>
 
+
+<div class="notices info" ><p>In the last 18 months, 79% of companies have experienced at least one cloud data breach; even more alarmingly, 43% have reported 10 or more breaches in that time. <a href="https://expertinsights.com/insights/50-cloud-security-stats-you-should-know/" target="_blank">Source</a></p></div>
+
+<p>Many companies who move to the public cloud have previously hosted their applications and data on a local machine, mostly isolated from the internet. What works in a private, secured room is not working in the public cloud though.</p>
+<p>This is why many companies leave ports open that should be closed, or access their cloud via insecure channels. A password like &ldquo;Tommie123&rdquo; might work in a local network, where only 30 people have access, but not in the public cloud, where millions of bots constantly scan for security leaks.</p>
+<p>If you are using EasyKube and Kubernetes, your data runs on your private servers, that you can even completely isolate from the internet if you want. Additionally, EasyKube comes with integrated security features like:</p>
+<ul>
+<li>SSL certificates (Letsencrypt)</li>
+<li>Automatic HTTPS forwarding (even if you try to run HTTP)</li>
+<li>Port isolation. Only port 80 and 443 (internet) are open by default</li>
+</ul>
+<h5 id="3-no-unexpected-costs">3. No unexpected costs</h5>
+<p>Even though prices seem to be comparable to in-house hosting, the public cloud can cause unexpected costs. This is due to the fact, that oftentimes traffic is charged on top, or logging and monitoring cost extra. All this is automatically integrated if you are using Kubernetes and EasyKube.</p>
+<p>Let us take a look at an example. If you are hosting a website in a virtual instance, the usual price for a 2 vCPU, 2 GB RAM machine is around 10$. This seems okay, but even having ~10.000 visitors a month pushes traffic costs to around 50$, which increases the initial cost of 10$ to 60$ total. And this does not even include backups, logging and monitoring. All this is integrated in Kubernetes and EasyKube by default.</p>
+<h5 id="4-simplicity">4. Simplicity</h5>
+<p>Even though public cloud providers offer a huge variety of services, they become quite complex if everything needs to be connected with each other. Let us say you just want to deploy a simple website in a virtual machine.</p>
+<p>If you are starting the machine, you need to create security groups, networking, permissions, volumes, zones and connections, which are partially unavailable because some services are only supported in some regions&hellip; And then it is throwing an error because your user does not have enough permissions. What permission do I need?
+&hellip;</p>
+<p>EasyKube saves you a lot of headache, because we are breaking down the complexity. With EasyKube you can actually deploy a whole application, including networking, persistence and domain based routing in less than 80 lines of code, where most is just copy-and-paste.</p>
+<h5 id="5-cost-savings">5. Cost savings</h5>
+<p>Whilst a public cloud cluster starts at at least 140€ a month, we are starting as low as 10$! Also our general cost is about a tenth of the public cloud Kubernetes cost.</p>
+<hr>
+<center>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free Demo to see EasyKube in action!</button></a>
+</center>
+<hr>
+<h1 id="the-simplicity-of-easykube">The simplicity of EasyKube</h1>
+<p>Let us take a look at an example to use EasyKube. EasyKube supports:</p>
+<ul>
+<li><strong>Persistent Volumes</strong> - backed up to 3 availability zones</li>
+<li><strong>Horizontal Autoscaling</strong> - Scale your applications depending on the load</li>
+<li><strong>HTTPS</strong> by default, with certificates by LetsEncrypt</li>
+<li><strong>Easy Domain Routing</strong> with both our and your custom domain</li>
+<li><strong>Auto updating Nodes</strong> - Avoid security breaches with old nodes</li>
+<li><strong>Up to Date Kubernetes</strong> - Auto-updating Kubernetes</li>
+<li><strong>Load Balancers</strong> - Use load balancers instead of Domain routing if you want</li>
+<li><strong>Two data centers in Germany</strong> - to get reliant nodes. If one data center crashes, your applications will switch over to the second datacenter automatically</li>
+<li><strong>Additionaly centers in the US and Finland</strong> - For global scaling</li>
+<li><strong>Backups using Velero</strong></li>
+<li><strong>Custom support</strong> - we are always there to help you</li>
+</ul>
+<h2 id="easykube-deployment-example">EasyKube Deployment example</h2>
+<p>Let us say you have some html code and want to publish it to the web.</p>
+<p>With EasyKube this comes down to three easy steps</p>
+<ol>
+<li>Build your docker image</li>
+<li>Copy our starter template</li>
+<li>Deploy</li>
+</ol>
+<h5 id="1-building-your-html-docker-image">1. Building your html docker image</h5>
+<p>Dockerfile</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>FROM nginx:alpine
+</span></span><span style="display:flex;"><span>COPY ./html /var/www/html/
+</span></span></code></pre></div><p>then execute and push to Dockerhub</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>docker build <span style="color:#f92672">-</span>t easykube<span style="color:#f92672">/</span>myapp:latest <span style="color:#f92672">.</span>
+</span></span><span style="display:flex;"><span>docker push easykube<span style="color:#f92672">/</span>myapp:latest
+</span></span></code></pre></div>
+
+<div class="notices info" ><p>We can help you with the building as well - <a href="/pricing/">booking our consulting hours</a></p></div>
+
+
+
+<div class="notices info" ><p>We also provide private repos hosted in EasyHost. <a href="/contact">Contact us for more information</a></p></div>
+
+<h5 id="2-copy-and-paste-into-our-starter-template">2. Copy and paste into our starter template</h5>
+<p>you just need to switch out the &ldquo;image name&rdquo; and give your deployment a name. The namespace will be provided by us.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># defining our deployment, you basically just need to change the &#34;image name&#34;, &#34;deployment name&#34; and &#34;namespace&#34;.</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">apps/v1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Deployment</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">labels</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">app</span>: <span style="color:#ae81ff">deploymentname</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">deploymentname</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">namespace</span>: <span style="color:#ae81ff">yournamespace(provided)</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">spec</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">replicas</span>: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">selector</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">matchLabels</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">app</span>: <span style="color:#ae81ff">deploymentname</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">strategy</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">type</span>: <span style="color:#ae81ff">RollingUpdate</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">template</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">metadata</span>:      
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">labels</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">app</span>: <span style="color:#ae81ff">deploymentname</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">spec</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">containers</span>:
+</span></span><span style="display:flex;"><span>        - <span style="color:#f92672">image</span>: <span style="color:#ae81ff">easykube/myapp:latest</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">name</span>: <span style="color:#ae81ff">deploymentname</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>            - <span style="color:#f92672">containerPort</span>: <span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">resources</span>: {}
+</span></span><span style="display:flex;"><span><span style="color:#f92672">status</span>: {}
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">v1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Service</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">labels</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">app</span>: <span style="color:#ae81ff">deploymentname</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">deploymentname-service</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">namespace</span>: <span style="color:#ae81ff">yournamespace(provided)</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">spec</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># type: ClusterIP</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#e6db74">&#34;80&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">port</span>: <span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">targetPort</span>: <span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">selector</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">app</span>: <span style="color:#ae81ff">deploymentname</span>
+</span></span></code></pre></div><p>and copy paste your name into the ingress. we also support custom domains.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">apiVersion</span>: <span style="color:#ae81ff">networking.k8s.io/v1</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">kind</span>: <span style="color:#ae81ff">Ingress</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">metadata</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">main-ingress</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">namespace</span>: <span style="color:#ae81ff">yournamespace(provided)</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">annotations</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">kubernetes.io/ingress.class</span>: <span style="color:#e6db74">&#34;public&#34;</span>   
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">nginx.ingress.kubernetes.io/ssl-redirect</span>: <span style="color:#e6db74">&#34;true&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">nginx.ingress.kubernetes.io/force-ssl-redirect</span>: <span style="color:#e6db74">&#34;true&#34;</span> 
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">nginx.ingress.kubernetes.io/proxy-body-size</span>: <span style="color:#e6db74">&#34;4000m&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">nginx.org/client-max-body-size</span>: <span style="color:#e6db74">&#34;4000m&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">cert-manager.io/issuer</span>: <span style="color:#e6db74">&#34;letsencrypt-prod&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">spec</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">tls</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">hosts</span>:
+</span></span><span style="display:flex;"><span>   - <span style="color:#ae81ff">web.easycloudhost.de</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">secretName</span>: <span style="color:#ae81ff">datafortress-tls</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">rules</span>:
+</span></span><span style="display:flex;"><span>  - <span style="color:#f92672">host</span>: <span style="color:#ae81ff">web.easycloudhost.de</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">http</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">paths</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#f92672">path</span>: <span style="color:#ae81ff">/</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">pathType</span>: <span style="color:#ae81ff">Prefix</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">backend</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">service</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">name</span>: <span style="color:#ae81ff">deploymentname-service</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">port</span>:
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">number</span>: <span style="color:#ae81ff">80</span>
+</span></span></code></pre></div><p><strong>What&rsquo;s happening in the background?</strong></p>
+<ul>
+<li>automatic routing</li>
+<li>automatic volumes</li>
+<li>automatic scaling (needs to be set up by us)</li>
+<li>automatic HTTPS forwarding and free LetEncrypt certificate</li>
+</ul>
+<h5 id="3-deploy">3. Deploy</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>kubectl apply -f ./yourfiles/
+</span></span></code></pre></div><p>and <strong>DONE</strong></p>
+<p>Easy as that.</p>
+<hr>
+<center>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free Demo to see EasyKube in action!</button></a>
+</center>
+<hr>
+<h2 id="and-what-if-i-want-to-host-in-the-public-cloud">And what if I want to host in the public cloud?</h2>
+<p>That is of course possible as well.</p>
+<h2 id="easykube-pricing-overview">EasyKube Pricing overview</h2>
+<div style="overflow-x:auto;">
+<table>
+<thead>
+<tr>
+<th><div style="width:150px">Feature</div></th>
+<th style="text-align:center">EasyKube XS</th>
+<th style="text-align:right">EasyKube S</th>
+<th style="text-align:right">EasyKube M</th>
+<th style="text-align:right">EasyKube L</th>
+<th style="text-align:right">EasyKube Mammoth</th>
+<th style="text-align:right">Custom</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hosting in Germany</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>SSL/HTTPS (letsencrypt)</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Load Balancers (extra cost)</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>4 TB traffic / m</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Free subdomain of easycloudhost.de</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Multi AZ</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Custom Domain</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Shared cluster</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Velero Backups</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Horizontal Autoscaling</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Cluster Autoscaling</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">❌</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Support</td>
+<td style="text-align:center">extra</td>
+<td style="text-align:right">extra</td>
+<td style="text-align:right">2h/month</td>
+<td style="text-align:right">5h/month</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Volumes included [2]</td>
+<td style="text-align:center">10 GB</td>
+<td style="text-align:right">20 GB</td>
+<td style="text-align:right">100 GB</td>
+<td style="text-align:right">500 GB</td>
+<td style="text-align:right">✅</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Uptime guarantee</td>
+<td style="text-align:center">❌</td>
+<td style="text-align:right">80%</td>
+<td style="text-align:right">95%</td>
+<td style="text-align:right">99%</td>
+<td style="text-align:right">99.9%</td>
+<td style="text-align:right">✅</td>
+</tr>
+<tr>
+<td>Nr nodes</td>
+<td style="text-align:center">1</td>
+<td style="text-align:right">1</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">5</td>
+<td style="text-align:right">10</td>
+<td style="text-align:right">100</td>
+</tr>
+<tr>
+<td>vCPU total</td>
+<td style="text-align:center">1</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right">15</td>
+<td style="text-align:right">30</td>
+<td style="text-align:right">300</td>
+</tr>
+<tr>
+<td>RAM GB total</td>
+<td style="text-align:center">1</td>
+<td style="text-align:right">3</td>
+<td style="text-align:right">9</td>
+<td style="text-align:right">20</td>
+<td style="text-align:right">40</td>
+<td style="text-align:right">400</td>
+</tr>
+<tr>
+<td>Monthly payment</td>
+<td style="text-align:center"><a href="https://buy.stripe.com/7sI7uVbJa4gU784dR9" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">12.99€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/6oEdTj8wY8xacsodRb" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">29.99€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/cN28yZ00sdRu784dRd" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">79.99€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/fZe3eF14w14IgIEfZm" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">149€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/5kA02t8wY6p2gIE8wW" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">2,999€/m</button></a></td>
+<td style="text-align:right"><a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a></td>
+</tr>
+<tr>
+<td><strong>Yearly payment -33%</strong></td>
+<td style="text-align:center"><a href="https://buy.stripe.com/14k16x8wYfZC9gccN4" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">9€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/7sIbLbbJa14IcsoaEY" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">19€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/9AQ3eF3cE3cQbokeVg" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">55.75€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/bIY3eF8wYcNq4ZW6oN" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">104.20€/m</button></a></td>
+<td style="text-align:right"><a href="https://buy.stripe.com/28o7uV6oQcNqakg5kL" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">2,100€/m</button></a></td>
+<td style="text-align:right"><a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a></td>
+</tr>
+<tr>
+<td>Comparable price [4]</td>
+<td style="text-align:center">73$/m + nodes = 103$/m</td>
+<td style="text-align:right">153$/m</td>
+<td style="text-align:right">243$/m</td>
+<td style="text-align:right">893$/m</td>
+<td style="text-align:right">21.000$/m</td>
+<td style="text-align:right">custom</td>
+</tr>
+</tbody>
+</table>
+<p><strong>We can offer Backups and everything for smaller packages as well, choose &ldquo;custom&rdquo; to get an individual offer</strong></p>
+<p><strong>Prices are automatically converted to your local currency on checkout</strong></p>
+</div>
+
+
+<div class="notices info" ><p>[2] 10 GB Minimum, 10 TB Maximum per single volume</p></div>
+
+
+
+<div class="notices info" ><p>[4] <a href="https://calculator.aws/#/addService/EKS">https://calculator.aws/#/addService/EKS</a></p></div>
+
+<hr>
+<center>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free Demo to see EasyKube in action!</button></a>
+</center>
+<hr>
         </div>
       </div>
     </div>
