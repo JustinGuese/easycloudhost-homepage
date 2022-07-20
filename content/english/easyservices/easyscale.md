@@ -41,7 +41,7 @@ Traditional applications are created as huge, single-application programs. Whils
 
 <center>
     <img loading="lazy" style="width:80%" alt="monolithic vs microservice architecture" src="/images/easyservices/easyscale/microservices-and-monolithic-architectures.jpg" />
-    <p>Monolithic vs Microservice architecture. <a href="https://www.bmc.com/blogs/microservices-architecture/" target="_blank">Image by BMC</a></p>
+    <p>Monolithic vs Microservice architecture. <a href="https://www.bmc.com/blogs/microservices-architecture/" target="_blank">Image by Rancher</a></p>
 </center>
 
 You might be asking yourself: Why is my application or website so slow? Usually it is breaking down to 4 simple reasons.
