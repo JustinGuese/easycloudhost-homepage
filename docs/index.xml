@@ -104,7 +104,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://easycloudhost.de/pricing/</guid>
-      <description></description>
+      <description>Not sure what is right for you? Contact us before buying to get a free 15 minute consultation.</description>
+    </item>
+    
+    <item>
+      <title>Consulting &amp; Development</title>
+      <link>https://easycloudhost.de/easyservices/consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/easyservices/consulting/</guid>
+      <description>Use a newer browser to see this video.   -- Consultation and Programming Having a broad knowledge of Cloud, Data and DevOp technologies, we will be able to consult and help you with any project</description>
     </item>
     
     <item>
@@ -171,6 +180,15 @@
     </item>
     
     <item>
+      <title>EasyModel</title>
+      <link>https://easycloudhost.de/easyservices/easymodel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/easyservices/easymodel/</guid>
+      <description>Use a newer browser to see this video.   -- Deploying and scaling of your Machine Learning Models We are helping you to get your Machine Learning Models up and running, all according to US and German privacy laws.</description>
+    </item>
+    
+    <item>
       <title>EasyScale</title>
       <link>https://easycloudhost.de/easyservices/easyscale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -204,15 +222,6 @@
       
       <guid>https://easycloudhost.de/easyservices/easystore/</guid>
       <description>Use a newer browser to see this video.   -- Managed S3 compatible Storage You just want an S3 like storage solution, but hosted in Germany/Europe?</description>
-    </item>
-    
-    <item>
-      <title>Elements</title>
-      <link>https://easycloudhost.de/elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easycloudhost.de/elements/</guid>
-      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
     </item>
     
     <item>

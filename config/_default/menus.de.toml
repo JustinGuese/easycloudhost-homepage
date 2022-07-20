@@ -6,10 +6,10 @@ name = "About"
 url = "about/"
 weight = 2
 
-[[main]]
-name = "How It Works"
-url = "how-it-works/"
-weight = 3
+# [[main]]
+# name = "How It Works"
+# url = "how-it-works/"
+# weight = 3
 
 [[main]]
 name = "EasyServices"
@@ -20,53 +20,65 @@ hasChildren = true
   [[main]]
   weight = 1
   parent = "EasyServices"
+  name = "Overview"
+  url = "/features/"
+
+  [[main]]
+  weight = 2
+  parent = "EasyServices"
   name = "EasyFAAS"
   url = "easyservices/easyfaas/"
 
   [[main]]
-  weight = 2
+  weight = 3
   parent = "EasyServices"
   name = "EasyKube"
   url = "easyservices/easykube/"
 
   [[main]]
-  weight = 3
-  parent = "EasyServices"
-  name = "EasyDB"
-  url = "easyservices/easydb/"
-
-  [[main]]
   weight = 4
-  parent = "EasyServices"
-  name = "EasyStore"
-  url = "easyservices/easystore/"
-
-  [[main]]
-  weight = 5
   parent = "EasyServices"
   name = "EasyHost"
   url = "easyservices/easyhost/"
 
   [[main]]
+  weight = 5
+  parent = "EasyServices"
+  name = "EasyDB"
+  url = "easyservices/easydb/"
+
+  [[main]]
   weight = 6
+  parent = "EasyServices"
+  name = "EasyStore"
+  url = "easyservices/easystore/"
+
+  [[main]]
+  weight = 7
   parent = "EasyServices"
   name = "EasySEO"
   url = "easyservices/easyseo/"
 
   [[main]]
-  weight = 7
+  weight = 8
   parent = "EasyServices"
   name = "EasyHealth"
   url = "easyservices/easyhealth/"
 
   [[main]]
-  weight = 8
+  weight = 9
   parent = "EasyServices"
   name = "EasyScale"
   url = "easyservices/easyscale/"
 
   [[main]]
-  weight = 9
+  weight = 10
+  parent = "EasyServices"
+  name = "EasyModel"
+  url = "easyservices/easymodel/"
+
+  [[main]]
+  weight = 11
   parent = "EasyServices"
   name = "Websites"
   url = "easyservices/websites/"
@@ -94,11 +106,6 @@ hasChildren = true
   name = "Testimonials"
   url = "testimonials/"
 
-  [[main]]
-  weight = 3
-  parent = "Pages"
-  name = "Elements"
-  url = "elements/"
   
 [[main]]
 name = "Contact"
@@ -121,11 +128,6 @@ weight = 2
 name = "How It Works"
 url = "how-it-works"
 weight = 3
-
-[[about]]
-name = "Elements"
-url = "elements"
-weight = 4
 
 
 [[service]]

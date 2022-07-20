@@ -65,7 +65,7 @@ work_process:
 
 # working_steps
 working_steps:
-  enable: true
+  enable: false
   title: "Always Belive In Better Build"
   subtitle: "Working Steps"
   content: "Lorem ipsum dolor, consectetur adipiscing elit. Convallis cursus ac orci diam, facilisis. Quis et pulvinar nec praesent qum magna amet. Magna blandit sodales, aenean rhoncus"

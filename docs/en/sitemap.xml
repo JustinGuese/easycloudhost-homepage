@@ -351,6 +351,8 @@
                 href="https://easycloudhost.de/pricing/"
                 />
   </url><url>
+    <loc>https://easycloudhost.de/easyservices/consulting/</loc>
+  </url><url>
     <loc>https://easycloudhost.de/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -375,6 +377,8 @@
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easykube/</loc>
   </url><url>
+    <loc>https://easycloudhost.de/easyservices/easymodel/</loc>
+  </url><url>
     <loc>https://easycloudhost.de/easyservices/easyscale/</loc>
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easyseo/</loc>
@@ -394,18 +398,6 @@
                 />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easystore/</loc>
-  </url><url>
-    <loc>https://easycloudhost.de/elements/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://easycloudhost.de/de/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://easycloudhost.de/elements/"
-                />
   </url><url>
     <loc>https://easycloudhost.de/testimonials/</loc>
     <xhtml:link

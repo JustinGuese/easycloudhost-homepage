@@ -8,6 +8,15 @@
     <language>en-us</language>
     <copyright>Copyright By [DataFortress.cloud](https://datafortress.cloud/)</copyright><atom:link href="https://easycloudhost.de/easyservices/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Consulting &amp; Development</title>
+      <link>https://easycloudhost.de/easyservices/consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/easyservices/consulting/</guid>
+      <description>Use a newer browser to see this video.   -- Consultation and Programming Having a broad knowledge of Cloud, Data and DevOp technologies, we will be able to consult and help you with any project</description>
+    </item>
+    
+    <item>
       <title>EasyDB</title>
       <link>https://easycloudhost.de/easyservices/easydb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,6 +59,15 @@
       
       <guid>https://easycloudhost.de/easyservices/easykube/</guid>
       <description>Use a newer browser to see this video.   Your custom private cloud Managed Kubernetes service.</description>
+    </item>
+    
+    <item>
+      <title>EasyModel</title>
+      <link>https://easycloudhost.de/easyservices/easymodel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/easyservices/easymodel/</guid>
+      <description>Use a newer browser to see this video.   -- Deploying and scaling of your Machine Learning Models We are helping you to get your Machine Learning Models up and running, all according to US and German privacy laws.</description>
     </item>
     
     <item>

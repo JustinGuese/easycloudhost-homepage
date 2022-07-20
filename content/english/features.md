@@ -33,6 +33,10 @@ features:
   description: "Compliant and safe hosting of medical data and applications. Do not worry about breaches, all according to the German 'Krankenhaus-IT'-Requirements."
   image: "images/logos/EasyHealth.png"
 
+- title: "Websites"
+  description: "Fast and high-ranking Websites in combination with EasyHost."
+  image: "images/logos/EasyHost.png"
+
 - title: "EasyModel"
   description: "You want to deploy a model safely to the cloud, not worrying about anything? EasyModel hosts your model on German servers in Kubernetes, autoscalable and reliant."
   image: "images/logos/EasyScale.png"

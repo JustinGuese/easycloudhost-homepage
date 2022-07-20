@@ -376,16 +376,6 @@
                 />
   </url><url>
     <loc>https://easycloudhost.de/de/elements/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://easycloudhost.de/elements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://easycloudhost.de/de/elements/"
-                />
   </url><url>
     <loc>https://easycloudhost.de/de/pricing/</loc>
     <xhtml:link

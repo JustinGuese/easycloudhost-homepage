@@ -1,6 +1,6 @@
 #################### default parameters ################################
 favicon = "images/favicon.png"
-logo_text = "Boilerplate"
+logo_text = "easyservices logo"
 logo = "images/logo_EasyServices.png"
 logo_width = "101px"
 # Meta data
@@ -10,7 +10,7 @@ author = "DataFortress.cloud"
 address = "Georgenstraße 13, 86152 Augsburg, Germany"
 mobile = "+49 152 24556134"
 email = "easyfaas@datafortress.cloud"
-footer_info = "footer text"
+footer_info = "EasyServices is a product of DataFortress.cloud UG"
 # form action
 contact_form_action = "#" # contact form works with https://formspree.io or formspree alternative
 newsletter_form_action = "#" # contact form works with https://formspree.io or formspree alternative
@@ -22,7 +22,7 @@ page_header= "images/page-header.webp"
 
 # Preloader
 [preloader]
-enable = false
+enable = true
 
 # Navigation button
 [navigation_button]
