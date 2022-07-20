@@ -388,6 +388,8 @@ if (!doNotTrack) {
         <ul class="list-inline mb-0 fw-semibold" data-aos="cool" data-aos-delay="200">
           <li class="list-inline-item m-0"><a class="text-primary" href="/">Home</a></li>
           <li class="list-inline-item mx-1 text-dark">/</li>
+          <li class="list-inline-item m-0"><a class="text-dark" href="/features">EasyServices</a></li>
+          <li class="list-inline-item mx-1 text-dark">/</li>
           <li class="list-inline-item m-0">EasyHealth</li>
         </ul>
       </div>
@@ -414,8 +416,16 @@ if (!doNotTrack) {
         Use a newer browser to see this video.
     </video>
 </center> -->
-<h1 id="managed-s3-compatible-storage">Managed S3 compatible Storage</h1>
-<p>You just want an S3 like storage solution, but hosted in Germany/Europe? Or an alternative to OneDrive, Dropbox and Google Drive?</p>
+<center>
+    <img loading="lazy" style="width:80%" alt="infographic healthcare breaches" src="/images/easyservices/easyhealth/infographic_breach.png" />
+</center>
+<center>
+    <img loading="lazy" style="max-width:500px" alt="infographic healthcare breaches" src="/images/easyservices/easyhealth/infographic_years.jpg" />
+    <p>Source: <a href="https://www.hipaajournal.com/healthcare-data-breach-statistics/" target="_blank">HIPAA Journal</a></p>
+</center>
+<h1 id="keep-your-healthcare-applications-secure-with-easyhealth">Keep your Healthcare applications secure with EasyHealth</h1>
+<p>With an average cost per patient of $429/419€ <a href="https://leftronic.com/blog/healthcare-data-breach-statistics" target="_blank">[1]</a> in the event of a data breach, one does not need to make a lot of calculations to see how essential patient data security should be apart from the moralities.</p>
+<p>What do I need to pay attention at? Can I just let someone else do it and not worry about it?</p>
 <p><strong>EasyHealth is your solution</strong></p>
 <hr>
 <center>
@@ -428,336 +438,148 @@ if (!doNotTrack) {
 <li><a href="/easyservices/EasyHealth/#data-privacy-issues-in-the-public-cloud">Data privacy issues in the public cloud</a></li>
 <li><a href="/easyservices/EasyHealth/#EasyHealth-pricing-overview">Pricing</a></li>
 </ol>
-<h2 id="why-a-managed-storage-service">Why a managed storage service?</h2>
-<p>Hosting your own data stroes can be tricky, especially for the following situations:</p>
+<h2 id="the-problems-with-healthcare-data">The problems with healthcare data</h2>
+<p>Healthcare data is of much value, and therefore a constant target for hacks. Just imagine the benefit for advertising or insurances, if companies would know about all the illnesses of a person. And especially how much people woud be willing to pay for a snake oil cure that promises instant relief.</p>
+<p>Evil employers would benefit as well, being able to &ldquo;kick out&rdquo; ill or pregnant people in time.</p>
+<p>Even though these are hopefully still science fiction scenarios, you can easily see why hackers target clinics and healthcare providers.</p>
+<p>Let us look at some numbers:</p>
+
+
+<div class="notices info" ><p>2,550 data breaches have compromised over <strong>189 million healthcare records</strong> in the last decade.</p></div>
+
+
+
+<div class="notices info" ><p><strong>89%</strong> of healthcare providers have undergone a data breach.</p></div>
+
+
+
+<div class="notices info" ><p>Cyber threats are expected to hit <strong>$6 trillion</strong> in losses by 2021.</p></div>
+
+<p><a href="https://leftronic.com/blog/healthcare-data-breach-statistics/" target="_blank">Source</a></p>
+<h2 id="reasons-for-breaches">Reasons for breaches</h2>
+<p>Oftentimes the reasons for a databreach can be broken down into:</p>
 <ul>
-<li>FTP is not secure anymore</li>
-<li>What if someone gives away the user password?</li>
-<li>With FTP it is hard to set up users</li>
-<li>What if the storage limit is reached?</li>
-<li>What if my hard drive is broken? Is my data lost?</li>
-<li>What if my data gets stolen?</li>
-<li>What to do if I want to share data?</li>
+<li>Software that is not updated</li>
+<li>Servers that are not isolated (on-premise)</li>
+<li>Wrong usage of the public cloud</li>
+<li>Missing backups</li>
+<li>Bad networking setups</li>
 </ul>
-<p>As you can see, it would be way easier to just use a storage service, and let someone else worry about it. This is why we created EasyHealth.</p>
-<h2 id="the-two-easyhealth-solutions-compared">The two EasyHealth solutions compared</h2>
-<div style="overflow-x:auto;">
-<table>
-<thead>
-<tr>
-<th><div style="width:150px">EasyDB Version</div></th>
-<th style="text-align:center">EasyHealth Drive</th>
-<th style="text-align:right">EasyHealth S3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>UI</td>
-<td style="text-align:center"><img loading="lazy" style="width:350px" src="images/easyservices/EasyHealth/EasyHealth-drive.png" alt="EasyHealth Drive"></td>
-<td style="text-align:right"><img loading="lazy" style="width:350px" src="images/easyservices/EasyHealth/EasyHealth-minio.png" alt="EasyHealth S3"></td>
-</tr>
-<tr>
-<td>Demo</td>
-<td style="text-align:center"><a href="https://demo.owncloud.org/" target="_blank">Interactive-Demo</a></td>
-<td style="text-align:right"><a href="https://play.minio.io:9443/" target="_blank">Interactive-Demo</a></td>
-</tr>
-<tr>
-<td>Best for</td>
-<td style="text-align:center">Humans (GUI)</td>
-<td style="text-align:right">Machines/Code</td>
-</tr>
-<tr>
-<td>S3 compatible [1]</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Easy user management</td>
-<td style="text-align:center">✅</td>
-<td style="text-align:right">❌</td>
-</tr>
-<tr>
-<td>Open Source base [2]</td>
-<td style="text-align:center">NextCloud</td>
-<td style="text-align:right">MinIO</td>
-</tr>
-<tr>
-<td>Closest Public Cloud product</td>
-<td style="text-align:center">Google Drive, MS OneDrive, Dropbox</td>
-<td style="text-align:right">AWS S3, Google Cloud Storage</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-
-<div class="notices info" ><p>[1] Use it like you would use S3, e.g. boto3 (Python), s3-node, etc</p></div>
-
-
-
-<div class="notices info" ><p>[2] Open source product before modification into EasyHealth</p></div>
-
-<h2 id="data-privacy-issues-in-the-public-cloud">Data privacy issues in the public cloud</h2>
-<p>If you are from the financial or health industry, or in general from an industry using sensitive data, you can not have a data breach situation without destroying your business and loosing a lot of customers.</p>
-<p>EasyHealth is fully hosted in Germany, and therefore compliant with German and EU based law.</p>
-<p>And on top of that EasyHealth is giving you:</p>
+<p>Usually clinics and healthcare providers focus their time and effort somewhere else, and end up just installing software once, never updating it. Same as your phone and computer updates, the clinic systems should be updated as well to patch new security leaks. There is a whole industry designed to discover new security leaks in applications and software, and sell them as &ldquo;zero day exploits&rdquo; to the highest bidder. Of course these leaks get &ldquo;patched&rdquo;(fixed), but if no one install the update, the well known exploit will always remain open for everyone to use.</p>
+<p>Additionally, a lot of people do not implement the matching security measures when using the public cloud, leaving ports and machines open for everyone to access.</p>
+<h2 id="legal-challenges-when-storing-patient-data">Legal challenges when storing patient data</h2>
+<p>Due to these breaches, both the US and EU have implemented strict laws regarding storage of healthcare data.</p>
+<p>In the US, this protocol is called &ldquo;<strong>HIPAA</strong>&rdquo;, or &ldquo;Health Insurance Portability and Accountability Act&rdquo; in the longform.</p>
+<p>In Germany and the EU, these specifications are divided into the general part called &ldquo;<strong>GDPR</strong>&rdquo; (The General Data Protection Regulation) and further laws defined by each state, like the &ldquo;<strong>BayKrG</strong>&rdquo; (Bayrisches Krankenhausgesetz).</p>
+<p>Even though there are complex sections, they can be basically summarized for both as:</p>
+<h4 id="1-encrypting-data">1. Encrypting data</h4>
 <ul>
-<li>Use it like you would use S3</li>
-<li>Easy sharing of files in the cloud (EasyHealth Drive)</li>
-<li>Timed links, e.g. expiry after x days</li>
-<li>User accounts</li>
-<li>SSL (encryption)</li>
-<li>Backups</li>
-<li>custom domain possible</li>
+<li>Data should always be encrypted both on the disk, as well as in transport (SSL)</li>
+</ul>
+<h4 id="2-let-users-only-see-what-is-necessary">2. Let users only see what is necessary</h4>
+<ul>
+<li>A nurse should only see medical data she needs</li>
+<li>Someone from accounting should only see &ldquo;numbers&rdquo; etc.</li>
+</ul>
+<h4 id="3-log-who-edited-and-saw-what">3. Log who edited and saw what</h4>
+<ul>
+<li>In case there is a breach or violation, you should be able to identify who accessed what</li>
+</ul>
+<h4 id="4-be-prepared-to-report-a-breach-if-it-happened">4. Be prepared to report a breach if it happened</h4>
+<ul>
+<li>You are required by law to submit a report if a breach occurs, in a short amount of time including details that should be prepared beforehand</li>
+</ul>
+<h4 id="5-physically-secure-servers">5. Physically secure servers</h4>
+<ul>
+<li>Only authorized people should be able to access servers</li>
+<li>Logging who did what</li>
+</ul>
+<h4 id="6-user-management-system">6. User management system</h4>
+<ul>
+<li>Automatically expire passwords after time x</li>
+<li>If an employee leaves the company, his credentials should automatically expire</li>
 </ul>
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-minute consultation on EasyHealth</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-minute assessment on the status of your compliance</button></a>
 </center>
 <hr>
-<h2 id="easyhealth-pricing-overview">EasyHealth Pricing overview</h2>
-<h3 id="easyhealth-drive">EasyHealth Drive</h3>
-<p>Our secure and simple GUI solution</p>
-<div style="overflow-x:auto;">
-<table>
-<thead>
-<tr>
-<th><div style="width:150px">EasyHealth Drive solution</div></th>
-<th style="text-align:center">EasyHealth Starter</th>
-<th style="text-align:right">EasyHealth Plus</th>
-<th style="text-align:right">EasyHealth Teams</th>
-<th style="text-align:right">Custom</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Minimum Users</td>
-<td style="text-align:center">1</td>
-<td style="text-align:right">1</td>
-<td style="text-align:right">5</td>
-<td style="text-align:right">20</td>
-</tr>
-<tr>
-<td>Hosting in Germany</td>
-<td style="text-align:center">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>SSL/HTTPS (letsencrypt)</td>
-<td style="text-align:center">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Free subdomain of easycloudhost.de</td>
-<td style="text-align:center">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Custom Domain</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Dedicated Server</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Backups</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Multi AZ</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Support</td>
-<td style="text-align:center">extra</td>
-<td style="text-align:right">extra</td>
-<td style="text-align:right">extra</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Uptime guarantee</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">95%</td>
-<td style="text-align:right">95%</td>
-<td style="text-align:right">99%</td>
-</tr>
-<tr>
-<td>Storage per User</td>
-<td style="text-align:center">5 GB</td>
-<td style="text-align:right">50 GB</td>
-<td style="text-align:right">100 GB</td>
-<td style="text-align:right">unlimited</td>
-</tr>
-<tr>
-<td>Free Trial</td>
-<td style="text-align:center">14 days</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">❌</td>
-</tr>
-<tr>
-<td>Monthly payment</td>
-<td style="text-align:center"><a href="https://buy.stripe.com/9AQ5mNaF6cNq9gcbJf" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free Trial (3.99€/m after)</button></a></td>
-<td style="text-align:right"><a href="https://buy.stripe.com/6oEdTjdRieVy0JG4gO" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">9.99€/m</button></a></td>
-<td style="text-align:right"><a href="https://buy.stripe.com/8wMdTjfZq7t64ZW8x5" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">19.99€/m</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Contact us</button></a></td>
-</tr>
-<tr>
-<td>Yearly price -33%</td>
-<td style="text-align:center"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>We can offer Backups and everything for smaller packages as well, choose &ldquo;custom&rdquo; to get an individual offer</strong></p>
-<p><strong>Prices are automatically converted to your local currency on checkout</strong></p>
+<h1 id="what-can-easyhealth-do-for-you">What can EasyHealth do for you?</h1>
+
+
+<div class="collapse-wrapper">
+  <a class="d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#assessment-of-the-status-quo" role="button">
+    <div class="me-2">Assessment of the status quo</div> <i class="fas fa-plus"></i>
+  </a>
+  <div class="collapse" id="assessment-of-the-status-quo">
+    <div class="block">
+      We can consult you to get a &ldquo;status quo&rdquo; report on what you are already implementing, and where you have areas of improvement. <a href="/contact" target="_blank">Book a free 15-minute consultation</a> to find out more.
+    </div>
+  </div>
+</div>
+
+
+<div class="collapse-wrapper">
+  <a class="d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#compliant-hosting" role="button">
+    <div class="me-2">Compliant Hosting</div> <i class="fas fa-plus"></i>
+  </a>
+  <div class="collapse" id="compliant-hosting">
+    <div class="block">
+      With our Hosting services both in the US and Germany, we are offering compliant hosting outside of public cloud providers, providing you a secure and isolated &ldquo;private cloud&rdquo;. Check out <a href="/easyservices/easyhost/" target="_blank">EasyHost</a> to learn more, or <a href="/contact" target="_blank">book a free 15-minute consultation</a>.
+    </div>
+  </div>
+</div>
+
+
+<div class="collapse-wrapper">
+  <a class="d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#managed-compliant-kubernetes" role="button">
+    <div class="me-2">Managed compliant Kubernetes</div> <i class="fas fa-plus"></i>
+  </a>
+  <div class="collapse" id="managed-compliant-kubernetes">
+    <div class="block">
+      You are already well experienced in Kubernetes, but are looking for someone to offer a secure and private Kubernetes hosting solution? You have come to the right place, with <a href="/easyservices/easykube/" target="_blank">EasyKube</a>.
+    </div>
+  </div>
+</div>
+
+
+<div class="collapse-wrapper">
+  <a class="d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#managed-compliant-databases" role="button">
+    <div class="me-2">Managed compliant Databases</div> <i class="fas fa-plus"></i>
+  </a>
+  <div class="collapse" id="managed-compliant-databases">
+    <div class="block">
+      We are offering compliant and secure Postgres (SQL) and MongoDB (NoSQL) databases. Check out <a href="/easyservices/easydb/" target="_blank">EasyDB</a> to learn more, or <a href="/contact" target="_blank">contact us for other databases that you need to have managed</a>.
+    </div>
+  </div>
+</div>
+
+
+<div class="collapse-wrapper">
+  <a class="d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#webapplication-programming" role="button">
+    <div class="me-2">Webapplication programming</div> <i class="fas fa-plus"></i>
+  </a>
+  <div class="collapse" id="webapplication-programming">
+    <div class="block">
+      We can create Microservices, Websites and full applications using state-of-the-art tools, all compliant to German or US compliance laws.  <a href="/contact" target="_blank">Book a free 15-minute session to discuss your plans</a>.
+    </div>
+  </div>
+</div>
+
+
+<div class="collapse-wrapper">
+  <a class="d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#secure-compliant-data-archival" role="button">
+    <div class="me-2">Secure &amp; compliant data archival</div> <i class="fas fa-plus"></i>
+  </a>
+  <div class="collapse" id="secure-compliant-data-archival">
+    <div class="block">
+      You are just looking for a safe way to archive or store your medical data? Check out <a href="/easyservices/easystore/" target="_blank">EasyStore</a> to learn more, or <a href="/contact" target="_blank">contact us to discuss your plans</a>.
+    </div>
+  </div>
 </div>
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free Demo to see EasyHealth in action!</button></a>
-</center>
-<hr>
-<h3 id="easyhealth-s3">EasyHealth S3</h3>
-<p>Our secure and simple S3 compatible solution</p>
-<div style="overflow-x:auto;">
-<table>
-<thead>
-<tr>
-<th><div style="width:150px">EasyHealth S3 solution</div></th>
-<th style="text-align:center">EasyHealth Starter</th>
-<th style="text-align:right">EasyHealth Plus</th>
-<th style="text-align:right">EasyHealth Teams</th>
-<th style="text-align:right">Custom</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Max. Buckets</td>
-<td style="text-align:center">1</td>
-<td style="text-align:right">∞</td>
-<td style="text-align:right">∞</td>
-<td style="text-align:right">∞</td>
-</tr>
-<tr>
-<td>Hosting in Germany</td>
-<td style="text-align:center">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>SSL/HTTPS (letsencrypt)</td>
-<td style="text-align:center">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Free subdomain of easycloudhost.de</td>
-<td style="text-align:center">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Custom Domain</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Dedicated Server</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Backups</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">✅</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Multi AZ</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Support</td>
-<td style="text-align:center">extra</td>
-<td style="text-align:right">extra</td>
-<td style="text-align:right">extra</td>
-<td style="text-align:right">✅</td>
-</tr>
-<tr>
-<td>Uptime guarantee</td>
-<td style="text-align:center">❌</td>
-<td style="text-align:right">95%</td>
-<td style="text-align:right">95%</td>
-<td style="text-align:right">99%</td>
-</tr>
-<tr>
-<td>Storage per User</td>
-<td style="text-align:center">1 GB</td>
-<td style="text-align:right">10 GB</td>
-<td style="text-align:right">50 GB</td>
-<td style="text-align:right">unlimited</td>
-</tr>
-<tr>
-<td>Free Trial</td>
-<td style="text-align:center">14 days</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">❌</td>
-<td style="text-align:right">❌</td>
-</tr>
-<tr>
-<td>Monthly payment</td>
-<td style="text-align:center"><a href="https://buy.stripe.com/8wM7uV5kM6p2dws28I" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">3.99€/m</button></a></td>
-<td style="text-align:right"><a href="https://buy.stripe.com/14k02taF66p2gIEcNn" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">9.99€/m</button></a></td>
-<td style="text-align:right"><a href="https://buy.stripe.com/8wM02teVm3cQ0JG6p1" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">39.99€/m</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Contact us</button></a></td>
-</tr>
-<tr>
-<td>Yearly price -33%</td>
-<td style="text-align:center"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-<td style="text-align:right"><a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a></td>
-</tr>
-</tbody>
-</table>
-<p><strong>We can offer Backups and everything for smaller packages as well, choose &ldquo;custom&rdquo; to get an individual offer</strong></p>
-<p><strong>Prices are automatically converted to your local currency on checkout</strong></p>
-</div>
-<hr>
-<center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free Demo to see EasyHealth in action!</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Contact us now to discuss your challenges with healthcare data</button></a>
 </center>
 <hr>
         </div>
