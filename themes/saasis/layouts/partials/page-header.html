@@ -3,7 +3,13 @@
   <div class="container my-4">
     <div class="row">
       <div class="col-lg-9 mx-auto">
-        <h1 class="mb-4 page-header-title" data-aos="cool" data-aos-delay="150">{{.Title | markdownify}}</h1>
+        {{ if (fileExists (printf "/static/images/logos/%s.png" .Page.Title )) }}
+          <img loading="lazy" style="width:30%" src="/images/logos/{{ .Title }}.png" />
+          </br>
+        {{ else }}
+          <h1 class="mb-4 page-header-title" data-aos="cool" data-aos-delay="150">{{.Title | markdownify}}</h1>
+        {{ end }}
+
         <ul class="list-inline mb-0 fw-semibold" data-aos="cool" data-aos-delay="200">
           <li class="list-inline-item m-0"><a class="text-primary" href="{{ site.BaseURL | relLangURL }}">Home</a></li>
           <li class="list-inline-item mx-1 text-dark">/</li>
