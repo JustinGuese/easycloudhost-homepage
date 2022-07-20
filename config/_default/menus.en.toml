@@ -84,6 +84,11 @@ hasChildren = true
   url = "easyservices/websites/"
 
 [[main]]
+weight = 5
+name = "Support"
+url = "/support/"
+
+[[main]]
 weight = 6
 name = "Pages"
 hasChildren = true
