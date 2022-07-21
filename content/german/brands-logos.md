@@ -1,5 +1,5 @@
 ---
-title: "Utilisé par des équipes de tous les secteurs"
+title: "Wird von Teams aus allen Branchen genutzt"
 layout: "partners"
 draft: false
 _build:

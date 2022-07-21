@@ -352,6 +352,16 @@
                 />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/consulting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/consulting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/consulting/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/contact/</loc>
     <xhtml:link
@@ -366,24 +376,124 @@
                 />
   </url><url>
     <loc>https://easycloudhost.de/documentation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/documentation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/documentation/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easydb/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easydb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easydb/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easyfaas/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easyfaas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easyfaas/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easyhealth/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easyhealth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easyhealth/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easyhost/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easyhost/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easyhost/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easykube/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easykube/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easykube/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easymodel/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easymodel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easymodel/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easyscale/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easyscale/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easyscale/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easyseo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easyseo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easyseo/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/features/</loc>
     <xhtml:link
@@ -398,6 +508,16 @@
                 />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/easystore/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/easystore/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/easystore/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/testimonials/</loc>
     <xhtml:link
@@ -412,6 +532,16 @@
                 />
   </url><url>
     <loc>https://easycloudhost.de/support/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/support/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/how-it-works/</loc>
     <xhtml:link
@@ -426,7 +556,27 @@
                 />
   </url><url>
     <loc>https://easycloudhost.de/subscription-management/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/subscription-management/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/subscription-management/"
+                />
   </url><url>
     <loc>https://easycloudhost.de/easyservices/websites/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://easycloudhost.de/de/easyservices/websites/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://easycloudhost.de/easyservices/websites/"
+                />
   </url>
 </urlset>

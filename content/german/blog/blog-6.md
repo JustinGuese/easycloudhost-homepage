@@ -1,5 +1,6 @@
 ---
 title: "Become a morning person with the help of this a alarm clock"
+abstract: test ti jashksjh
 description: "meta description"
 images:
   - "images/blogs/03.webp"

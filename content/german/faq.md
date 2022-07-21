@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-heading: "Avoir une question?"
+heading: "Sie haben Fragen?"
 draft: false
 _build:
   render: never
@@ -8,12 +8,12 @@ _build:
 image: "images/feature-image-3.webp"
 
 faq:
-- title: "Dans quelle mesure mes données sont-elles sécurisées sur Saasis ?"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum vitae ridiculus phaetra, eget leo. Massa laoreet quam viverra sagittis hac netus vitae."
-- title: "Quel cryptage utilisez-vous ?"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum vitae ridiculus phaetra, eget leo. Massa laoreet quam viverra sagittis hac netus vitae."
-- title: "Mes informations bancaires sont-elles sécurisées ?"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum vitae ridiculus phaetra, eget leo. Massa laoreet quam viverra sagittis hac netus vitae."
-- title: "Acceptez-vous l'authentification ?"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum vitae ridiculus phaetra, eget leo. Massa laoreet quam viverra sagittis hac netus vitae."
+- title: "Wie sicher sind meine Daten in EasyServices?"
+  content: "Die Rechenzentren unseres Hosting-Anbieters (Hetzner) werden streng bewacht und die gesamte Kommunikation erfolgt SSL-verschlüsselt, es sei denn, Ihr Dienst verwendet absichtlich etwas anderes. Hetzner ist einer der größten Anbieter in Europa und ist historisch zuverlässig."
+- title: "Welche Verschlüsselung verwenden Sie?"
+  content: "Der Datenverkehr ist SSL-verschlüsselt, verwendet das neueste TLS 1.3-Protokoll und wird über benutzerdefinierte Subnetze von Kubernetes isoliert."
+- title: "Was ist Ihr SLA? Mit wie viel Ausfallzeit muss ich rechnen?"
+  content: "Wenn Sie Multizonen-Dienste nutzen, beträgt die Netzwerk-SLA 99,9 %. Wenn ein Rechenzentrum ausfällt, werden die Dienste innerhalb von Sekunden automatisch auf das zweite Rechenzentrum übertragen, wodurch Ausfallzeiten vermieden werden."
+- title: "Was passiert, wenn ich Hilfe brauche?"
+  content: "Wenn das Problem auf unserer Seite liegt, ist die Hilfe kostenlos, aber im Gegensatz zu größeren Cloud-Anbietern bieten wir auch Beratung und Entwicklerstunden an. Sie brauchen sich um nichts zu kümmern, und wir können Sie bei Ihrer Cloud-Transformation voll unterstützen."
 ---

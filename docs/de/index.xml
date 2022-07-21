@@ -81,25 +81,106 @@
     </item>
     
     <item>
-      <title>À propos de nous</title>
-      <link>https://easycloudhost.de/de/about/</link>
+      <title>Consulting &amp; Entwicklung</title>
+      <link>https://easycloudhost.de/de/easyservices/consulting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easycloudhost.de/de/about/</guid>
-      <description></description>
+      <guid>https://easycloudhost.de/de/easyservices/consulting/</guid>
+      <description>Use a newer browser to see this video.   -- Beratung und Programmierung Mit einem breiten Wissen über Cloud-, Daten- und DevOp-Technologien sind wir in der Lage, Sie zu beraten und Ihnen bei jedem Projekt zu helfen</description>
     </item>
     
     <item>
-      <title>About us</title>
-      <link></link>
+      <title>Consulting- und Programmierstunden</title>
+      <link>https://easycloudhost.de/de/pricing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid></guid>
-      <description></description>
+      <guid>https://easycloudhost.de/de/pricing/</guid>
+      <description>Nicht sicher, was das Richtige für Sie ist? Kontaktieren Sie uns vor dem Kauf, um eine kostenlose 15-minütige Beratung zu erhalten.</description>
     </item>
     
     <item>
-      <title>Caractéristiques</title>
+      <title>Documentation</title>
+      <link>https://easycloudhost.de/de/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/documentation/</guid>
+      <description>0. Inroduction EasyFAAS is an easy way to deploy your code without worrying about hosting, scaling, networking and many other things.</description>
+    </item>
+    
+    <item>
+      <title>EasyDB</title>
+      <link>https://easycloudhost.de/de/easyservices/easydb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easydb/</guid>
+      <description>Use a newer browser to see this video.   -- Verwaltete Datenbanken Sie wollen einfach nur, dass Ihre Datenbanken laufen, ohne sich um Skalierung, Verfügbarkeit oder Ausfallzeiten zu kümmern?</description>
+    </item>
+    
+    <item>
+      <title>EasyFAAS</title>
+      <link>https://easycloudhost.de/de/easyservices/easyfaas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easyfaas/</guid>
+      <description>Use a newer browser to see this video.  Nächstes Video: Tech-Demo</description>
+    </item>
+    
+    <item>
+      <title>EasyHealth</title>
+      <link>https://easycloudhost.de/de/easyservices/easyhealth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easyhealth/</guid>
+      <description>Use a newer browser to see this video.   --    Quelle: HIPAA Journal</description>
+    </item>
+    
+    <item>
+      <title>EasyHost</title>
+      <link>https://easycloudhost.de/de/easyservices/easyhost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easyhost/</guid>
+      <description>Use a newer browser to see this video.   The probability of bounce increases 32% as page load time goes from 1 second to 3 seconds Google/SOASTA Research, 2017.</description>
+    </item>
+    
+    <item>
+      <title>EasyKube</title>
+      <link>https://easycloudhost.de/de/easyservices/easykube/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easykube/</guid>
+      <description>Use a newer browser to see this video.   Your custom private cloud Managed Kubernetes service.</description>
+    </item>
+    
+    <item>
+      <title>EasyModel</title>
+      <link>https://easycloudhost.de/de/easyservices/easymodel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easymodel/</guid>
+      <description>Use a newer browser to see this video.   -- Deploying and scaling of your Machine Learning Models We are helping you to get your Machine Learning Models up and running, all according to US and German privacy laws.</description>
+    </item>
+    
+    <item>
+      <title>EasyScale</title>
+      <link>https://easycloudhost.de/de/easyservices/easyscale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easyscale/</guid>
+      <description>Use a newer browser to see this video.   -- Improving speed and reliability of your applications with EasyScale Page load times are important for both your clients and employees.</description>
+    </item>
+    
+    <item>
+      <title>EasySEO</title>
+      <link>https://easycloudhost.de/de/easyservices/easyseo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/easyseo/</guid>
+      <description>Use a newer browser to see this video.   75% of people never scroll past the first page of search engines.</description>
+    </item>
+    
+    <item>
+      <title>EasyServices</title>
       <link>https://easycloudhost.de/de/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -108,30 +189,12 @@
     </item>
     
     <item>
-      <title>Comment ça fonctionne</title>
-      <link>https://easycloudhost.de/de/how-it-works/</link>
+      <title>EasyStore</title>
+      <link>https://easycloudhost.de/de/easyservices/easystore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://easycloudhost.de/de/how-it-works/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contacter</title>
-      <link>https://easycloudhost.de/de/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easycloudhost.de/de/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Éléments</title>
-      <link>https://easycloudhost.de/de/elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easycloudhost.de/de/elements/</guid>
-      <description>Heading example Voici un exemple de haies. Vous pouvez utiliser cet en-tête en suivant les règles de démarque.</description>
+      <guid>https://easycloudhost.de/de/easyservices/easystore/</guid>
+      <description>Use a newer browser to see this video.   -- Managed S3 compatible Storage You just want an S3 like storage solution, but hosted in Germany/Europe?</description>
     </item>
     
     <item>
@@ -144,16 +207,7 @@
     </item>
     
     <item>
-      <title>Forfaits et prix</title>
-      <link>https://easycloudhost.de/de/pricing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://easycloudhost.de/de/pricing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retour</title>
+      <title>Feedback</title>
       <link>https://easycloudhost.de/de/testimonials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -162,7 +216,61 @@
     </item>
     
     <item>
-      <title>Utilisé par des équipes de tous les secteurs</title>
+      <title>How-To</title>
+      <link>https://easycloudhost.de/de/how-it-works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/how-it-works/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://easycloudhost.de/de/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subscription management</title>
+      <link>https://easycloudhost.de/de/subscription-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/subscription-management/</guid>
+      <description>Unser Kundenportal befindet sich derzeit in der Wartung :( Bitte erstellen Sie unten ein Ticket und wir werden alle Abonnements manuell kündigen/bearbeiten:</description>
+    </item>
+    
+    <item>
+      <title>Über uns</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Über uns</title>
+      <link>https://easycloudhost.de/de/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Websites</title>
+      <link>https://easycloudhost.de/de/easyservices/websites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://easycloudhost.de/de/easyservices/websites/</guid>
+      <description>Use a newer browser to see this video.   The probability of bounce increases 32% as page load time goes from 1 second to 3 seconds Google/SOASTA Research, 2017.</description>
+    </item>
+    
+    <item>
+      <title>Wird von Teams aus allen Branchen genutzt</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

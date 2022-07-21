@@ -1,5 +1,5 @@
 ---
-title: "About us"
+title: "Über uns"
 heading: "Industry leaders use Saasis to organize A business"
 description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seaa  diam nonumy eirmod tempor invidunt ut labore et saldzfore "
 draft: false

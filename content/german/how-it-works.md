@@ -1,5 +1,5 @@
 ---
-title : "Comment ça fonctionne"
+title : "How-To"
 description : "this is meta description"
 layout : "how-it-works"
 draft : false
@@ -7,65 +7,65 @@ draft : false
 # work_process
 work_process:
   enable: true
-  title: "Comment Saasis fonctionne-t-il vraiment ?"
-  subtitle: "Work Process"
-  content: "Lorem ipsum dolor amet, consectetur adipwrgv wiscin Diam ut id nisl  rhoncus, imperet coquat ornsda"
+  title: "Wie kann mir EasyServices helfen?"
+  subtitle: "Automatisieren Sie ihre DevOps"
+  content: "Unsere Dienstleistungen reichen von vollständiger Abstraktion, wie EasyFAAS (Function-as-a-Service), bis hin zu Produkten, die sich 'nur' um die groben Teile kümmern. Kontaktieren Sie uns jetzt für eine kostenlose 15-minütige Beratung darüber, welches Produkt für Sie am besten geeignet ist."
 
   tablist:
-  - title: "Pour les utilisateurs réguliers"
+  - title: "Für Nicht-Techies"
     tablist_item:
-    - subtitle: "Why customer retention is the ultimate Of growth"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Fokus auf das Wesentliche"
+      description: "Lassen Sie sich nicht von technischen Details überwältigen, sondern konzentrieren Sie sich auf Ihr Kerngeschäft. Wir kümmern uns um Ihre Shops, Websites und Anwendungen."
       image: "images/work-process/01.webp"
 
-    - subtitle: "Accross All Your Mobile App And Web Applications"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Reduzierung der time-to-market"
+      description: "Entwickler verbringen bis zu 60 % ihrer Zeit mit Implementierungen und Wartung. Setzen Sie ihre Zeit frei und lassen Sie sie an Ihren Kernideen arbeiten."
       image: "images/work-process/02.webp"
 
-    - subtitle: "How to Be  build the ultimate tech stack for growth"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Konformes Hosting in Deutschland"
+      description: "Mit uns müssen Sie sich keine Sorgen mehr über deutsche Datenschutzgesetze machen. Vollständig in Deutschland gehostet, kein amerikanisches Unternehmen beteiligt."
       image: "images/work-process/03.webp"
 
-    - subtitle: "Accross All Your Mobile App And Web Applications"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
-      image: "images/work-process/02.webp"
-
-  - title: "For Basic Users"
+  - title: "Für Entwickler"
     tablist_item:
-    - subtitle: "Accross All Your Mobile App And Web Applications"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Serverless"
+      description: "Laden Sie einfach Ihren Code und Ihre Docker-Anwendungen auf EasyFAAS hoch, und Sie können sie in Sekundenschnelle in Betrieb nehmen."
       image: "images/work-process/02.webp"
 
-    - subtitle: "Why customer retention is the ultimate Of growth"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Skalierbar"
+      description: "Wir können Ihre Anwendung automatisch skalieren und Ausfallzeiten und Spitzenzeiten vermeiden. Das Gleiche gilt auch für die Speicherung."
       image: "images/work-process/01.webp"
 
-    - subtitle: "How to Be  build the ultimate tech stack for growth"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Verwaltete Datenbanken"
+      description: "Verbinden Sie sich mit unseren verwalteten Datenbanken von EasyFAAS aus sicher und ohne Passwort, oder nutzen Sie eine EasyDB-Instanz, um Ihre Daten sicher in Deutschland zu hosten."
+      image: "images/banner/server.webp"
+
+    - subtitle: "Keine versteckten Kosten"
+      description: "Unsere Dienste werden zu einem festen monatlichen Preis angeboten, ohne versteckte verkehrsabhängige Gebühren oder versteckte Tricks wie 'zwei Jahre lang kostenlo'. Loyalität und Ehrlichkeit sind uns wichtig."
       image: "images/work-process/03.webp"
 
-  - title: "For Heavy Users"
+  - title: "Für Systemadministratoren"
     tablist_item:
-    - subtitle: "How to Be  build the ultimate tech stack for growth"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Verwaltetes Kubernetes"
+      description: "Unser EasyKube bietet Ihnen bereits eingerichtete PersistentVolumes, Load Balancer und einen einsatzbereiten LetsEncrypt Ingress. Sie können sogar unsere Subdomain für kleinere Anwendungen nutzen und in weniger als einer Minute live gehen!"
       image: "images/work-process/03.webp"
 
-    - subtitle: "Why customer retention is the ultimate Of growth"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Verwaltete Datenbanken"
+      description: "Verbinden Sie sich mit unseren verwalteten Datenbanken von EasyFAAS aus sicher und ohne Passwort, oder nutzen Sie eine EasyDB-Instanz, um Ihre Daten sicher in Deutschland zu hosten."
       image: "images/work-process/01.webp"
 
-    - subtitle: "Accross All Your Mobile App And Web Applications"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Webseiten Hosting"
+      description: "Egal ob statisch, dynamisch oder WordPress - wir haben alles für Sie."
       image: "images/work-process/02.webp"
 
-    - subtitle: "How to Be  build the ultimate tech stack for growth"
-      description: "Lorem ipsum dolor, consetur lectus vehicula eget ante. Neque non tristique tincidunt quam commodo"
+    - subtitle: "Unglaubliche Geschwindigkeit"
+      description: "Wir helfen Ihnen dabei, Ihre Dienste und Anwendungen auf eine wahnsinnige Geschwindigkeit zu bringen, die durch verteilte Datenverarbeitung oder globale Skalierung erreicht wird."
       image: "images/work-process/03.webp"
 
 
 # working_steps
 working_steps:
-  enable: true
+  enable: false
   title: "Always Belive In Better Build"
   subtitle: "Working Steps"
   content: "Lorem ipsum dolor, consectetur adipiscing elit. Convallis cursus ac orci diam, facilisis. Quis et pulvinar nec praesent qum magna amet. Magna blandit sodales, aenean rhoncus"

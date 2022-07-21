@@ -1,8 +1,8 @@
 ---
 ############################ Banner ##################################
 banner:
-  title : "Un moyen simple de tout structurer <br> Votre entreprise"
-  subtitle : "This is the start of dummy description text. You can change it whenever you want. tempor invidunt ut labore et saldfore"
+  title : "Machen Sie sich um Hosting keine Gedanken"
+  subtitle : "Unsere EasyServices ermöglichen es Ihnen, sich auf das zu konzentrieren, was für Ihr Unternehmen wichtig ist. Überlassen Sie uns die Geschwindigkeit und die Einhaltung von Vorschriften und konzentrieren Sie sich darauf, mit Ihrem Kerngeschäft mehr Einnahmen zu erzielen."
   character_image: "images/banner/character.webp"
   lamp_image: "images/banner/server.webp"
   cube_image: "images/banner/shield.webp"
@@ -12,31 +12,31 @@ banner:
 ############################ About Info ##################################
 about_info:
   enable: true
-  title: "À propos de nous"
-  heading: "Les leaders de l'industrie utilisent Saasis pour organiser une entreprise"
-  description: "This is the start of dummy description text. You can change it whenever you want. eirmod tempor invidunt ut labore et saldzfore "
+  title: "Über uns"
+  heading: "Entwickler sagen, dass sie bis zu 60 % ihrer Zeit mit DevOps statt mit dem Produkt verbringen"
+  Beschreibung: "Anstatt sich auf das Kerngeschäft zu konzentrieren, verbringen Entwickler viel Zeit mit Wartung, Deployments und allgemeinen DevOps. Hinzu kommt, dass viele neue Datenschutzbestimmungen in Deutschland und Europa die Nutzung amerikanischer Cloud-Anbieter nahezu verbieten, die bei Zuwiderhandlung mit bis zu 4% des Jahresumsatzes eines Unternehmens bestraft werden können."
 
   image: "images/feature-image.webp"
   features_list:
-  - "Nulla consequat massa quis enim. Donec pede justo"
-  - "Fringilla vel, aliquet nec, vulputate eget, arcu In"
-  - "Curabitur ullamcorper ultricies nisi. Nam eget dui."
+  - "Serverloses Hosting von Code - schreiben Sie einfach Ihren Code und 'laden' Sie ihn hoch. [EasyFAAS]"
+  - "Compliance - Unsere Rechenzentren befinden sich in Nürnberg und Falkenstein und sind somit außerhalb der Reichweite der Amerikaner. Optional ist auch ein Hosting in den USA und Finnland möglich."
+  - "Abstraktion von Code - Wir bieten eine Reihe von Services an, die jeweils eine Schicht des DevOps-Prozesses abstrahieren. Volle Kontrolle? Testen Sie EasyKube, unsere verwaltete Kubernetes-Plattform. Sie brauchen eine verwaltete Datenbank? EasyDB. Sie wollen nichts mit DevOps zu tun haben? EasyFAAS ist Ihre Antwort."
 
 ############################ About Features ##################################
 about_features:
   enable: true
-  title: "À propos de nous"
-  heading: "Ne payez que ce que vous utilisez, point final. Commencez votre 14 jours"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seaa diam nonumy eirmod tempor invidunt ut labore et saldzfore"
+  title: "Keine unerwarteten Kosten"
+  heading: "EasyServices sind vereinfachte Abrechnungen"
+  description: "Die Abrechnung mit EasyServices ist einfach: Es gibt einen Festpreis pro Service, ohne versteckte Traffic-, Speicher- oder nutzungsabhängige Gebühren. Große Cloud-Anbieter erweisen sich oft als viel teurer als erwartet, was zu einer schlechten Nutzererfahrung führt. Wir möchten Ihr vertrauensvoller Partner für die Cloud sein und bieten daher feste monatliche Abonnements ohne zusätzliche Kosten an."
 
   image: "images/feature-image-2.webp"
   features_items:
-  - title: "Projets clients"
+  - title: "Großzügiges free-tier"
     image: "images/features/01.webp"
-  - title: "Analyse numérique"
+  - title: "Redundanz - Daten werden an mehreren Orten gespeichert"
     image: "images/features/02.webp"
-  - title: "Idées créatives"
+  - title: "EU/Deutschland-konformes Hosting"
     image: "images/features/03.webp"
-  - title: "Boîte à outils d'analyse"
+  - title: "Unterstützung für benutzerdefinierte Domains und Funktionen"
     image: "images/features/04.webp"
 ---
