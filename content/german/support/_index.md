@@ -5,4 +5,4 @@ draft: false
 
 ---
 
-Did you experience a problem with one of our products? Fill out the support Form below, or write an email to <a href="mailto:support@easycloudhost.freshdesk.com">sup<!-- fugg off -->port@easycloudhost.freshdesk.com</a>
+Hatten Sie ein Problem mit einem unserer Produkte? Füllen Sie das untenstehende Support-Formular aus oder schreiben Sie eine E-Mail an <a href="mailto:support@easycloudhost.freshdesk.com">sup<!-- fugg off -->port@easycloudhost.freshdesk.com</a>

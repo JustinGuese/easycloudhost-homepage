@@ -1,167 +1,158 @@
-############# English navigation ##############
+############# german navigation ##############
 
 # main menu
 [[main]]
-name = "About"
-url = "about/"
+name = "Über uns"
+url = "/de/about/"
 weight = 2
 
 # [[main]]
-# name = "How It Works"
-# url = "how-it-works/"
+# name = "How-To"
+# url = "/de/how-it-works/"
 # weight = 3
 
 [[main]]
 name = "EasyServices"
-url = "features/"
+url = "/de/features/"
 weight = 4
 hasChildren = true
 
   [[main]]
   weight = 1
   parent = "EasyServices"
-  name = "Overview"
-  url = "/features/"
+  name = "Übersicht"
+  url = "/de/features/"
 
   [[main]]
   weight = 2
   parent = "EasyServices"
   name = "EasyFAAS"
-  url = "easyservices/easyfaas/"
+  url = "/de/easyservices/easyfaas/"
 
   [[main]]
   weight = 3
   parent = "EasyServices"
   name = "EasyKube"
-  url = "easyservices/easykube/"
+  url = "/de/easyservices/easykube/"
 
   [[main]]
   weight = 4
   parent = "EasyServices"
   name = "EasyHost"
-  url = "easyservices/easyhost/"
+  url = "/de/easyservices/easyhost/"
 
   [[main]]
   weight = 5
   parent = "EasyServices"
   name = "EasyDB"
-  url = "easyservices/easydb/"
+  url = "/de/easyservices/easydb/"
 
   [[main]]
   weight = 6
   parent = "EasyServices"
   name = "EasyStore"
-  url = "easyservices/easystore/"
+  url = "/de/easyservices/easystore/"
 
   [[main]]
   weight = 7
   parent = "EasyServices"
   name = "EasySEO"
-  url = "easyservices/easyseo/"
+  url = "/de/easyservices/easyseo/"
 
   [[main]]
   weight = 8
   parent = "EasyServices"
   name = "EasyHealth"
-  url = "easyservices/easyhealth/"
+  url = "/de/easyservices/easyhealth/"
 
   [[main]]
   weight = 9
   parent = "EasyServices"
   name = "EasyScale"
-  url = "easyservices/easyscale/"
+  url = "/de/easyservices/easyscale/"
 
   [[main]]
   weight = 10
   parent = "EasyServices"
   name = "EasyModel"
-  url = "easyservices/easymodel/"
+  url = "/de/easyservices/easymodel/"
 
   [[main]]
   weight = 11
   parent = "EasyServices"
-  name = "Websites"
-  url = "easyservices/websites/"
+  name = "Webseiten"
+  url = "/de/easyservices/websites/"
+
+[[main]]
+weight = 5
+name = "Support"
+url = "/de/support/"
 
 [[main]]
 weight = 6
-name = "Pages"
+name = "Seiten"
 hasChildren = true
 
   [[main]]
   weight = 1
-  parent = "Pages"
+  parent = "Seiten"
   name = "Blog"
-  url = "blog/"
+  url = "/de/blog/"
 
   [[main]]
   weight = 1
-  parent = "Pages"
-  name = "Pricing"
-  url = "pricing/"
+  parent = "Seiten"
+  name = "Preise"
+  url = "/de/pricing/"
 
   [[main]]
   weight = 2
-  parent = "Pages"
+  parent = "Seiten"
   name = "Testimonials"
-  url = "testimonials/"
+  url = "/de/testimonials/"
+
+  [[main]]
+  weight = 2
+  parent = "Seiten"
+  name = "Meine Subscriptions"
+  url = "/de/subscription-management/"
 
   
 [[main]]
-name = "Contact"
-url = "contact/"
+name = "Kontakt"
+url = "/de/contact/"
 weight = 7
 
 
 # footer menus
 [[about]]
-name = "Our Story"
-url = "about"
+name = "Unsere Story"
+url = "/de/about"
 weight = 1
 
 [[about]]
 name = "Testimonials"
-url = "testimonials"
+url = "/de/testimonials"
 weight = 2
 
 [[about]]
-name = "How It Works"
-url = "how-it-works"
+name = "How-To"
+url = "/de/how-it-works"
 weight = 3
 
-
-[[service]]
-name = "Digital Analytics"
-url = "features"
-weight = 1
-
-[[service]]
-name = "Digital Marketing"
-url = "features"
-weight = 2
-
-[[service]]
-name = "Custom Project"
-url = "features"
-weight = 3
-
-[[service]]
-name = "Marketing Toolbox"
-url = "features"
-weight = 4
 
 
 [[help]]
 name = "Pricing"
-url = "pricing"
+url = "/de/pricing"
 weight = 1
 
 [[help]]
 name = "Blog"
-url = "blog"
+url = "/de/blog"
 weight = 2
 
 [[help]]
 name = "Contact"
-url = "contact"
+url = "/de/contact"
 weight = 4

@@ -16,7 +16,7 @@ testimonials:
 - name: "Sharon Briggs"
   designation: "Shop owner"
   image: "images/feedback/03.webp"
-  content: "EasyServices und Justin haben mehrere Shops für uns entwickelt, die alle schnell laufen und sogar billiger als Shopify sind! Erstaunlich - er weiß auch eine Menge über Marketing, ich kann seine Arbeit empfehlen"
+  content: "EasyServices und Justin haben mehrere Shops für uns entwickelt, die alle schnell laufen und sogar günstiger als Shopify sind! Erstaunlich - er weiß auch eine Menge über Marketing, ich kann seine Arbeit empfehlen"
 - name: "Peter from Haarbach AG"
   designation: "CEO"
   image: "images/feedback/logo1.png"

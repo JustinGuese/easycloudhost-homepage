@@ -1,6 +1,6 @@
 ---
 title: "EasyScale"
-description: "Scale your applications and make them faster"
+description: "Skalieren Sie Ihre Anwendungen und machen Sie sie schneller"
 draft: false
 ---
 
@@ -16,87 +16,84 @@ draft: false
     </video>
 </center> -->
 
-# Improving speed and reliability of your applications with EasyScale
+# Verbessern Sie die Geschwindigkeit und Zuverlässigkeit Ihrer Anwendungen mit EasyScale
 
-Page load times are important for both your clients and employees. Just a **2 second increase in load times can cause a client to leave your website** ([source](/easyservices/websites/)).
+Die Ladezeiten einer Seite sind sowohl für Ihre Kunden als auch für Ihre Mitarbeiter wichtig. Schon eine **2 Sekunden längere Ladezeit kann dazu führen, dass ein Kunde Ihre Website verlässt** ([Quelle](/de/easyservices/websites/)).
 
-Additionally, you might have created an application which handled the load of some users just fine, but struggles to keep up with new users?
+Außerdem haben Sie vielleicht eine Anwendung erstellt, die die Last einiger Benutzer gut bewältigt, aber Schwierigkeiten hat, mit neuen Benutzern Schritt zu halten?
 
-**EasyScale is your solution**
+**EasyScale ist Ihre Lösung**
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-minute consultation on EasyScale</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung zu EasyScale</button></a>
 </center>
 <hr>
 
-1. [Why a managed storage service?](/easyservices/EasyScale/#why-a-managed-storage-service)
-2. [The two EasyScale solutions compared](/easyservices/EasyScale/#the-two-EasyScale-solutions-compared)
-3. [Data privacy issues in the public cloud](/easyservices/EasyScale/#data-privacy-issues-in-the-public-cloud)
-4. [Pricing](/easyservices/EasyScale/#EasyScale-pricing-overview)
+1. [Die 5 Hauptgründe für langsame Anwendungen](/de/easyservices/EasyScale/#die-4-hauptgründe-für-langsame-anwendungen)
+2. [Wie kann ich meine Anwendung skalieren?](/de/easyservices/EasyScale/#wie-kann-ich-meine-anwendung-skalieren)
 
-## Top 4 reasons for slow applications
+## Die 5 Hauptgründe für langsame Anwendungen
 
-Traditional applications are created as huge, single-application programs. Whilst this is speeding up development, it **scales really bad**.
+Herkömmliche Anwendungen werden als riesige Einzelprogramme erstellt. Dies beschleunigt zwar die Entwicklung, aber es **skaliert sehr schlecht**.
 
 <center>
     <img loading="lazy" style="width:80%" alt="monolithic vs microservice architecture" src="/images/easyservices/easyscale/microservices-and-monolithic-architectures.jpg" />
     <p>Monolithic vs Microservice architecture. <a href="https://www.bmc.com/blogs/microservices-architecture/" target="_blank">Image by Rancher</a></p>
 </center>
 
-You might be asking yourself: Why is my application or website so slow? Usually it is breaking down to 4 simple reasons.
+Sie fragen sich vielleicht: Warum ist meine Anwendung oder Website so langsam? Normalerweise gibt es dafür 4 einfache Gründe.
 
-#### 1. No Multiprocessing
+#### 1. Kein Multiprocessing
 
-If your application is for example not supporting multiprocessing, it can only run one function at a time. Let us say you are querying a database every time a link is called. If **no multiprocessing** is used, only one piece of data can be retrieved from the database at a time, with the other ones being "on hold". 
+Wenn Ihre Anwendung zum Beispiel kein Multiprocessing unterstützt, kann sie nur eine Funktion gleichzeitig ausführen. Nehmen wir an, Sie fragen jedes Mal, wenn ein Link aufgerufen wird, eine Datenbank ab. Wenn **kein Multiprocessing** verwendet wird, kann jeweils nur ein Teil der Daten aus der Datenbank abgerufen werden, während die anderen "in der Warteschleife" liegen. 
 
-#### 2. No Decoupling
+#### 2. Keine Entkopplung
 
-Additionally, imagine one part of your application failing. Will this block all the other parts until your applications comes back online? If no **decoupling** is happening the answer is yes.
+Stellen Sie sich außerdem vor, dass ein Teil Ihrer Anwendung ausfällt. Werden dadurch alle anderen Teile blockiert, bis Ihre Anwendung wieder online ist? Wenn keine **Entkopplung** stattfindet, lautet die Antwort ja.
 
-The answer is called **decoupling**. Decoupling means, you are **splitting your application into smaller microservices**, that only do one thing, and connect them with a **message queue** like RabbitMQ, such that one failing part of your application is not affecting other parts.
+Die Antwort heißt **Entkopplung**. Entkopplung bedeutet, dass Sie Ihre Anwendung **in kleinere Microservices** aufteilen, die nur eine Sache tun, und diese mit einer **Nachrichtenwarteschlange** wie RabbitMQ verbinden, so dass ein ausfallender Teil Ihrer Anwendung keine Auswirkungen auf andere Teile hat.
 
-Another nice benefit of this is, that **server resources** can be distributed to the part where they are required the most right now. Let us say you do not have much traffic on the frontend, as only some users visit your website right now, but a lot of load on backend calculations. In traditional applications each part would only have an equal part of the resources, which means the frontend is idling, whilst the backend is overloaded. 
+Ein weiterer Vorteil ist, dass **Server-Ressourcen** auf den Teil verteilt werden können, der sie gerade am meisten benötigt. Nehmen wir an, Sie haben nicht viel Verkehr auf dem Frontend, da nur einige Benutzer Ihre Website besuchen, aber eine große Last auf Backend-Berechnungen. Bei herkömmlichen Anwendungen würde jeder Teil nur einen gleichen Teil der Ressourcen erhalten, was bedeutet, dass das Frontend im Leerlauf ist, während das Backend überlastet ist. 
 
-When splitting up your application into **Microservices**, the **load is automatically distributed to where it matters most**. Meaning that in our example, the frontend will have fewer resources than the backend, at least for this moment where it is required.
+Wenn Sie Ihre Anwendung in **Microservices** aufteilen, wird die **Last automatisch dorthin verteilt, wo sie am wichtigsten ist**. Das bedeutet, dass in unserem Beispiel das Frontend weniger Ressourcen hat als das Backend, zumindest in dem Moment, in dem es benötigt wird.
 
-#### 3. Slow Databases
+#### 3. Langsame Datenbanken
 
-Then, a lot of SQL databases do **not support horizontal scaling**. This means, that you can only buy a bigger and bigger server, which tends to get quite expensive as only mass-produced servers (smaller ones) are cheap to use. Horizontal scaling means having a lot of "smaller" servers, that each run the same databases. There are databases that support horizontal scaling, like **MongoDB and [EasyDB](/easyservices/easydb/)**, which can help reduce cost and speed up slow databases.
+Dann unterstützen viele SQL-Datenbanken **keine horizontale Skalierung**. Das bedeutet, dass man nur einen immer größeren Server kaufen kann, was in der Regel recht teuer wird, da nur massenproduzierte Server (kleinere) günstig zu haben sind. Horizontale Skalierung bedeutet, dass man viele "kleinere" Server hat, auf denen jeweils die gleichen Datenbanken laufen. Es gibt Datenbanken, die eine horizontale Skalierung unterstützen, wie **MongoDB und [EasyDB](/de/easyservices/easydb/)**, die dazu beitragen können, Kosten zu senken und langsame Datenbanken zu beschleunigen.
 
-#### 4. No distributed computing
+#### 4. Keine verteilte Datenverarbeitung
 
-You should never run software on just one server. If that server is either slow or completely offline, your application will fail.
+Sie sollten Software nie auf nur einem Server laufen lassen. Wenn dieser Server entweder langsam oder komplett offline ist, wird Ihre Anwendung scheitern.
 
-**The goal is, to distribute your application over several servers**.
-This can be done with either using a FAAS Framework like [EasyFAAS](/easyservices/easyfaas/) or AWS Lambda, or to use a container management framework like [EasyKube](/easyservices/easykube/) or Kubernetes.
+**Das Ziel ist, Ihre Anwendung auf mehrere Server zu verteilen**.
+Dies kann entweder mit einem FAAS-Framework wie [EasyFAAS](/de/easyservices/easyfaas/) oder AWS Lambda geschehen, oder mit einem Container-Management-Framework wie [EasyKube](/de/easyservices/easykube/) oder Kubernetes.
 
-That way, when one server becomes slow or offline, your applications will automatically be switched to another server.
+Auf diese Weise werden Ihre Anwendungen automatisch auf einen anderen Server umgeschaltet, wenn ein Server langsam oder offline wird.
 
-#### 5. No autoscaling
+#### 5. Keine automatische Skalierung
 
-Closely related to the previous point, there are ways to let your application scale to the demand. This is called **autoscaling**. Let us take the classic "Prime day" example. Once a year, Amazon is offering a huge sale, which results in over 100 times the normal server load. Then on other days, like christmas, traffic is almost nonexistent, leaving servers idle. 
+In engem Zusammenhang mit dem vorigen Punkt gibt es Möglichkeiten, Ihre Anwendung an den Bedarf anzupassen. Dies wird als **Autoskalierung** bezeichnet. Nehmen wir das klassische Beispiel des "Prime Day". Einmal im Jahr bietet Amazon einen riesigen Ausverkauf an, der zu einer über 100-fachen Serverlast führt. An anderen Tagen, wie z. B. an Weihnachten, gibt es so gut wie keinen Datenverkehr, so dass die Server nicht ausgelastet sind. 
 
-The traditional solution would be, to just buy a huge server that can handle the "Prime day". But this causes it to be **idle on 90% of the days, causing a lot of unnecessary costs**.
-The other way would be to just "ignore" traffic peaks and **loose those additional customers**, which is not ideal either.
+Die traditionelle Lösung wäre, einfach einen riesigen Server zu kaufen, der den "Prime Day" bewältigen kann. Das führt aber dazu, dass er an 90 % der Tage **leer läuft und eine Menge unnötiger Kosten verursacht**.
+Die andere Möglichkeit wäre, Verkehrsspitzen einfach zu "ignorieren" und **diese zusätzlichen Kunden zu verlieren**, was ebenfalls nicht ideal ist.
 
-The answer is to let the Application scale to the current demand. This can be achieved with a FAAS Framework like [EasyFAAS](/easyservices/easyfaas/) or AWS Lambda, or with using a container management framework like [EasyKube](/easyservices/easykube/) or Kubernetes.
+Die Lösung besteht darin, die Anwendung an die aktuelle Nachfrage anzupassen. Dies kann mit einem FAAS-Framework wie [EasyFAAS](/de/easyservices/easyfaas/) oder AWS Lambda erreicht werden, oder mit einem Container-Management-Framework wie [EasyKube](/de/easyservices/easykube/) oder Kubernetes.
 
-## How can I scale my application?
+## Wie kann ich meine Anwendung skalieren?
 
-EasyScale is a set of the abovementioned services, which will help you to scale your application.
-Our usual workflow looks like this:
+EasyScale ist eine Reihe der oben genannten Dienste, die Ihnen bei der Skalierung Ihrer Anwendung helfen.
+Unser üblicher Arbeitsablauf sieht wie folgt aus:
 
-1. **Free 15 minute consultation** on your application
-2. An **identification workshop** to identify weak parts in your application
-3. **Offer** from our side, sorted according to the priority of effectiveness
-4. Splitting the application into smaller parts, called **Microservices**
-5. Introducing **Message queues** to decouple these Microservices, reducing dependencies
-6. Using a Framework like **FAAS** or **Kubernetes** to distribute the load to multiple servers and support autoscaling
-7. Switch to **horizontal autoscalable Databases** to reduce costs and improve speed 
-
+1. **Kostenlose 15-minütige Beratung** zu Ihrer Anwendung
+2. Ein **Identifizierungsworkshop**, um Schwachstellen in Ihrer Anwendung zu identifizieren
+3. **Angebot** von unserer Seite, sortiert nach der Priorität der Wirksamkeit
+4. Aufteilung der Anwendung in kleinere Teile, genannt **Microservices**
+5. Einführung von **Nachrichtenwarteschlangen**, um diese Microservices zu entkoppeln und Abhängigkeiten zu reduzieren
+6. Verwendung eines Frameworks wie **FAAS** oder **Kubernetes**, um die Last auf mehrere Server zu verteilen und automatische Skalierung zu unterstützen
+7. Wechsel zu **horizontalen autoskalierbaren Datenbanken**, um Kosten zu senken und die Geschwindigkeit zu erhöhen 
 
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-minute consultation of how we can scale your application</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung, wie wir Ihre Anwendung skalieren können</button></a>
 </center>
 <hr>

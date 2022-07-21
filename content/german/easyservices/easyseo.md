@@ -1,6 +1,6 @@
 ---
 title: "EasySEO"
-description: "Helping you to create high quality content to rank high on Google."
+description: "Wir helfen Ihnen dabei, hochwertige Inhalte zu erstellen, um bei Google ganz oben zu ranken."
 draft: false
 
 ---
@@ -18,70 +18,71 @@ draft: false
 
 
 {{< notice "tip" >}}
-  75% of people never scroll past the first page of search engines. <a href="https://blog.hubspot.com/insiders/inbound-marketing-stats" target="_blank">1</a>
+  75 % der Menschen blättern nie über die erste Seite einer Suchmaschine hinaus. <a href="https://blog.hubspot.com/insiders/inbound-marketing-stats" target="_blank">1</a>
 {{< /notice >}}
 
 {{< notice "tip" >}}
-  Conversion rates fall by 4.42% for every extra second that it takes your website to load. <a href="https://www.portent.com/blog/analytics/research-site-speed-hurting-everyones-revenue.htm" target="_blank">2</a>
+  Die Konversionsraten sinken um 4,42 % für jede zusätzliche Sekunde, die Ihre Website zum Laden benötigt. <a href="https://www.portent.com/blog/analytics/research-site-speed-hurting-everyones-revenue.htm" target="_blank">2</a>
 {{< /notice >}}
 
 {{< notice "tip" >}}
-  86% of people ignore paid banner ads, choosing to only click on organic search results. This is called **banner blindness**.  <a href="https://userguiding.com/blog/banner-blindness/" target="_blank">3</a>
+  86 % der Menschen ignorieren bezahlte Werbebanner und klicken nur auf die organischen Suchergebnisse. Dies wird als **Bannerblindheit** bezeichnet.  <a href="https://userguiding.com/blog/banner-blindness/" target="_blank">3</a>
 {{< /notice >}}
 
-We all know that SEO (search-engine-optimization) can be a huge income generator in the Web. The two big sources of traffic remain SEO and SEA (search-engine-advertising), also called paid ads. 
+Wir alle wissen, dass SEO (Search-Engine-Optimization) eine große Einnahmequelle im Internet sein kann. Die beiden großen Traffic-Quellen sind nach wie vor SEO und SEA (Search-Engine-Advertising), auch bezahlte Anzeigen genannt. 
 
-What if you could skip on spending hundreds on ads, and instead **get traffic and sales for free**?
+Wie wäre es, wenn Sie nicht Hunderte von Euro für Anzeigen ausgeben müssten, sondern stattdessen **Gratis-Traffic und Verkäufe** bekommen könnten?
 
-This is where SEO comes into play.
+An dieser Stelle kommt SEO ins Spiel.
 
-**EasySEO will help you to rank higher using Content and on-page optimization that we are doing for you**
+**EasySEO wird Ihnen helfen, mit Hilfe von Content und On-Page-Optimierung, die wir für Sie durchführen, besser zu ranken**
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasySEO can work for you</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung darüber, wie EasySEO für Sie arbeiten kann</button></a>
 </center>
 <hr>
 
-1. [What makes EasySEO different](/easyservices/easyseo/#what-makes-easyseo-different)
-2. [What is the Google SEO ranking bot looking for?](/easyservices/easyseo/#what-is-the-google-seo-ranking-bot-looking-for)
-3. [Our Portfolio](/easyservices/easyseo/#our-portfolio)
-4. [Pricing](/easyservices/easyseo/#our-offers)
+1. [Was macht EasySEO anders?](/de/easyservices/easyseo/#was-macht-easyseo-anders)
+2. [Wonach sucht der Google SEO-Ranking-Bot?](/de/easyservices/easyseo/#wonach-sucht-der-google-seo-ranking-bot)
+3. [Portfolio](/de/easyservices/easyseo/#unser-portfolio)
+4. [Preise](/de/easyservices/easyseo/#unsere-angebote)
 
-## What makes EasySEO different?
+## Was macht EasySEO anders?
 
-Our secret is simple: **Simplicity**
+Unser Geheimnis ist einfach: **Einfachheit**
 
-{{< notice "tip" >}}
-  Looking for Website Programming? Head over to [Websites](/easyservices/websites/)
+{{< notice "Tipp" >}}
+Suchen Sie nach Website-Programmierung? Gehen Sie zu [Websites](/de/easyservices/websites/)
 {{< /notice >}}
 
-A lot of companies offer SEO nowadays, but many of them remain in the old mindset that only worked years back: repeating your keywords over and over again. But actually, the current Google algorithm is not that simple anymore. It checks a lot for links that are referring to your website, and can quite accuarately, predict if a text was just written for SEO, or is actually helpful.
+Viele Unternehmen bieten heutzutage SEO an, aber viele von ihnen bleiben bei der alten Denkweise, die vor Jahren noch funktionierte: die Wiederholung Ihrer Schlüsselwörter immer und immer wieder. Aber eigentlich ist der aktuelle Google-Algorithmus nicht mehr so einfach. Er prüft viele Links, die auf Ihre Website verweisen, und kann ziemlich genau vorhersagen, ob ein Text nur für die Suchmaschinenoptimierung geschrieben wurde oder tatsächlich hilfreich ist.
 
-### What is the Google SEO ranking bot looking for?
+### Wonach sucht der Google SEO-Ranking-Bot?
 
-Even though the current algorithm is too complex to summarize, even for Google employees themselves, as it is a complex Machine Learning model, you can break the main checkpoints down to:
+Obwohl der aktuelle Algorithmus selbst für Google-Mitarbeiter zu komplex ist, um ihn zusammenzufassen, da es sich um ein komplexes maschinelles Lernmodell handelt, kann man die wichtigsten Prüfpunkte aufschlüsseln:
 
-**1. Number of links referring to your website, and the importance of the linker**
+##### 1. Anzahl der Links, die auf Ihre Website verweisen, und die Bedeutung des Linkgebers
 
-  - Usually good articles get cited a lot
-  - If users share you article, it proves that it must contain good content
+  - Gute Artikel werden in der Regel häufig zitiert.
+  - Wenn Nutzer Ihren Artikel teilen, beweist das, dass er gute Inhalte enthalten muss.
 
-**2. The time a user remains on your website**
+##### 2. Die Verweildauer eines Nutzers auf Ihrer Website
 
-  - measured via analytics or if a users hits the "back" button and returns to the source
-  - slow page loading times can be a false positive for this as well, which is why page speed is important as well. [Check out EasyHost to solve this](/easyservices/easyhost/)
+  - gemessen über Analytics oder wenn ein Nutzer den "Zurück"-Button drückt und zur Quelle zurückkehrt
+  - Langsame Seitenladezeiten können auch hier ein falscher Indikator sein, weshalb die Seitengeschwindigkeit ebenfalls wichtig ist. [Schauen Sie sich EasyHost an, um dieses Problem zu lösen](/de/easyservices/easyhost/)
 
-**3. Content quality**
-  - the AI model will detect if it is just keywords 
-  - ideal length: 1400 words
-  - ideal structure: many subitems, using metatags and subheadings
+##### 3. Qualität des Inhalts
 
-## Our portfolio
+  - das KI-Modell erkennt, ob es sich nur um Schlüsselwörter handelt 
+  - Ideale Länge: 1400 Wörter
+  - Ideale Struktur: viele Unterpunkte, Verwendung von Metatags und Zwischenüberschriften
 
-We can provide you with all that. 
-We are both running onlineshops, as well as blogs and websites where we generated content to collect a lot of SEO traffic.
-Page speed is equally important, which is why you will see that our content loads super fast. [Check out EasyHost to see how this works](/easyservices/easyhost/).
+## Unser Portfolio
+
+Das alles können wir Ihnen bieten. 
+Wir betreiben sowohl Onlineshops, als auch Blogs und Websites, auf denen wir Inhalte generiert haben, um eine Menge SEO-Traffic zu sammeln.
+Die Seitengeschwindigkeit ist ebenso wichtig, deshalb werden Sie sehen, dass unsere Inhalte superschnell geladen werden. [Schauen Sie sich EasyHost an, um zu sehen, wie das funktioniert](/de/easyservices/easyhost/).
 
 <div style="overflow-x:auto;">
 
@@ -95,15 +96,15 @@ Page speed is equally important, which is why you will see that our content load
 
 </div>
 
-## Our offers
+## Unsere Angebote
 
-Our SEO generated content can be divided into three types:
+Unsere SEO-generierten Inhalte können in drei Typen unterteilt werden:
 
-1. **High quality content**, good for landing pages, homepages and everything etc.
-2. **Mid quality content**, good for subpages, landing pages of smaller products, product descriptions etc.
-3. **Low quality content**, good for blod posts, hidden pages like categories, content below product descriptions etc.
+1. **Hochwertige Inhalte**, gut für Landing Pages, Homepages und alles andere.
+2. **Mittelqualitativer Inhalt**, gut für Unterseiten, Landingpages kleinerer Produkte, Produktbeschreibungen usw.
+3. **Niedrigwertiger Inhalt**, gut für Blogeinträge, versteckte Seiten wie Kategorien, Inhalte unterhalb von Produktbeschreibungen etc.
 
-We are also helping you with the on-page SEO optimization, let us [dicuss this in a custom call](/contact)
+Wir helfen Ihnen auch bei der On-Page-SEO-Optimierung, lassen Sie uns [dies in einem persönlichen Gespräch](/contact) besprechen.
 
 <div style="overflow-x:auto;">
 
@@ -112,16 +113,17 @@ We are also helping you with the on-page SEO optimization, let us [dicuss this i
 | Keyword research | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | Ideal content structure | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | Example | <a href="https://towardsdatascience.com/how-to-set-up-anaconda-and-jupyter-notebook-the-right-way-de3b7623ea4a" target="_blank">High-Quality</a> | <a href="https://homeofficeswag.de/pages/10-tips-to-reduce-neck-and-back-pain-when-working-at-office-or-at-home" target="_blank">Mid-Quality</a> | <a href="https://defigamez.com/2022/05/02/wie-wird-sandbox-die-gaming-landschaft-verandern" target="_blank">Low-Quality</a>
-| English - price per 1000 words | <a href="https://buy.stripe.com/fZecPfaF6eVy2RO14l" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">50€</button></a> | <a href="https://buy.stripe.com/eVaeXneVm4gUfEA6oE" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">30€</button></a> | <a href="https://buy.stripe.com/bIY8yZ28A7t62ROdR5" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">10€</button></a> | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
-| German - price per 1000 words | <a href="https://buy.stripe.com/fZe6qR8wY7t60JGbIW" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">90€</button></a> | <a href="https://buy.stripe.com/bIYg1r14w7t6fEA5kx" target="_blank"><button type="link" class="input-group-text btn btn-secondary     rounded">65€</button></a> | <a href="https://buy.stripe.com/dR67uV8wY9BefEA6oA" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">20€</button></a> | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |
+| Englisch - Preis per 1000 Wörter | <a href="https://buy.stripe.com/fZecPfaF6eVy2RO14l" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">50€</button></a> | <a href="https://buy.stripe.com/eVaeXneVm4gUfEA6oE" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">30€</button></a> | <a href="https://buy.stripe.com/bIY8yZ28A7t62ROdR5" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">10€</button></a> | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kontakt</button></a> |
+| Deutsch - Preis per 1000 Wörter | <a href="https://buy.stripe.com/fZe6qR8wY7t60JGbIW" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">90€</button></a> | <a href="https://buy.stripe.com/bIYg1r14w7t6fEA5kx" target="_blank"><button type="link" class="input-group-text btn btn-secondary     rounded">65€</button></a> | <a href="https://buy.stripe.com/dR67uV8wY9BefEA6oA" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">20€</button></a> | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |
 
-If you need more words just select the multiple of 1,000 words. E.g. if you need 5,000 words, select "5" as quantity
+Wenn Sie mehr Wörter benötigen, wählen Sie einfach ein Vielfaches von 1.000 Wörtern. Wenn Sie z.B. 5.000 Wörter benötigen, wählen Sie "5" als Menge.
 
-**Prices are automatically converted to your local currency on checkout**
+**Die Preise werden an der Kasse automatisch in Ihre Landeswährung umgerechnet**
+
 </div>
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasySEO can work for you</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung darüber, wie EasySEO für Sie arbeiten kann</button></a>
 </center>
 <hr>

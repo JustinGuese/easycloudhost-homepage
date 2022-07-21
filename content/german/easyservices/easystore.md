@@ -1,6 +1,6 @@
 ---
 title: "EasyStore"
-description: "Managed Storage in the cloud"
+description: "Verwalteter Speicher in der Cloud"
 draft: false
 ---
 
@@ -16,38 +16,38 @@ draft: false
     </video>
 </center> -->
 
-# Managed S3 compatible Storage
+# Managed S3-kompatibler Speicher
 
-You just want an S3 like storage solution, but hosted in Germany/Europe? Or an alternative to OneDrive, Dropbox and Google Drive?
+Sie wollen einfach nur eine S3-ähnliche Speicherlösung, aber gehostet in Deutschland/Europa? Oder eine Alternative zu OneDrive, Dropbox und Google Drive?
 
-**EasyStore is your solution**
+**EasyStore ist Ihre Lösung**
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-minute consultation on EasyStore</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung zu EasyStore</button></a>
 </center>
 <hr>
 
-1. [Why a managed storage service?](/easyservices/easystore/#why-a-managed-storage-service)
-2. [The two EasyStore solutions compared](/easyservices/easystore/#the-two-easystore-solutions-compared)
-3. [Data privacy issues in the public cloud](/easyservices/easystore/#data-privacy-issues-in-the-public-cloud)
-4. [Pricing](/easyservices/easystore/#easystore-pricing-overview)
+1. [Warum ein verwalteter Speicherdienst?](/de/easyservices/easystore/#warum-ein-verwalteter-speicherdienst)
+2. [Die beiden EasyStore-Lösungen im Vergleich](/de/easyservices/easystore/#die-beiden-easystore-lösungen-im-vergleich)
+3. [Datenschutzprobleme in der öffentlichen Cloud](/de/easyservices/easystore/#datenschutzprobleme-in-der-öffentlichen-cloud)
+4. [Preise](/de/easyservices/easystore/#easystore-preisübersicht)
 
-## Why a managed storage service?
+## Warum ein verwalteter Speicherdienst?
 
-Hosting your own data stroes can be tricky, especially for the following situations:
+Das Hosten Ihrer eigenen Daten kann schwierig sein, insbesondere in den folgenden Situationen:
 
-- FTP is not secure anymore
-- What if someone gives away the user password?
-- With FTP it is hard to set up users
-- What if the storage limit is reached?
-- What if my hard drive is broken? Is my data lost?
-- What if my data gets stolen?
-- What to do if I want to share data?
+- FTP ist nicht mehr sicher
+- Was ist, wenn jemand das Benutzerpasswort weitergibt?
+- Mit FTP ist es schwierig, Benutzer einzurichten
+- Was ist, wenn das Speicherlimit erreicht ist?
+- Was ist, wenn meine Festplatte kaputt ist? Sind meine Daten verloren?
+- Was ist, wenn meine Daten gestohlen werden?
+- Was ist zu tun, wenn ich Daten freigeben möchte?
 
-As you can see, it would be way easier to just use a storage service, and let someone else worry about it. This is why we created EasyStore.
+Wie Sie sehen, wäre es viel einfacher, einfach einen Speicherdienst zu nutzen und jemand anderen sich darum kümmern zu lassen. Aus diesem Grund haben wir EasyStore entwickelt.
 
-## The two EasyStore solutions compared
+## Die beiden EasyStore-Lösungen im Vergleich
 
 <div style="overflow-x:auto;">
 
@@ -56,79 +56,79 @@ As you can see, it would be way easier to just use a storage service, and let so
 | ------------- |:-------------:| -----:|
 | UI |  <img loading="lazy" style="width:350px" src="images/easyservices/easystore/easystore-drive.png" alt="EasyStore Drive"> |  <img loading="lazy" style="width:350px" src="images/easyservices/easystore/easystore-minio.png" alt="EasyStore S3"> |
 | Demo | <a href="https://demo.owncloud.org/" target="_blank">Interactive-Demo</a> | <a href="https://play.minio.io:9443/" target="_blank">Interactive-Demo</a> |
-| Best for | Humans (GUI) | Machines/Code |
-| S3 compatible [1] | &#x274C; | &#x2705; |
-| Easy user management | &#x2705; | &#x274C; |
-| Open Source base [2] | NextCloud | MinIO |
-| Closest Public Cloud product | Google Drive, MS OneDrive, Dropbox | AWS S3, Google Cloud Storage |
+| Am besten für: | Mensch (GUI) | Maschine/Code |
+| S3 kompatibel [1] | &#x274C; | &#x2705; |
+| Einfache Nutzerverwaltung | &#x2705; | &#x274C; |
+| Open Source Basis [2] | NextCloud | MinIO |
+| Nähestes Public Cloud Produkt | Google Drive, MS OneDrive, Dropbox | AWS S3, Google Cloud Storage |
 
 </div>
 
 {{< notice "info" >}}
-  [1] Use it like you would use S3, e.g. boto3 (Python), s3-node, etc
+  [1] Verwenden Sie es so, wie Sie S3 verwenden würden, z. B. boto3 (Python), s3-node, usw.
 {{< /notice >}}
 
 {{< notice "info" >}}
-  [2] Open source product before modification into EasyStore
+  [2] Open-Source-Produkt vor Änderung in EasyStore
 {{< /notice >}}
 
 
-## Data privacy issues in the public cloud
+## Datenschutzprobleme in der öffentlichen Cloud
 
-If you are from the financial or health industry, or in general from an industry using sensitive data, you can not have a data breach situation without destroying your business and loosing a lot of customers. 
+Wenn Sie aus der Finanz- oder Gesundheitsbranche kommen, oder generell aus einer Branche, die mit sensiblen Daten arbeitet, können Sie keine Datenpanne haben, ohne Ihr Geschäft zu zerstören und eine Menge Kunden zu verlieren. 
 
-EasyStore is fully hosted in Germany, and therefore compliant with German and EU based law.
+EasyStore wird vollständig in Deutschland gehostet und ist daher konform mit deutschem und EU-basiertem Recht.
 
-And on top of that EasyStore is giving you:
+Und obendrein bietet Ihnen EasyStore:
 
-- Use it like you would use S3
-- Easy sharing of files in the cloud (EasyStore Drive)
-- Timed links, e.g. expiry after x days
-- User accounts
-- SSL (encryption)
+- Benutzen Sie es so, wie Sie S3 benutzen würden
+- Einfache Freigabe von Dateien in der Cloud (EasyStore Drive)
+- Zeitlich begrenzte Links, z.B. Verfall nach x Tagen
+- Benutzerkonten
+- SSL (Verschlüsselung)
 - Backups
-- custom domain possible
+- eigene Domain möglich
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-minute consultation on EasyStore</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung zu EasyStore</button></a>
 </center>
 <hr>
 
-## EasyStore Pricing overview
+## EasyStore Preisübersicht
 
-### EasyStore Drive 
+## EasyStore Drive 
 
-Our secure and simple GUI solution
+Unsere sichere und einfache GUI-Lösung
 
 <div style="overflow-x:auto;">
 
 | <div style="width:150px">EasyStore Drive solution</div>   | EasyStore Starter | EasyStore Plus  | EasyStore Teams | Custom |
 | ------------- |:-------------:| ------------:| -----:| -----:| 
 | Minimum Users | 1 | 1 |  5 | 20 |
-| Hosting in Germany | &#x2705; | &#x2705; | &#x2705; | &#x2705; | 
+| Hosting in Deutschland | &#x2705; | &#x2705; | &#x2705; | &#x2705; | 
 | SSL/HTTPS (letsencrypt) | &#x2705; |  &#x2705; |  &#x2705; | &#x2705; | 
-| Free subdomain of easycloudhost.de | &#x2705; |  &#x2705; | &#x2705; | &#x2705; | 
-| Custom Domain | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
+| Gratis subdomain von easycloudhost.de | &#x2705; |  &#x2705; | &#x2705; | &#x2705; | 
+| Eigene Domain | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
 | Dedicated Server |  &#x274C; | &#x274C; | &#x2705; | &#x2705; |
 | Backups | &#x274C; | &#x274C; | &#x2705; | &#x2705; | 
 | Multi AZ | &#x274C; | &#x274C; | &#x274C; | &#x2705; |
 | Support | extra | extra | extra  | &#x2705; |
-| Uptime guarantee |  &#x274C; | 95% | 95% | 99% |
+| Uptime Garantie |  &#x274C; | 95% | 95% | 99% |
 | Storage per User | 5 GB | 50 GB | 100 GB | unlimited | 
 | Free Trial | 14 days |  &#x274C; |  &#x274C; |  &#x274C; | 
-| Monthly payment | <a href="https://buy.stripe.com/9AQ5mNaF6cNq9gcbJf" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free Trial (3.99€/m after)</button></a> | <a href="https://buy.stripe.com/6oEdTjdRieVy0JG4gO" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">9.99€/m</button></a> | <a href="https://buy.stripe.com/8wMdTjfZq7t64ZW8x5" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">19.99€/m</button></a> |  <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
-| Yearly price -33% | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |
+| Monatliche Zahlung | <a href="https://buy.stripe.com/9AQ5mNaF6cNq9gcbJf" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free Trial (3.99€/m after)</button></a> | <a href="https://buy.stripe.com/6oEdTjdRieVy0JG4gO" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">9.99€/m</button></a> | <a href="https://buy.stripe.com/8wMdTjfZq7t64ZW8x5" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">19.99€/m</button></a> |  <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kontakt</button></a> |
+| Jährliche Zahlung -33% | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |
  
-**We can offer Backups and everything for smaller packages as well, choose "custom" to get an individual offer**
+**Wir können Backups und alles auch für kleinere Pakete anbieten, wählen Sie "custom" um ein individuelles Angebot zu erhalten**
 
-**Prices are automatically converted to your local currency on checkout**
+**Preise werden beim Bezahlen automatisch in Ihre lokale Währung umgerechnet**
 </div>
 
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free Demo to see EasyStore in action!</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose Demo, um EasyStore in Aktion zu sehen!</button></a>
 </center>
 <hr>
 
@@ -141,27 +141,27 @@ Our secure and simple S3 compatible solution
 | <div style="width:150px">EasyStore S3 solution</div>   | EasyStore Starter | EasyStore Plus  | EasyStore Teams | Custom |
 | ------------- |:-------------:| ------------:| -----:| -----:| 
 | Max. Buckets | 1 | &infin; |  &infin; | &infin; |
-| Hosting in Germany | &#x2705; | &#x2705; | &#x2705; | &#x2705; | 
+| Hosting in Deutschland | &#x2705; | &#x2705; | &#x2705; | &#x2705; | 
 | SSL/HTTPS (letsencrypt) | &#x2705; |  &#x2705; |  &#x2705; | &#x2705; | 
-| Free subdomain of easycloudhost.de | &#x2705; |  &#x2705; | &#x2705; | &#x2705; | 
-| Custom Domain | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
+| Gratis subdomain von easycloudhost.de | &#x2705; |  &#x2705; | &#x2705; | &#x2705; | 
+| Eigene Domain | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
 | Dedicated Server |  &#x274C; | &#x274C; | &#x2705; | &#x2705; |
 | Backups | &#x274C; | &#x274C; | &#x2705; | &#x2705; | 
 | Multi AZ | &#x274C; | &#x274C; | &#x274C; | &#x2705; |
 | Support | extra | extra | extra  | &#x2705; |
-| Uptime guarantee |  &#x274C; | 95% | 95% | 99% |
+| Uptime Garantie |  &#x274C; | 95% | 95% | 99% |
 | Storage per User | 1 GB | 10 GB | 50 GB | unlimited | 
 | Free Trial | 14 days |  &#x274C; |  &#x274C; |  &#x274C; | 
-| Monthly payment | <a href="https://buy.stripe.com/8wM7uV5kM6p2dws28I" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">3.99€/m</button></a> | <a href="https://buy.stripe.com/14k02taF66p2gIEcNn" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">9.99€/m</button></a> | <a href="https://buy.stripe.com/8wM02teVm3cQ0JG6p1" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">39.99€/m</button></a> |  <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
-| Yearly price -33% | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |
+| Monatliche Zahlung | <a href="https://buy.stripe.com/8wM7uV5kM6p2dws28I" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">3.99€/m</button></a> | <a href="https://buy.stripe.com/14k02taF66p2gIEcNn" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">9.99€/m</button></a> | <a href="https://buy.stripe.com/8wM02teVm3cQ0JG6p1" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">39.99€/m</button></a> |  <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kontakt</button></a> |
+| Jährliche Zahlung -33% | <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |<a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |
  
-**We can offer Backups and everything for smaller packages as well, choose "custom" to get an individual offer**
+**Wir können Backups und alles auch für kleinere Pakete anbieten, wählen Sie "custom" um ein individuelles Angebot zu erhalten**
 
-**Prices are automatically converted to your local currency on checkout**
+**Preise werden beim Bezahlen automatisch in Ihre lokale Währung umgerechnet**
 </div>
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free Demo to see EasyStore in action!</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose Demo, um EasyStore in Aktion zu sehen!</button></a>
 </center>
 <hr>

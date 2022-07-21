@@ -62,17 +62,18 @@ A lot of companies offer SEO nowadays, but many of them remain in the old mindse
 
 Even though the current algorithm is too complex to summarize, even for Google employees themselves, as it is a complex Machine Learning model, you can break the main checkpoints down to:
 
-**1. Number of links referring to your website, and the importance of the linker**
+##### 1. Number of links referring to your website, and the importance of the linker
 
   - Usually good articles get cited a lot
   - If users share you article, it proves that it must contain good content
 
-**2. The time a user remains on your website**
+##### 2. The time a user remains on your website
 
   - measured via analytics or if a users hits the "back" button and returns to the source
   - slow page loading times can be a false positive for this as well, which is why page speed is important as well. [Check out EasyHost to solve this](/easyservices/easyhost/)
 
-**3. Content quality**
+##### 3. Content quality
+
   - the AI model will detect if it is just keywords 
   - ideal length: 1400 words
   - ideal structure: many subitems, using metatags and subheadings

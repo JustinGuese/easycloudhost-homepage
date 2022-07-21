@@ -1,6 +1,6 @@
 ---
 title: "EasyModel"
-description: "Deploy your models and make them faster"
+description: "Stellen Sie Ihre Data Science Modelle bereit und machen Sie sie schneller"
 draft: false
 ---
 
@@ -16,16 +16,16 @@ draft: false
     </video>
 </center> -->
 
-# Deploying and scaling of your Machine Learning Models
+# Einsatz und Skalierung Ihrer Machine Learning Modelle
 
-We are helping you to get your Machine Learning Models up and running, all according to US and German privacy laws. 
+Wir helfen Ihnen dabei, Ihre Machine Learning-Modelle unter Einhaltung der US-amerikanischen und deutschen Datenschutzgesetze zum Laufen zu bringen. 
 
-Keep your data on your servers, and profit from increased response and load times using autoscaling. 
+Behalten Sie Ihre Daten auf Ihren Servern und profitieren Sie von verbesserten Antwort- und Ladezeiten durch automatische Skalierung. 
 
-[Head over to EasyScale](/easyservices/easyscale/) to find out how we achieve that, or [contact us](/contact) right away to discuss your project with us.
+[Besuchen Sie EasyScale](/de/easyservices/easyscale/), um herauszufinden, wie wir das erreichen, oder [kontaktieren Sie uns](/contact) gleich, um Ihr Projekt mit uns zu besprechen.
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Free 15-minute consultation of how we can deploy your Machine Learning Model</button></a>
+    <a href="/contact" target="_blank"><button type="link" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung, wie wir Ihr Machine Learning Model bereitstellen können</button></a>
 </center>
 <hr>

@@ -1,6 +1,6 @@
 ---
-title: "Websites"
-description: "Create fast shops, websites and web apps"
+title: "Webseiten"
+description: "Schnelle Shops, Webseiten und Webanwendungen erstellen"
 draft: false
 
 ---
@@ -16,49 +16,49 @@ draft: false
 </center>
 
 {{< notice "tip" >}}
-  The probability of bounce increases 32% as page load time goes from 1 second to 3 seconds
+  Die Absprungwahrscheinlichkeit steigt um 32 %, wenn die Seitenladezeit von 1 Sekunde auf 3 Sekunden steigt.
   <br>
   Google/SOASTA Research, 2017.
 {{< /notice >}}
 
-Are your websites and apps giving you a headache? Crashing constantly, being slow? And now it crashed again, rendering your past hours of work useless?
+Bereiten Ihnen Ihre Webseiten und Anwendungen Kopfschmerzen? Ständig stürzen sie ab, sind langsam? Und jetzt ist sie schon wieder abgestürzt und hat Ihre stundenlange Arbeit zunichte gemacht?
 
-**Our Websites are fast, stable and realiable**
+**Unsere Webseiten sind schnell, stabil und realisierbar**
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation</button></a>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung</button></a>
 </center>
 <hr>
 
 ## Content
 
-1. [What makes our Websites different?](/easyservices/websites/#what-makes-our-websites-different)
-2. [Our Portfolio](/easyservices/websites/#our-portfolio)
-3. [Pricing](/easyservices/websites/#pricing)
+1. [Was macht unsere Webseiten anders?](/de/easyservices/webseiten/#was-macht-unsere-webseiten-anders)
+2. [Unser Portfolio](/de/easyservices/webseiten/#unser-portfolio)
+3. [Preise](/de/easyservices/webseiten/#preise)
 
 **Portfolio per category**
 
-1. [Portfolio Websites](/easyservices/websites/#portfolio-websites)
-2. [CV / Personal Websites](/easyservices/websites/#cv--personal-website)
-3. [Company / Agency Websites](/easyservices/websites/#company--agency-website)
-4. [Shops](/easyservices/websites/#shop)
-5. [Events](/easyservices/websites/#events)
+1. [Portfolio Webseiten](/de/easyservices/webseiten/#portfolio-webseiten)
+2. [CV / Persönliche website](/de/easyservices/webseiten/#cv--persönliche-website)
+3. [Firmen / Agentur Website](/de/easyservices/webseiten/#firmen--agentur-website)
+4. [Shops](/de/easyservices/webseiten/#shop)
+5. [Events](/de/easyservices/webseiten/#events)
 
 
-## What makes our Websites different?
+## Was macht unsere Webseiten anders?
 
-Briefly said, our websites will be programmed using static-only technologies, which will make them:
+Kurz gesagt, unsere Webseiten werden mit rein statischen Technologien programmiert, was sie zu etwas Besonderem macht:
 
-1. Up to 1000x faster than other Websites (e.g. WordPress)
-2. Unhackable - if there is no server side management nothing can be hacked
-3. Really cheap to run
+1. Bis zu 1000x schneller als andere Webseiten (z.B. WordPress)
+2. Unhackable - wenn es keine serverseitige Verwaltung gibt, kann nichts gehackt werden
+3. Wirklich günstig im Betrieb
 
-Head over to [EasyHost](/easyservices/easyhost.md) to read about this in more detail.
+Gehen Sie zu [EasyHost](/de/easyservices/easyhost.md), um mehr darüber zu erfahren.
 
-## Our Portfolio
+## Unser Portfolio
 
-No matter if you plan on creating a **shop**, a normal **company website**, or a dynamic **CMS-driven blog** or website - we've got you covered!
+Egal, ob Sie einen **Shop**, eine normale **Firmenwebsite** oder einen dynamischen **CMS-gesteuerten Blog** oder eine Website erstellen wollen - wir haben alles für Sie!
 
 <div style="overflow-x:auto;">
 
@@ -71,15 +71,15 @@ No matter if you plan on creating a **shop**, a normal **company website**, or a
 
 </div>
 
-### All the posibilities...
+### Alle Möglichkeiten...
 
-If you want to create a website with us, you can choose one of the following templates, or have one created just for you.
+Wenn Sie eine Website mit uns erstellen möchten, können Sie eine der folgenden Vorlagen wählen oder eine speziell für Sie erstellen lassen.
 
 {{< notice "note" >}}
-  Remember to **not buy the theme** over there - this will just be the pure template, and not the setup, hosting and everything. Only use our "buy" link below.
+  Denken Sie daran, **nicht das Theme** dort zu kaufen - das ist nur das reine Template, und nicht die Einrichtung, das Hosting und alles andere. Verwenden Sie nur unseren "Kaufen"-Link unten.
 {{< /notice >}}
 
-##### Portfolio Websites
+##### Portfolio Webseiten
 
 <div style="overflow-x:auto;">
 
@@ -90,7 +90,7 @@ If you want to create a website with us, you can choose one of the following tem
 
 </div>
 
-##### CV / Personal website
+##### CV / Persönliche website
 
 <div style="overflow-x:auto;">
 
@@ -101,10 +101,10 @@ If you want to create a website with us, you can choose one of the following tem
 
 </div>
 
-##### Company / Agency Website
+##### Firmen / Agentur Website
 
 {{< notice "note" >}}
-  Remember to **not buy the theme** over there - this will just be the pure template, and not the setup, hosting and everything. Only use our "buy" link below.
+  Denken Sie daran, **nicht die Theme** dort zu kaufen - dies wird nur die reine Vorlage sein, und nicht die Einrichtung, Hosting und alles. Verwenden Sie nur unseren "Kaufen"-Link unten.
 {{< /notice >}}
 
 <div style="overflow-x:auto;">
@@ -120,7 +120,7 @@ If you want to create a website with us, you can choose one of the following tem
 ##### Shop
 
 {{< notice "note" >}}
-  Remember to **not buy the theme** over there - this will just be the pure template, and not the setup, hosting and everything. Only use our "buy" link below.
+  Denken Sie daran, **nicht die Theme** dort zu kaufen - dies wird nur die reine Vorlage sein, und nicht die Einrichtung, Hosting und alles. Verwenden Sie nur unseren "Kaufen"-Link unten.
 {{< /notice >}}
 
 <div style="overflow-x:auto;">
@@ -138,7 +138,7 @@ If you want to create a website with us, you can choose one of the following tem
 ##### Events
 
 {{< notice "note" >}}
-  Remember to **not buy the theme** over there - this will just be the pure template, and not the setup, hosting and everything. Only use our "buy" link below.
+  Denken Sie daran, **nicht die Theme** dort zu kaufen - dies wird nur die reine Vorlage sein, und nicht die Einrichtung, Hosting und alles. Verwenden Sie nur unseren "Kaufen"-Link unten.
 {{< /notice >}}
 
 <div style="overflow-x:auto;">
@@ -149,9 +149,10 @@ If you want to create a website with us, you can choose one of the following tem
 
 </div>
 
-# Pricing
 
-### Normal Website (non-shop)
+# Preise
+
+### Normale Website (non-shop)
 
 - CV website
 - Agency website
@@ -163,35 +164,35 @@ If you want to create a website with us, you can choose one of the following tem
 
 | <div style="width:150px">Feature</div>     | Website S  | Website M  | Website L | Custom |
 | ------------- |:-------------:| -----:| -----:| -----:|
-| 6 months EasyHost Hosting | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
-| Lightning fast speed w. EasyHost | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| 6 Monate EasyHost Hosting | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| Blitzschnelle Geschnwindigkeit mit EasyHost | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | SSL/HTTPS (letsencrypt) | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
-| Custom Domain possible | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| Eigene Domain möglich | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | 1 TB traffic / m | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | CMS [1] | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
-| Custom Domain included [3] | &#x274C; | &#x274C; | &#x2705; | &#x2705; |
-| Uptime guarantee | no | 85% | 95% | 99.9% |
+| Eigene Domain inklusive [3] | &#x274C; | &#x274C; | &#x2705; | &#x2705; |
+| Uptime Garantie | no | 85% | 95% | 99.9% |
 | Support | extra | extra | 2h/month | &#x2705; |
-| Content Writing (words) | 1.000 | 10.000 | 30.000 | unlimited | 
+| Text Erstellung (Wörter) | 1.000 | 10.000 | 30.000 | unlimited | 
 | SEO |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
 | Google/FB/Ad-Setup |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
-| **One-time Price** | <a href="https://buy.stripe.com/bIYaH7fZq4gU6409AG" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">249,-€</button></a> | <a href="https://buy.stripe.com/dR602t5kMeVy2RO14b" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">1.299,-€</button></a> | <a href="https://buy.stripe.com/8wMeXn00s5kY2ROaEN" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">4.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
+| **Einmaliger Preis** | <a href="https://buy.stripe.com/bIYaH7fZq4gU6409AG" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">249,-€</button></a> | <a href="https://buy.stripe.com/dR602t5kMeVy2RO14b" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">1.299,-€</button></a> | <a href="https://buy.stripe.com/8wMeXn00s5kY2ROaEN" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">4.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kontakt</button></a> |
 
-**Prices are automatically converted to your local currency on checkout**
+**Die Preise werden an der Kasse automatisch in Ihre Landeswährung umgerechnet**
 
 </div>
 
 {{< notice "info" >}}
-  [1] A CMS allows you to edit the content yourself in an easy web-interface (content-management-system)
+  [1] Ein CMS ermöglicht es Ihnen, den Inhalt in einem einfachen Web-Interface selbst zu bearbeiten (Content-Management-System)
 {{< /notice >}}
 
 {{< notice "info" >}}
-  [3] Migrate your existing domain or buy one from us starting at 19.99€/year. [Contact us](/contact/)
+  [3] Migrieren Sie Ihre bestehende Domain oder kaufen Sie eine bei uns ab 19,99€/Jahr. [Kontakt](/contact/)
 {{< /notice >}}
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation </button></a>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung </button></a>
 </center>
 <hr>
 
@@ -202,36 +203,36 @@ If you want to create a website with us, you can choose one of the following tem
 
 | <div style="width:150px">Feature</div>     | Shop S  | Shop M  | Shop L | Custom |
 | ------------- |:-------------:| -----:| -----:| -----:|
-| 6 months EasyHost Hosting | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
-| Lightning fast speed w. EasyHost | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| 6 Monate EasyHost Hosting | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| Blitzschnelle Geschnwindigkeit mit EasyHost | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | SSL/HTTPS (letsencrypt) | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
-| Custom Domain possible | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| Eigene Domain möglich | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | Payments (Stripe) integration | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | 1 TB traffic / m | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | CMS [1] | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
-| Custom Domain included [3] | &#x274C; | &#x274C; | &#x2705; | &#x2705; |
-| Uptime guarantee | no | 85% | 95% | 99.9% |
+| Eigene Domain inklusive [3] | &#x274C; | &#x274C; | &#x2705; | &#x2705; |
+| Uptime Garantie | no | 85% | 95% | 99.9% |
 | Support | extra | extra | 2h/month | &#x2705; |
-| Content Writing (words) | 1.000 | 10.000 | 30.000 | unlimited | 
+| Text Erstellung (Wörter) | 1.000 | 10.000 | 30.000 | unlimited | 
 | SEO |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
 | Google/FB/Ad-Setup |  &#x274C; |  &#x274C; |  &#x2705; |  &#x2705; | 
-| **One-time Price** | <a href="https://buy.stripe.com/5kAbLbbJa3cQcso3cm" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">499,-€</button></a> | <a href="https://buy.stripe.com/5kA9D3dRi14Ibok4gr" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">2.999,-€</button></a> | <a href="https://buy.stripe.com/9AQ3eF6oQaFi4ZW28g" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">9.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
-| + Monthly Price | 19.99€ | 49.99€ | 99.99€ | |
+| **Einmaliger Preis** | <a href="https://buy.stripe.com/5kAbLbbJa3cQcso3cm" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">499,-€</button></a> | <a href="https://buy.stripe.com/5kA9D3dRi14Ibok4gr" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">2.999,-€</button></a> | <a href="https://buy.stripe.com/9AQ3eF6oQaFi4ZW28g" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">9.999,-€</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kontakt</button></a> |
+| + Monatlicher Preis | 19.99€ | 49.99€ | 99.99€ | |
 
-**Prices are automatically converted to your local currency on checkout**
+**Die Preise werden an der Kasse automatisch in Ihre Landeswährung umgerechnet**
 
 </div>
 
 {{< notice "info" >}}
-  [1] A CMS allows you to edit the content yourself in an easy web-interface (content-management-system)
+  [1] Ein CMS ermöglicht es Ihnen, den Inhalt in einem einfachen Web-Interface selbst zu bearbeiten (Content-Management-System)
 {{< /notice >}}
 
 {{< notice "info" >}}
-  [3] Migrate your existing domain or buy one from us starting at 19.99€/year. [Contact us](/contact/)
+  [3] Migrieren Sie Ihre bestehende Domain oder kaufen Sie eine bei uns ab 19,99€/Jahr. [Kontakt](/contact/)
 {{< /notice >}}
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation </button></a>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung </button></a>
 </center>
 <hr>

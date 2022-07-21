@@ -141,26 +141,6 @@ url = "how-it-works"
 weight = 3
 
 
-[[service]]
-name = "Digital Analytics"
-url = "features"
-weight = 1
-
-[[service]]
-name = "Digital Marketing"
-url = "features"
-weight = 2
-
-[[service]]
-name = "Custom Project"
-url = "features"
-weight = 3
-
-[[service]]
-name = "Marketing Toolbox"
-url = "features"
-weight = 4
-
 
 [[help]]
 name = "Pricing"

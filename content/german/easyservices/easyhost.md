@@ -1,6 +1,6 @@
 ---
 title: "EasyHost"
-description: "Making hosting your shops, websites and web apps easier"
+description: "Einfacheres Hosting Ihrer Shops, Websites und Webanwendungen"
 draft: false
 
 ---
@@ -18,184 +18,183 @@ draft: false
 
 
 {{< notice "tip" >}}
-  The probability of bounce increases 32% as page load time goes from 1 second to 3 seconds
+  Die Absprungwahrscheinlichkeit steigt um 32 %, wenn die Seitenladezeit von 1 Sekunde auf 3 Sekunden steigt.
   <br>
   Google/SOASTA Research, 2017.
 {{< /notice >}}
 
-Are your websites and apps giving you a headache? Crashing constantly, being slow? And now it crashed again, rendering your past hours of work useless?
+Bereiten Ihnen Ihre Websites und Anwendungen Kopfschmerzen? Ständig stürzen sie ab, sind langsam? Und jetzt sind sie schon wieder abgestürzt und haben Ihre stundenlange Arbeit zunichte gemacht?
 
-**EasyHost will make hosting your websites and apps easy.**
+**Mit EasyHost wird das Hosten Ihrer Websites und Apps ganz einfach.**
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasyHost can work for you</button></a>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung darüber, wie EasyHost Ihnen helfen kann</button></a>
 </center>
 <hr>
 
-1. [What makes EasyHost different?](/easyservices/easyhost/#what-makes-easyhost-different)
-2. [The fall and rise of static sites](/easyservices/easyhost/#the-fall-and-rise-of-static-sites)
-3. [Why website speed is important](/easyservices/easyhost/#why-website-speed-is-important)
-4. [EasyHost: Uniting both worlds](/easyservices/easyhost/#uniting-both-worlds-easyhost)
-5. [Portfolio](/easyservices/easyhost/#some-examples-of-easyhost-in-action)
-4. [Pricing](/easyservices/easyhost/#the-advantages-of-easyhost--pricing)
+1. [Was macht EasyHost anders?](/de/easyservices/easyhost/#was-macht-easyhost-anders)
+2. [Der Fall und der Aufstieg statischer Websites](/de/easyservices/easyhost/#der-niedergang-und-der-aufstieg-der-statischen-websites)
+3. [Warum die Geschwindigkeit einer Website wichtig ist](/de/easyservices/easyhost/#warum-die-geschwindigkeit-einer-website-wichtig-ist)
+4. [EasyHost: Beide Welten vereinend](/de/easyservices/easyhost/#beide-welten-vereint-easyhost)
+5. [Portfolio](/de/easyservices/easyhost/#einige-beispiele-für-easyhost-in-aktion)
+4. [Preise](/de/easyservices/easyhost/#die-vorteile-von-easyhost--preisgestaltung)
 
-## What makes EasyHost different?
+## Was macht EasyHost anders?
 
-Our secret is simple: **Simplicity**
+Unser Geheimnis ist einfach: **Einfachheit**
 
-Simplicity both in terms of **user experience**, as well as in hosting.
+Einfachheit sowohl in Bezug auf die **Benutzererfahrung**, als auch auf das Hosting.
 
 {{< notice "tip" >}}
-  Looking for Website Programming? Head over to [Websites](/easyservices/websites/)
+  Suchen Sie nach Website-Programmierung? Gehen Sie zu [Webseiten](/de/easyservices/websites/)
 {{< /notice >}}
 
-### The fall and rise of static sites
+### Der Niedergang und der Aufstieg der statischen Websites
 
-Remember the beginning of the web, with their horrible layouts, extreme colors and just pure craziness?
+Erinnern Sie sich noch an die Anfänge des Internets, mit ihren schrecklichen Layouts, extremen Farben und einfach nur Verrücktheit?
 
 <center>
     <img loading="lazy" src="images/easyservices/easyhost/amazon-website-old.webp" alt="Amazon website back in the day">
-    <p>Amazon back in the day</p>
+    <p>Amazon vor einigen Jahren</p>
 </center>
 
-The design and usability was horrible, and also just having to change small details of the page required re-loading the whole website, which slows down the user-experience a lot.
+Das Design und die Benutzerfreundlichkeit waren grauenhaft, und auch nur kleine Änderungen auf der Seite erforderten ein Neuladen der gesamten Website, was die Benutzerfreundlichkeit stark verlangsamte.
 
-This is why new technologies like Ajax were invented, to only load tiny parts of information into the website, instead of re-loading the whole deal.
+Aus diesem Grund wurden neue Technologien wie Ajax erfunden, um nur winzige Teile von Informationen in die Website zu laden, anstatt die gesamte Seite neu zu laden.
 
-The web became more and more dynamic, and WordPress became the dominating CMS for both shops and blogs alike.
-WordPress introduced huge changes to the web, like being able to just write a blog post, without having to program a whole html website if you wanted a new page to show on your website.
+Das Web wurde immer dynamischer, und WordPress wurde das dominierende CMS für Shops und Blogs gleichermaßen.
+Mit WordPress wurden große Veränderungen im Web eingeführt, z. B. die Möglichkeit, einfach einen Blogbeitrag zu schreiben, ohne eine ganze HTML-Website programmieren zu müssen, wenn man eine neue Seite auf seiner Website anzeigen lassen will.
 
-This comes with a huge disadvantage though: The server needs to "calculate" how the final website looks like. You can imagine the WordPress working process like this:
+Das hat allerdings einen großen Nachteil: Der Server muss "berechnen", wie die endgültige Website aussehen soll. Sie können sich den Arbeitsprozess von WordPress folgendermaßen vorstellen:
 
-1. User opens a website
-2. WordPress queries the database to check if we have a blog post for that website
-3. If the content exists, load it from the database
-4. Grab the "Blog posts" template and insert that information in there
-5. Return the final calculated website to the user
+1. Benutzer öffnet eine Website
+2. WordPress fragt die Datenbank ab, um zu prüfen, ob es einen Blogbeitrag für diese Website gibt
+3. Wenn der Inhalt vorhanden ist, wird er aus der Datenbank geladen
+4. Nehmen Sie die Vorlage "Blog posts" und fügen Sie die Informationen dort ein
+5. Rückgabe der fertig berechneten Website an den Benutzer
 
-As you can see, this is causing a lot of steps to do for the server, especially if millions of people access the website.
+Wie Sie sehen, bedeutet dies eine Menge Arbeit für den Server, vor allem, wenn Millionen von Menschen auf die Website zugreifen.
 
-### Why website speed is important
+### Warum die Geschwindigkeit einer Website wichtig ist
 
 <center>
     <img loading="lazy" src="images/easyservices/easyhost/website-speed-importance.webp" alt="why website speed is important">
     <p>Sources: LoadStorm</p>
 </center>
+Wie Sie oben sehen können, ist Geschwindigkeit heutzutage von entscheidender Bedeutung. Die Aufmerksamkeit ist kurzlebig, und wenn die Leute zu lange warten müssen, bis ein Shop oder eine Website geladen ist, werden sie einfach gehen.
 
-As you can see above, speed is essential nowadays. Attention is shortlived, and if people have to wait too long for a shop or website to load, they will simply leave.
+Die große Frage ist nun: Kaufen sie eher auf Ihrer **schicken WordPress-Website oder auf der schnellen, schrecklichen 90er-Jahre-Website?**.
 
-Now the big question is: Are they **more likely to buy on your fancy WordPress website or on that fast, horrible 90s one?**
+### Beide Welten vereint: EasyHost
 
-### Uniting both worlds: EasyHost
+Die Antwort ist einfach: Sie können beides haben.
 
-The answer is simple: You can have both.
+Neuere Websites verwenden Javascript und verlassen sich mehr und mehr auf HTML, was sich von der Funktionsweise von Websites wie WordPress unterscheidet.
+Der Hauptunterschied besteht darin, dass die neuen Webtechnologien **die Berechnungen im Browser des Benutzers** durchführen und nicht auf Ihrem Server.
 
-Recent websites use Javascript and rely more and more on HTML, which differs from how websites like WordPress work.
-The main difference is, that new web technologies **do the calculations in the browser of the user**, opposed to on your server.
+Um auf das vorherige Beispiel zurückzukommen - so funktioniert EasyHost:
 
-If we are going back to the example before - this is how EasyHost works:
+1. Der Benutzer öffnet eine Website
+2. Der Browser lädt HTML, Javascript und CSS vom Server, die im Grunde nur kleine, leichtgewichtige Textdokumente sind
+3. Diese Dokumente enthalten Informationen darüber, wie die Website aussieht, man kann sie sich wie eine Blaupause vorstellen
+4. Der Browser "baut" die Website nach diesem Rezept 
+5. Sie sehen das Endergebnis in Ihrem Browser
 
-1. User opens a website
-2. The browser loads HTML, Javascript and CSS from the server, which are basically just small leightweight text documents
-3. These documents contain information how the website looks like, think of it as a blueprint
-4. The browser "builds" the website following the recipe 
-5. You will see the final result in your browser
+#### Mit EasyHost noch einen Schritt weiter gehen
 
-#### Taking it a step further with EasyHost
+Natürlich ist es nicht so einfach. Javascript, React und NextJS fragen immer noch viele Informationen von APIs und Servern ab, was wiederum zu Verzögerungen führt und Ihre Server zusätzlich belastet. Es ist zwar besser als das "alte" dynamische Web, aber immer noch ziemlich langsam, insbesondere bei der Skalierung.
 
-Of course, it is not that simple. Javascript, React and NextJS still query a lot of information from APIs and servers, which adds a lot of delays again, and adds load to your servers. It is better than the "old" dynamic web, but still kind of slow, especially when scaling.
+Nehmen wir an, Ihr Server muss sich in Deutschland befinden und aus Kosten- und Compliance-Gründen ist kein CDN verfügbar.
 
-Let us say your server has to be located in Germany, with no CDN available for cost and compliance reasons.
+Selbst wenn nun ein Nutzer in Australien auf die Website zugreift, die "Blaupause" erhält, aber dennoch Ihre API für Informationen abfragen muss, werden die Ladezeiten ziemlich langsam. 
+Andererseits könnten Sie Ihre API-Server auf der ganzen Welt verteilen und nur den nächstgelegenen Server für diese Informationen abfragen ... aber gibt es nicht einen einfacheren Weg?
 
-Now even if a user in Australia accesses the website, gets the "blueprint", but still needs to query your API for information, loading times become quite slow. 
-Then again, you could add your API servers all over the world, and query only the closest server for that information ... but isn't there a simpler way to do it?
+**Können wir nicht einfach die ganze Arbeit auf den Browser des Benutzers verlagern?**
 
-**Can't we just offload the whole work to the users browser?**
+Die Antwort ist ja. Mit EasyHost werden Ihre Webseiten im Grunde genommen "vorgerendert", so als ob jemand eine Seite in reinem HTML programmiert und die ganze Arbeit an den Browser des Benutzers abgibt. Die einzigen Informationen, die von Ihrem oder unserem Server abgefragt werden, sind der "Bauplan" und die Bilder.
 
-The answer is yes. With EasyHost your websites are basically "pre-rendered", like if someone programs a page in pure HTML, offloading the whole work to the users browser. The only information that is queried from your or our server will be the "blueprint" and images.
+#### Bedeutet das, dass ich jede Seite manuell programmieren muss?
 
-#### Does that mean I have to program each page manually?
-
-Of course not. You can still use a CMS (content management system) like WordPress, or write text directly in Markdown like I do now, and EasyHost "converts" this to a nice website and pushes it to the server.
+Nein, natürlich nicht. Sie können immer noch ein CMS (Content Management System) wie WordPress verwenden, oder Sie schreiben den Text direkt in Markdown, wie ich es jetzt tue, und EasyHost "konvertiert" dies in eine schöne Website und schiebt sie auf den Server.
 
 <center>
     <img loading="lazy" src="images/easyservices/easyhost/easyhost-markdown-min.png" alt="Writing Markdown">
-    <p>Writing this text in Markdown</p>
+    <p>Dieser Text in Markdown</p>
 </center>
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasyHost can work for you</button></a>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung darüber, wie EasyHost Ihnen helfen kann</button></a>
 </center>
 <hr>
 
 <center>
     <img loading="lazy" src="images/easyservices/easyhost/cms-example-min.png" alt="Editing in the CMS">
-    <p>Using the CMS</p>
+    <p>Benutzung des CMS</p>
 </center>
 
-#### Some examples of EasyHost in action
+#### Einige Beispiele für EasyHost in Aktion
 
 <div style="overflow-x:auto;">
 
 
-| <div style="width:150px">Website name</div>       | Type           | Example  | URL |
+| <div style="width:150px">Webseiten Name</div>       | Type           | Example  | URL |
 | ------------- |:-------------:| -----:| -----:|
-| EasyCloudHost.de     | Company site, Blog, Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/easyhost-website-min.png" alt="EasyHost Website"> | https://easycloudhost.de/ |
-| DataFortress.cloud     | Company site, Blog | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/datafortress-website-min.png" alt="DataFortress Website"> | https://datafortress.cloud/ |
-| BildBlatt.de    | WordPress Shop turned static | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/bildblatt-website-min.png" alt="Bildblatt wordpress Website"> | https://bildblatt.de/ |
-| GoodThings4U    | Complete Static Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/goodthings4u-website-min.png" alt="GoodThings4U static Shop Website"> | https://goodthings4u.com/ |
+| EasyCloudHost.de     | Firmen Seite, Blog, Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/easyhost-website-min.png" alt="EasyHost Website"> | https://easycloudhost.de/ |
+| DataFortress.cloud     | Firmen Seite, Blog | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/datafortress-website-min.png" alt="DataFortress Website"> | https://datafortress.cloud/ |
+| BildBlatt.de    | WordPress Shop umgewandelt in static | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/bildblatt-website-min.png" alt="Bildblatt wordpress Website"> | https://bildblatt.de/ |
+| GoodThings4U    | Komplett statischer Shop | <img loading="lazy" style="width:150px" src="images/easyservices/easyhost/goodthings4u-website-min.png" alt="GoodThings4U static Shop Website"> | https://goodthings4u.com/ |
 
 </div>
 
-## The advantages of EasyHost / Pricing
+## Die Vorteile von EasyHost / Preisgestaltung
 
-Now that we know that our websites will load super quick, and our revenues will increase, you will surely tell us that this will cost a hundred bucks a month, right?
+Jetzt, wo wir wissen, dass unsere Websites superschnell laden und unsere Einnahmen steigen werden, werden Sie uns sicher sagen, dass das hundert Dollar pro Monat kostet, oder?
 
-No. As EasyHost is up to a 1000x lighter on the server you will save a lot of money on hosting. 
+Nein. Da EasyHost den Server bis zu 1000x entlastet, werden Sie eine Menge Geld für das Hosting sparen. 
 
 <div style="overflow-x:auto;">
 
-| <div style="width:150px">Feature</div>     | EasyHost Static           | EasyHost CMS  | EasyHost Shop | Custom |
+| <div style="width:150px">Version</div>     | EasyHost Static           | EasyHost CMS  | EasyHost Shop | Custom |
 | ------------- |:-------------:| -----:| -----:| -----:|
 | Hosting | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
-| Lightning Speed | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| Schnelle Geschwindigkeit | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | SSL/HTTPS (letsencrypt) | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
-| Custom Domain possible | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
-| Host your own HTML | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| Eigene Domain möglich | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
+| Hosten Sie Ihr eigenes HTML | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | 1 TB traffic / m | &#x2705; | &#x2705; | &#x2705; | &#x2705; |
 | CMS [1] | &#x274C; | &#x2705; | &#x2705; | &#x2705; |
-| Conversion included [2] | &#x274C; | &#x274C; | &#x274C; | &#x2705; |
-| Custom Domain included [3] | &#x274C; | &#x274C; | &#x274C; | &#x2705; |
-| Uptime guarantee | 99.9% | 99.5% | 99% | &#x2705; |
+| Umwandlung inkludiert [2] | &#x274C; | &#x274C; | &#x274C; | &#x2705; |
+| Eigene Domain inkludiert [3] | &#x274C; | &#x274C; | &#x274C; | &#x2705; |
+| Uptime Garantie | 99.9% | 99.5% | 99% | &#x2705; |
 | Support | extra | extra | extra | &#x2705; |
-| US hosted Pricing | <a href="https://buy.stripe.com/3csdTjcNe28M9gc7sx" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">0.99€/m</button></a> | <a href="https://buy.stripe.com/28obLbaF66p2bokdQT" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">4.99€/m</button></a> | <a href="https://buy.stripe.com/6oE6qR6oQ7t69gceUV" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">19.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Contact us</button></a> |
-| DE hosted Pricing | <a href="https://buy.stripe.com/cN29D3aF63cQbok7sw" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">2.99€/m</button></a> | <a href="https://buy.stripe.com/aEU2aB00s7t6bok4gi" target="_blank"><button type="submit" class="input-group-text btn btn-secondary     rounded">9.99€/m</button></a> | <a href="https://buy.stripe.com/7sI3eF14w14I2ROfYY" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">39.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">Contact us</button></a> |
-| Comparable price [4] | 20$/m + traffic | 40$/m + traffic | 80$/m + traffic | |
+| Preise: US Hosting | <a href="https://buy.stripe.com/3csdTjcNe28M9gc7sx" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">0.99€/m</button></a> | <a href="https://buy.stripe.com/28obLbaF66p2bokdQT" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">4.99€/m</button></a> | <a href="https://buy.stripe.com/6oE6qR6oQ7t69gceUV" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">19.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kontakt</button></a> |
+| Preise: DE Hosting | <a href="https://buy.stripe.com/cN29D3aF63cQbok7sw" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">2.99€/m</button></a> | <a href="https://buy.stripe.com/aEU2aB00s7t6bok4gi" target="_blank"><button type="submit" class="input-group-text btn btn-secondary     rounded">9.99€/m</button></a> | <a href="https://buy.stripe.com/7sI3eF14w14I2ROfYY" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">39.99€/m</button></a> | <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-secondary rounded">Kontakt</button></a> |
+| Vergleichbare Preise [4] | 20$/m + traffic | 40$/m + traffic | 80$/m + traffic | |
 
 
-**Prices are automatically converted to your local currency on checkout**
+**Die Preise werden an der Kasse automatisch in Ihre Landeswährung umgerechnet**
 </div>
 
 {{< notice "info" >}}
-  [1] A CMS allows you to edit the content yourself in an easy web-interface (content-management-system)
+  [1] Ein CMS ermöglicht es Ihnen, den Inhalt in einem einfachen Web-Interface selbst zu bearbeiten (Content-Management-System)
 {{< /notice >}}
 
 {{< notice "info" >}}
-  [2] If you do not want to convert your site yourself we can help you with that. [Contact us](/contact/)
+  [2] Wenn Sie Ihre Website nicht selbst konvertieren möchten, können wir Ihnen dabei helfen. [Kontakt](/contact/)
 {{< /notice >}}
 
 {{< notice "info" >}}
-  [3] Migrate your existing domain or buy one from us starting at 19.99€/year. [Contact us](/contact/)
+  [3] Migrieren Sie Ihre bestehende Domain oder kaufen Sie eine bei uns ab 19,99€/Jahr. [Kontaktieren Sie uns](/contact/)
 {{< /notice >}}
 
 {{< notice "info" >}}
-  [4] Comparable speed with an AWS Lightsail WordPress instance, excluding traffic. Can not really be compared as the technologies are totally different, but to get an estimation.
+  [4] Vergleichbare Geschwindigkeit mit einer AWS Lightsail WordPress-Instanz, ohne Traffic. Kann nicht wirklich verglichen werden, da die Technologien völlig unterschiedlich sind, aber um eine Schätzung zu erhalten.
 {{< /notice >}}
 
 <hr>
 <center>
-    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Free 15-min consultation on how EasyHost can work for you</button></a>
+    <a href="/contact" target="_blank"><button type="submit" class="input-group-text btn btn-primary rounded">Kostenlose 15-minütige Beratung darüber, wie EasyHost Ihnen helfen kann</button></a>
 </center>
 <hr>

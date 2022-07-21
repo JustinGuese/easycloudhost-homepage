@@ -30,12 +30,10 @@ Additionally, you might have created an application which handled the load of so
 </center>
 <hr>
 
-1. [Why a managed storage service?](/easyservices/EasyScale/#why-a-managed-storage-service)
-2. [The two EasyScale solutions compared](/easyservices/EasyScale/#the-two-EasyScale-solutions-compared)
-3. [Data privacy issues in the public cloud](/easyservices/EasyScale/#data-privacy-issues-in-the-public-cloud)
-4. [Pricing](/easyservices/EasyScale/#EasyScale-pricing-overview)
+1. [Top 5 reasons for slow applications](/easyservices/easyscale/#top-5-reasons-for-slow-applications)
+2. [How can I scale my application?](/easyservices/easyscale/#how-can-i-scale-my-application)
 
-## Top 4 reasons for slow applications
+## Top 5 reasons for slow applications
 
 Traditional applications are created as huge, single-application programs. Whilst this is speeding up development, it **scales really bad**.
 

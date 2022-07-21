@@ -436,7 +436,7 @@ Wenn Ihre Funktion nicht ansprechbar ist, sehen Sie hier den Grund dafür.
 
 ##### Funktionsdetailseite: Metriken
 
-Metriken zeigen Ihnen, wie viele Ressourcen Ihre Funktion verbraucht. Wenn Sie mehr "Power" benötigen, ist vielleicht [EasyHost](/de/easyservices/easyhost) oder [EasyScale](/de/easyservices/easyscale) etwas für Sie. Ansonsten einfach [contact us](/contact).
+Metriken zeigen Ihnen, wie viele Ressourcen Ihre Funktion verbraucht. Wenn Sie mehr "Power" benötigen, ist vielleicht [EasyHost](/de/easyservices/easyhost) oder [EasyScale](/de/easyservices/easyscale) etwas für Sie. Ansonsten einfach [Kontakt](/contact).
 
 <img loading="lazy" src="/images/tutorial/easyfaas/function-metrics.png" alt="EasyFAAS Metrics">
 
