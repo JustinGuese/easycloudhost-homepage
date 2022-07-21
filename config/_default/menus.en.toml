@@ -111,6 +111,12 @@ hasChildren = true
   name = "Testimonials"
   url = "testimonials/"
 
+  [[main]]
+  weight = 2
+  parent = "Pages"
+  name = "My Subscriptions"
+  url = "subscription-management/"
+
   
 [[main]]
 name = "Contact"
