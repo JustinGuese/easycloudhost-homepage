@@ -22,7 +22,7 @@ page_header= "images/page-header.webp"
 
 # Preloader
 [preloader]
-enable = true
+enable = false
 
 # Navigation button
 [navigation_button]
