@@ -19,14 +19,14 @@ contact_info:
   - image: "images/features/08.webp"
     title: "Help & Support"
     description: "If you experience problems or have questions regarding our services"
-    email: "info@datafortress.cloud"
-    phone: "+49 152 24556134"
+    email: "easyservices@datafortress.cloud"
+    phone: "+49 160 1136770"
 
   - image: "images/features/09.webp"
     title: "Sales"
     description: "If you require assistance regarding our prices."
     email: "sales@datafortress.cloud"
-    phone: "+49 152 24556134"
+    phone: "+49 160 1136770"
 
 
 ---
